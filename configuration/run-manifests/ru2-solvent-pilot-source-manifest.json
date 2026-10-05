@@ -1,0 +1,391 @@
+{
+  "schema": "case3d.reactive-1a.dielectric-pilot.v1",
+  "created_at": "2026-09-29T02:07:17.033999+00:00",
+  "status": "maps_complete",
+  "chemical_state": "constructed substrate-1a-derived Ru-allenylidene + 4d + OTs; net neutral working singlet",
+  "source": "03-chemical-validation/3dstructures/reactive-1a-4d-ots-preview/assembly-unoptimized.xyz",
+  "source_sha256": "fd5f1e4919d61f42c4d4aa2abc6385ef98d42af5d0aeaf782682b40e55741e93",
+  "construction_provenance_sha256": "7453c47e0fa5933c69e158c02ea0c744ec7401920d6a7e39ce07d5d9b6b56d5a",
+  "xtb_version": "6.7.1",
+  "atom_count": 241,
+  "protocol": {
+    "time_ps": 1.0,
+    "step_fs": 2.0,
+    "dump_fs": 20.0,
+    "sdump_fs": 100.0,
+    "temperature_K": 298.15,
+    "sccacc": 1.0,
+    "hmass": 4,
+    "shake": 2,
+    "kpush_hartree": 0.001,
+    "alp_inverse_bohr_squared": 1.0,
+    "maximum_bias_structures": 25,
+    "ramp": 0.03,
+    "discard_initial_ps": 0.2,
+    "threads": 4,
+    "minimum_retained_frame_weight": 0.9,
+    "bootstrap_time_ps": 0.02,
+    "restraints": "seven Ru-core distances, native force constant 0.25",
+    "velocity_policy": "native fixed-random bootstrap per state; rescale saved velocities using actual native MD degrees of freedom; paired protocol, not independent replicates"
+  },
+  "states": {
+    "ccl4-like": {
+      "status": "success",
+      "epsilon": 2.24,
+      "started_at": "2026-09-29T02:30:59.827993+00:00",
+      "input_sha256": "fd5f1e4919d61f42c4d4aa2abc6385ef98d42af5d0aeaf782682b40e55741e93",
+      "velocity_initialization": {
+        "native_degrees_of_freedom": 482,
+        "bootstrap_final_velocity_temperature_K": 304.11964807739656,
+        "velocity_scale": 0.9901367205692507,
+        "restart_coordinates": "native final 20 fs bootstrap geometry"
+      },
+      "preoptimized_sha256": "a5343326886bb86404cd0ba80ec92989e1dd1f6b770a9598863dfd496ab08415",
+      "metadynamics_command": [
+        ".micromamba/part3c/bin/xtb",
+        "preoptimized.xyz",
+        "--gfn",
+        "2",
+        "--chrg",
+        "0",
+        "--uhf",
+        "0",
+        "--cosmo",
+        "2.24",
+        "--parallel",
+        "4",
+        "--metadyn",
+        "25",
+        "--input",
+        "metadyn.inp",
+        "--namespace",
+        "solvent-md"
+      ],
+      "completed_at": "2026-09-29T02:30:59.839267+00:00",
+      "trajectory_sha256": "c5f44b2e8b9ab5901b3d328a603449b5f99898d69b032e856dec4a994c42c526",
+      "trajectory_validation": {
+        "frame_count": 50,
+        "atom_count": 241,
+        "energy_count": 50,
+        "all_coordinates_finite": true,
+        "all_energies_finite": true,
+        "protected_core_distances": {
+          "Ru-Ru": {
+            "atom_pair_1based": [
+              1,
+              120
+            ],
+            "q05_angstrom": 2.7507164907802606,
+            "median_angstrom": 2.782379971148486,
+            "q95_angstrom": 2.81379989500635,
+            "max_angstrom": 2.8195880193068774
+          },
+          "Ru1-S1": {
+            "atom_pair_1based": [
+              1,
+              122
+            ],
+            "q05_angstrom": 2.3253318107142698,
+            "median_angstrom": 2.3779194162000588,
+            "q95_angstrom": 2.4189210670769126,
+            "max_angstrom": 2.4367508084651486
+          },
+          "Ru1-S2": {
+            "atom_pair_1based": [
+              1,
+              123
+            ],
+            "q05_angstrom": 2.306352692575941,
+            "median_angstrom": 2.3565558176527976,
+            "q95_angstrom": 2.39194088587353,
+            "max_angstrom": 2.424971135202567
+          },
+          "Ru2-S1": {
+            "atom_pair_1based": [
+              120,
+              122
+            ],
+            "q05_angstrom": 2.315763598264328,
+            "median_angstrom": 2.3452119554144364,
+            "q95_angstrom": 2.3778870002433643,
+            "max_angstrom": 2.3920132268325576
+          },
+          "Ru2-S2": {
+            "atom_pair_1based": [
+              120,
+              123
+            ],
+            "q05_angstrom": 2.3265610461093447,
+            "median_angstrom": 2.3641626565052136,
+            "q95_angstrom": 2.4038051507265124,
+            "max_angstrom": 2.41092736166455
+          },
+          "Ru2-Cl": {
+            "atom_pair_1based": [
+              120,
+              124
+            ],
+            "q05_angstrom": 2.419075766793604,
+            "median_angstrom": 2.435950330056385,
+            "q95_angstrom": 2.4526283899021304,
+            "max_angstrom": 2.4536227461754034
+          },
+          "Ru1-C_alpha": {
+            "atom_pair_1based": [
+              1,
+              121
+            ],
+            "q05_angstrom": 1.8662912317424667,
+            "median_angstrom": 1.917670533349554,
+            "q95_angstrom": 1.9475572510752737,
+            "max_angstrom": 1.960204015859511
+          }
+        },
+        "population_policy": "uniform saved-frame occupation; biased trajectory and not thermodynamic population"
+      },
+      "average_temperature_K": 265.5879641595306,
+      "saved_frame_times_ps": [
+        0.0,
+        0.02,
+        0.04,
+        0.06,
+        0.08,
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.26,
+        0.28,
+        0.3,
+        0.32,
+        0.34,
+        0.36,
+        0.38,
+        0.4,
+        0.42,
+        0.44,
+        0.46,
+        0.48,
+        0.5,
+        0.52,
+        0.54,
+        0.56,
+        0.58,
+        0.6,
+        0.62,
+        0.64,
+        0.66,
+        0.68,
+        0.7000000000000001,
+        0.72,
+        0.74,
+        0.76,
+        0.78,
+        0.8,
+        0.8200000000000001,
+        0.84,
+        0.86,
+        0.88,
+        0.9,
+        0.92,
+        0.9400000000000001,
+        0.96,
+        0.98
+      ],
+      "diagnostic_note": "Corrected initial 51-frame assumption against native 6.7.1 dump loop: 50 pre-integration frames, 0.00..0.98 ps; no dynamics rerun or settings changed",
+      "bias_deposition_count": 9,
+      "scientific_qc_status": "exploratory_with_warnings",
+      "sampling_warnings": [
+        "Average temperature differs from target by >2%",
+        "Native thermostating problem warning"
+      ]
+    },
+    "dcm-like": {
+      "status": "success",
+      "epsilon": 9.08,
+      "started_at": "2026-09-29T02:30:59.841212+00:00",
+      "input_sha256": "fd5f1e4919d61f42c4d4aa2abc6385ef98d42af5d0aeaf782682b40e55741e93",
+      "velocity_initialization": {
+        "native_degrees_of_freedom": 482,
+        "bootstrap_final_velocity_temperature_K": 303.16890434074304,
+        "velocity_scale": 0.9916880495333398,
+        "restart_coordinates": "native final 20 fs bootstrap geometry"
+      },
+      "preoptimized_sha256": "c54d4bf71ebc17f09a8773e3c32be4c343d0ed449a7cc1ed209b6671645ed690",
+      "metadynamics_command": [
+        ".micromamba/part3c/bin/xtb",
+        "preoptimized.xyz",
+        "--gfn",
+        "2",
+        "--chrg",
+        "0",
+        "--uhf",
+        "0",
+        "--cosmo",
+        "9.08",
+        "--parallel",
+        "4",
+        "--metadyn",
+        "25",
+        "--input",
+        "metadyn.inp",
+        "--namespace",
+        "solvent-md"
+      ],
+      "completed_at": "2026-09-29T02:55:06.090559+00:00",
+      "trajectory_sha256": "83866e056389d2f4a2e1e7ac1eeba82bc4eb15a19a6a84d32d5399e0616168af",
+      "trajectory_validation": {
+        "frame_count": 50,
+        "atom_count": 241,
+        "energy_count": 50,
+        "all_coordinates_finite": true,
+        "all_energies_finite": true,
+        "protected_core_distances": {
+          "Ru-Ru": {
+            "atom_pair_1based": [
+              1,
+              120
+            ],
+            "q05_angstrom": 2.749749554787576,
+            "median_angstrom": 2.7840841303198287,
+            "q95_angstrom": 2.811953112073391,
+            "max_angstrom": 2.822330002788523
+          },
+          "Ru1-S1": {
+            "atom_pair_1based": [
+              1,
+              122
+            ],
+            "q05_angstrom": 2.336348084353306,
+            "median_angstrom": 2.375768016084022,
+            "q95_angstrom": 2.414787053243446,
+            "max_angstrom": 2.4263320425076906
+          },
+          "Ru1-S2": {
+            "atom_pair_1based": [
+              1,
+              123
+            ],
+            "q05_angstrom": 2.3067850772374583,
+            "median_angstrom": 2.3573471280773695,
+            "q95_angstrom": 2.3908504257120207,
+            "max_angstrom": 2.4227777796068097
+          },
+          "Ru2-S1": {
+            "atom_pair_1based": [
+              120,
+              122
+            ],
+            "q05_angstrom": 2.3145497261688526,
+            "median_angstrom": 2.3460487586539,
+            "q95_angstrom": 2.3791357745750137,
+            "max_angstrom": 2.388204834753986
+          },
+          "Ru2-S2": {
+            "atom_pair_1based": [
+              120,
+              123
+            ],
+            "q05_angstrom": 2.321244504711694,
+            "median_angstrom": 2.364619065723874,
+            "q95_angstrom": 2.40336886362672,
+            "max_angstrom": 2.4117592237079615
+          },
+          "Ru2-Cl": {
+            "atom_pair_1based": [
+              120,
+              124
+            ],
+            "q05_angstrom": 2.422821100836953,
+            "median_angstrom": 2.4419501223672944,
+            "q95_angstrom": 2.457685022970768,
+            "max_angstrom": 2.4643011261972276
+          },
+          "Ru1-C_alpha": {
+            "atom_pair_1based": [
+              1,
+              121
+            ],
+            "q05_angstrom": 1.8678324948127152,
+            "median_angstrom": 1.9167131860343205,
+            "q95_angstrom": 1.947744316640703,
+            "max_angstrom": 1.9600431709782218
+          }
+        },
+        "population_policy": "uniform saved-frame occupation; biased trajectory and not thermodynamic population"
+      },
+      "average_temperature_K": 264.8382615323564,
+      "saved_frame_times_ps": [
+        0.0,
+        0.02,
+        0.04,
+        0.06,
+        0.08,
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.26,
+        0.28,
+        0.3,
+        0.32,
+        0.34,
+        0.36,
+        0.38,
+        0.4,
+        0.42,
+        0.44,
+        0.46,
+        0.48,
+        0.5,
+        0.52,
+        0.54,
+        0.56,
+        0.58,
+        0.6,
+        0.62,
+        0.64,
+        0.66,
+        0.68,
+        0.7000000000000001,
+        0.72,
+        0.74,
+        0.76,
+        0.78,
+        0.8,
+        0.8200000000000001,
+        0.84,
+        0.86,
+        0.88,
+        0.9,
+        0.92,
+        0.9400000000000001,
+        0.96,
+        0.98
+      ],
+      "diagnostic_note": "Corrected initial 51-frame assumption against native 6.7.1 dump loop: 50 pre-integration frames, 0.00..0.98 ps; no dynamics rerun or settings changed",
+      "bias_deposition_count": 9,
+      "scientific_qc_status": "exploratory_with_warnings",
+      "sampling_warnings": [
+        "Average temperature differs from target by >2%",
+        "Native thermostating problem warning"
+      ]
+    }
+  },
+  "interpretation": "One short explicitly biased block per dielectric. Sampled occupation, not equilibrium probabilities, reaction barriers, ee or a complete solvent model.",
+  "updated_at": "2026-09-29T03:01:10.349710+00:00",
+  "diagnostic_history": [
+    {
+      "error": "Expected 51 native frames for 500 steps: 50",
+      "resolution": "Native 6.7.1 dump timing verified; 50 complete frames accepted, all native stages reused by command/log hash; no rerun or numerical-settings change"
+    }
+  ]
+}

@@ -1,0 +1,1379 @@
+{
+  "alignment": {
+    "atom_numbers": [
+      1,
+      2,
+      4,
+      5,
+      3
+    ],
+    "diagnostics": [
+      {
+        "determinant": 1.0000000000000004,
+        "rmsd": 6.306703449162941e-16,
+        "rotation": [
+          [
+            1.0000000000000002,
+            -9.638891909218637e-17,
+            -7.904826622264661e-18
+          ],
+          [
+            1.6747732455098548e-16,
+            1.0000000000000002,
+            -8.195213786873937e-19
+          ],
+          [
+            9.5568170005753e-19,
+            3.7014237036235574e-18,
+            1.0
+          ]
+        ],
+        "translation": [
+          0.0,
+          2.220446049250313e-16,
+          6.938893903907228e-18
+        ]
+      },
+      {
+        "determinant": 0.9999999999999991,
+        "rmsd": 0.016773341903517792,
+        "rotation": [
+          [
+            0.9984464555507416,
+            -8.863089475956971e-05,
+            -0.05571954363349409
+          ],
+          [
+            0.001506235727210129,
+            0.999676225409323,
+            0.025400307189128366
+          ],
+          [
+            0.05569925180910812,
+            -0.025444773450209852,
+            0.9981233174573032
+          ]
+        ],
+        "translation": [
+          -0.005337948459647079,
+          0.0003964502951228077,
+          -0.12666870207089984
+        ]
+      },
+      {
+        "determinant": 1.0000000000000004,
+        "rmsd": 0.0053289577859455,
+        "rotation": [
+          [
+            0.99977766430081,
+            -0.0004650388814545811,
+            0.021080932238788756
+          ],
+          [
+            0.0007250038693110194,
+            0.9999237716718864,
+            -0.012325794694812776
+          ],
+          [
+            -0.021073593300791223,
+            0.012338337988073031,
+            0.999701790075963
+          ]
+        ],
+        "translation": [
+          -0.0016104633927724876,
+          0.002044324286638588,
+          0.05235392100950443
+        ]
+      },
+      {
+        "determinant": 0.9999999999999998,
+        "rmsd": 0.02204701537264444,
+        "rotation": [
+          [
+            0.9974055597641436,
+            -0.001025574704702203,
+            -0.07197984126198166
+          ],
+          [
+            0.003439068745928978,
+            0.9994356720783377,
+            0.033414221276010105
+          ],
+          [
+            0.07190495224764269,
+            -0.03357507369830283,
+            0.9968462229794611
+          ]
+        ],
+        "translation": [
+          -0.010349616742118206,
+          0.003001813244281726,
+          -0.16502523987525458
+        ]
+      },
+      {
+        "determinant": 0.9999999999999991,
+        "rmsd": 0.03475488225865089,
+        "rotation": [
+          [
+            0.9949549701278062,
+            -0.002235966767259807,
+            -0.10029759653446851
+          ],
+          [
+            0.006362402339222645,
+            0.9991454036466745,
+            0.040840937895661636
+          ],
+          [
+            0.10012056359434444,
+            -0.041273027806778974,
+            0.9941189113588029
+          ]
+        ],
+        "translation": [
+          -0.021477694815548398,
+          0.007350701381137581,
+          -0.23336193736987298
+        ]
+      },
+      {
+        "determinant": 1.0000000000000004,
+        "rmsd": 0.031076986229293137,
+        "rotation": [
+          [
+            0.9968229495169515,
+            -0.002323229917433624,
+            0.07961538745165213
+          ],
+          [
+            0.004627977830972986,
+            0.9995751646421452,
+            -0.028776241099631047
+          ],
+          [
+            -0.07951471019579945,
+            0.0290532757770757,
+            0.9964102157390295
+          ]
+        ],
+        "translation": [
+          -0.017024194471278675,
+          0.012410567466407563,
+          0.18787938816055538
+        ]
+      }
+    ],
+    "reference_frame": 1
+  },
+  "analysis_mode": "ensemble",
+  "axial_grid": {
+    "spacing": 0.25,
+    "transverse_radius": 3.5,
+    "z_max": 2.0,
+    "z_min": 0.0
+  },
+  "axial_summaries": [
+    {
+      "blocked_fraction": 0.5383360522022839,
+      "breathing_fraction": 0.022838499184339316,
+      "integrated_entropy": 0.5080330527401122,
+      "largest_open_region_anisotropy": 2.1272264415125215,
+      "largest_open_region_centroid_x": 0.028810408921933085,
+      "largest_open_region_centroid_y": -1.5594795539033457,
+      "largest_open_region_fraction": 0.43882544861337686,
+      "mean_entropy": 0.01326024281213996,
+      "mean_occupation": 0.5497985234327081,
+      "open_fraction": 0.43882544861337686,
+      "quadrant_mean_occupation": [
+        0.8668487003497369,
+        0.9803921568627451,
+        0.15827338129496402,
+        0.1267706745457141
+      ],
+      "z": 0.0
+    },
+    {
+      "blocked_fraction": 0.533442088091354,
+      "breathing_fraction": 0.026101141924959218,
+      "integrated_entropy": 0.603690676469596,
+      "largest_open_region_anisotropy": 2.108930086404984,
+      "largest_open_region_centroid_x": 0.024074074074074074,
+      "largest_open_region_centroid_y": -1.5537037037037038,
+      "largest_open_region_fraction": 0.44045676998368677,
+      "mean_entropy": 0.01575701602530756,
+      "mean_occupation": 0.5479057410685335,
+      "open_fraction": 0.44045676998368677,
+      "quadrant_mean_occupation": [
+        0.8659279661601753,
+        0.9738562091503268,
+        0.15710749943194732,
+        0.1277933237847119
+      ],
+      "z": 0.25
+    },
+    {
+      "blocked_fraction": 0.5285481239804242,
+      "breathing_fraction": 0.02773246329526917,
+      "integrated_entropy": 0.6286323020295117,
+      "largest_open_region_anisotropy": 1.9023462646335572,
+      "largest_open_region_centroid_x": 0.051470588235294115,
+      "largest_open_region_centroid_y": -1.5229779411764706,
+      "largest_open_region_fraction": 0.4437194127243067,
+      "mean_entropy": 0.016408020933886113,
+      "mean_occupation": 0.5430304296231215,
+      "open_fraction": 0.4437194127243067,
+      "quadrant_mean_occupation": [
+        0.8503210315639739,
+        0.9607843137254902,
+        0.17157291362076738,
+        0.12532735335254433
+      ],
+      "z": 0.5
+    },
+    {
+      "blocked_fraction": 0.5269168026101142,
+      "breathing_fraction": 0.024469820554649267,
+      "integrated_entropy": 0.5105788600190182,
+      "largest_open_region_anisotropy": 1.752917981234253,
+      "largest_open_region_centroid_x": 0.06181818181818182,
+      "largest_open_region_centroid_y": -1.49,
+      "largest_open_region_fraction": 0.44861337683523655,
+      "mean_entropy": 0.01332669128924028,
+      "mean_occupation": 0.5415957524702562,
+      "open_fraction": 0.44861337683523655,
+      "quadrant_mean_occupation": [
+        0.8444311743172069,
+        0.954248366013072,
+        0.17985611510791366,
+        0.1250572482286031
+      ],
+      "z": 0.75
+    },
+    {
+      "blocked_fraction": 0.5008156606851549,
+      "breathing_fraction": 0.048939641109298535,
+      "integrated_entropy": 1.024999440765371,
+      "largest_open_region_anisotropy": 1.5752523522173285,
+      "largest_open_region_centroid_x": 0.03713768115942029,
+      "largest_open_region_centroid_y": -1.4619565217391304,
+      "largest_open_region_fraction": 0.45024469820554647,
+      "mean_entropy": 0.026753655876420777,
+      "mean_occupation": 0.5226506157064593,
+      "open_fraction": 0.45024469820554647,
+      "quadrant_mean_occupation": [
+        0.8133414156620117,
+        0.9106225156890088,
+        0.19173293547927936,
+        0.1161264487895652
+      ],
+      "z": 1.0
+    },
+    {
+      "blocked_fraction": 0.4632952691680261,
+      "breathing_fraction": 0.07504078303425775,
+      "integrated_entropy": 1.536873738383747,
+      "largest_open_region_anisotropy": 1.4246634837274705,
+      "largest_open_region_centroid_x": -0.004448398576512456,
+      "largest_open_region_centroid_y": -1.4110320284697508,
+      "largest_open_region_fraction": 0.45840130505709625,
+      "mean_entropy": 0.04011415956629682,
+      "mean_occupation": 0.501986790069914,
+      "open_fraction": 0.46166394779771613,
+      "quadrant_mean_occupation": [
+        0.773437489551069,
+        0.869281045751634,
+        0.2051354479361297,
+        0.10631749545853399
+      ],
+      "z": 1.25
+    },
+    {
+      "blocked_fraction": 0.3703099510603589,
+      "breathing_fraction": 0.1370309951060359,
+      "integrated_entropy": 2.9589968005987712,
+      "largest_open_region_anisotropy": 1.0532364918294377,
+      "largest_open_region_centroid_x": 0.02422145328719723,
+      "largest_open_region_centroid_y": -1.2750865051903115,
+      "largest_open_region_fraction": 0.47145187601957583,
+      "mean_entropy": 0.07723319544792878,
+      "mean_occupation": 0.4380331106440538,
+      "open_fraction": 0.4926590538336052,
+      "quadrant_mean_occupation": [
+        0.6806015174277801,
+        0.6979817123317162,
+        0.23736146443341583,
+        0.09404442061399063
+      ],
+      "z": 1.5
+    },
+    {
+      "blocked_fraction": 0.30179445350734097,
+      "breathing_fraction": 0.15171288743882544,
+      "integrated_entropy": 3.226637285123587,
+      "largest_open_region_anisotropy": 2.669310401467727,
+      "largest_open_region_centroid_x": -0.0962686567164179,
+      "largest_open_region_centroid_y": -0.6417910447761194,
+      "largest_open_region_fraction": 0.5464926590538336,
+      "mean_entropy": 0.08421891771937584,
+      "mean_occupation": 0.37291986058132964,
+      "open_fraction": 0.5464926590538336,
+      "quadrant_mean_occupation": [
+        0.656331873512642,
+        0.4049768721170669,
+        0.3247937135059085,
+        0.07338779199345537
+      ],
+      "z": 1.75
+    },
+    {
+      "blocked_fraction": 0.33278955954323003,
+      "breathing_fraction": 0.15823817292006526,
+      "integrated_entropy": 3.3929686021689727,
+      "largest_open_region_anisotropy": 2.6645628200410036,
+      "largest_open_region_centroid_x": -0.03858520900321544,
+      "largest_open_region_centroid_y": -0.7210610932475884,
+      "largest_open_region_fraction": 0.5073409461663948,
+      "mean_entropy": 0.08856035503214284,
+      "mean_occupation": 0.40516575601983074,
+      "open_fraction": 0.5089722675367048,
+      "quadrant_mean_occupation": [
+        0.6563647873728099,
+        0.4681497167895855,
+        0.4086006229825753,
+        0.06323484247150081
+      ],
+      "z": 2.0
+    }
+  ],
+  "canonical_field_identity": {
+    "absolute_error_percent": 1.4210854715202004e-14,
+    "integrated_occupation_percent": 46.89696352001579,
+    "weighted_vbur_percent": 46.896963520015774
+  },
+  "catalytic_frame": {
+    "basis": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "origin": [
+      0.7475674701,
+      -0.8494694599,
+      -0.0558905003
+    ],
+    "positive_z_semantics": "user_confirmed"
+  },
+  "center_atom": 1,
+  "coordination": {
+    "angle_rmsd_degrees": 2.7616267467426496,
+    "coordination_number": 2,
+    "donor_atom_numbers": [
+      2,
+      3
+    ],
+    "ensemble_distribution": {
+      "CN2:linear": 1.0
+    },
+    "geometry": "linear",
+    "per_frame": [
+      {
+        "angle_rmsd_degrees": 2.7616267467426496,
+        "coordination_number": 2,
+        "geometry": "linear"
+      },
+      {
+        "angle_rmsd_degrees": 2.7825495426330633,
+        "coordination_number": 2,
+        "geometry": "linear"
+      },
+      {
+        "angle_rmsd_degrees": 2.737901395873621,
+        "coordination_number": 2,
+        "geometry": "linear"
+      },
+      {
+        "angle_rmsd_degrees": 2.7693837791220233,
+        "coordination_number": 2,
+        "geometry": "linear"
+      },
+      {
+        "angle_rmsd_degrees": 2.9196350949476653,
+        "coordination_number": 2,
+        "geometry": "linear"
+      },
+      {
+        "angle_rmsd_degrees": 3.0586782016041525,
+        "coordination_number": 2,
+        "geometry": "linear"
+      }
+    ],
+    "vacancy_directions": [
+      [
+        0.8843631802345209,
+        0.4576354628830713,
+        -0.092041015625
+      ],
+      [
+        0.5761123440727729,
+        0.3056872529421444,
+        -0.758056640625
+      ],
+      [
+        0.7311061114853467,
+        0.3688319421384107,
+        0.573974609375
+      ]
+    ],
+    "vacancy_scores_degrees": [
+      91.32993845960866,
+      90.95409678089653,
+      90.72045673228172
+    ]
+  },
+  "displaced_scan": {
+    "g_percent_mean": [
+      61.641615977420834,
+      61.38726951747908,
+      60.688472305311194,
+      59.61869234492012,
+      58.42549877370248,
+      57.158601624392745,
+      55.94361402692482,
+      55.14694822162328,
+      54.724949145311584
+    ],
+    "offsets_angstrom": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0
+    ],
+    "semantic": "translated_origin_vbur_and_g_not_axial_plane_occupation",
+    "vbur_percent_mean": [
+      58.846098225482415,
+      58.75598658309327,
+      58.340663728134736,
+      57.80602327610215,
+      56.99157533744994,
+      55.95836604031853,
+      54.624904898722974,
+      53.12467556220631,
+      51.341658131336295
+    ]
+  },
+  "effective_ensemble_size": 5.990832293224819,
+  "ensemble_scalar_descriptors": {
+    "g_percent": {
+      "lowest_energy_value": 61.85302734375,
+      "maximum": 61.85302734375,
+      "mean": 61.641615977420834,
+      "minimum": 61.2548828125,
+      "percentile_5": 61.2548828125,
+      "percentile_95": 61.85302734375,
+      "percentile_span": 0.59814453125,
+      "population_standard_deviation": 0.216069853578514,
+      "values": [
+        61.85302734375,
+        61.82861328125,
+        61.77978515625,
+        61.6455078125,
+        61.43798828125,
+        61.2548828125
+      ],
+      "variability_status": "estimated"
+    },
+    "vbur_percent": {
+      "lowest_energy_value": 59.15178571428572,
+      "maximum": 59.15178571428572,
+      "mean": 58.846098225482415,
+      "minimum": 58.379464285714285,
+      "percentile_5": 58.379464285714285,
+      "percentile_95": 59.15178571428572,
+      "percentile_span": 0.7723214285714377,
+      "population_standard_deviation": 0.2603795249888929,
+      "values": [
+        59.15178571428572,
+        59.06250000000001,
+        58.97321428571428,
+        58.81696428571428,
+        58.63392857142857,
+        58.379464285714285
+      ],
+      "variability_status": "estimated"
+    }
+  },
+  "features": {
+    "angular_fingerprint_12": [
+      0.8150262557605479,
+      0.9052425541089205,
+      0.8821001383565844,
+      0.8899008893319038,
+      0.9587651890026913,
+      0.9951564360238565,
+      0.9910380739217662,
+      0.3857207747814859,
+      0.028238344916257044,
+      0.0,
+      0.025096290965327627,
+      0.5203800256952654
+    ],
+    "approach_accessibility_mean": 0.12664913291748942,
+    "approach_accessibility_min": 5.551115123125783e-17,
+    "breathing_fraction": 0.09224355076869623,
+    "coordination_distribution": {
+      "CN2:linear": 1.0
+    },
+    "coordination_sectors": {
+      "+x": 0.7568259951602113,
+      "+y": 1.0,
+      "+z": 0.5294676519381558,
+      "-x": 0.8906749592275945,
+      "-y": 0.0,
+      "-z": 0.5255313757178168
+    },
+    "displaced_g_mean": [
+      61.641615977420834,
+      61.38726951747908,
+      60.688472305311194,
+      59.61869234492012,
+      58.42549877370248,
+      57.158601624392745,
+      55.94361402692482,
+      55.14694822162328,
+      54.724949145311584
+    ],
+    "displaced_vbur_mean": [
+      58.846098225482415,
+      58.75598658309327,
+      58.340663728134736,
+      57.80602327610215,
+      56.99157533744994,
+      55.95836604031853,
+      54.624904898722974,
+      53.12467556220631,
+      51.341658131336295
+    ],
+    "feature_schema": "d3map.features.v2",
+    "legacy_pocket_steric_entropy_voxel_sum": 590.3469929510086,
+    "legacy_uniform_approach_accessibility_mean": 0.12643678160919555,
+    "legacy_uniform_approach_accessibility_min": 1.6653345369377348e-16,
+    "normalized_pocket_flexibility": 0.07397643352159576,
+    "persistent_blocked_fraction": 0.42065491183879095,
+    "persistent_open_fraction": 0.48710153739251283,
+    "pocket_integrated_vbur_percent": 46.89696352001579,
+    "pocket_steric_entropy_sum": 590.3469929510086,
+    "pocket_steric_entropy_volume_angstrom3_nat": 9.22417176485951,
+    "pocket_weighted_vbur_percent": 46.896963520015774,
+    "probability_field_v2": {
+      "accessibility_persistence_curve": {
+        "domain_fraction": [
+          1.0,
+          0.5793450881612091,
+          0.5793450881612091,
+          0.5793450881612091,
+          0.5544167462868063,
+          0.5544167462868063,
+          0.5544167462868063,
+          0.542951446191262,
+          0.542951446191262,
+          0.542951446191262,
+          0.5300095544167462,
+          0.5166333709719447,
+          0.5166333709719447,
+          0.5166333709719447,
+          0.5062103708850865,
+          0.5062103708850865,
+          0.5062103708850865,
+          0.48710153739251283,
+          0.48710153739251283,
+          0.48710153739251283,
+          0.48710153739251283
+        ],
+        "minimum_open_probability": [
+          0.0,
+          0.05,
+          0.1,
+          0.15000000000000002,
+          0.2,
+          0.25,
+          0.30000000000000004,
+          0.35000000000000003,
+          0.4,
+          0.45,
+          0.5,
+          0.55,
+          0.6000000000000001,
+          0.65,
+          0.7000000000000001,
+          0.75,
+          0.8,
+          0.8500000000000001,
+          0.9,
+          0.9500000000000001,
+          1.0
+        ],
+        "volume_angstrom3": [
+          179.890625,
+          104.21875,
+          104.21875,
+          104.21875,
+          99.734375,
+          99.734375,
+          99.734375,
+          97.671875,
+          97.671875,
+          97.671875,
+          95.34375,
+          92.9375,
+          92.9375,
+          92.9375,
+          91.0625,
+          91.0625,
+          91.0625,
+          87.625,
+          87.625,
+          87.625,
+          87.625
+        ]
+      },
+      "analysis_mode": "ensemble",
+      "classified_morphology": {
+        "adaptive": {
+          "anisotropy": 3.8216537527805405,
+          "centroid_angstrom": [
+            0.8785310734463276,
+            0.5941619585687382,
+            0.00047080979284369113
+          ],
+          "extent_angstrom": {
+            "x_max": 3.25,
+            "x_min": -2.75,
+            "y_max": 3.0,
+            "y_min": -1.75,
+            "z_max": 3.25,
+            "z_min": -3.25
+          },
+          "principal_axes": [
+            [
+              -0.0057486084958166764,
+              0.005326404204681161,
+              0.9999692909877834
+            ],
+            [
+              0.7990756846816496,
+              -0.6011799010884731,
+              0.007795939828300341
+            ],
+            [
+              0.6012029637742269,
+              0.7990959616626165,
+              -0.0008002521998353912
+            ]
+          ],
+          "principal_variances_angstrom2": [
+            4.0027118074328225,
+            2.0170384977919738,
+            1.047376886124377
+          ],
+          "signed_halfspace_volume_angstrom3": {
+            "+x": 13.265625,
+            "+y": 11.390625,
+            "+z": 8.421875,
+            "-x": 3.328125,
+            "-y": 5.203125,
+            "-z": 8.171875
+          },
+          "volume_angstrom3": 16.59375
+        },
+        "persistent_excluded": {
+          "anisotropy": 3.1177220489155784,
+          "centroid_angstrom": [
+            -0.2690997315713401,
+            1.0271009704728473,
+            0.01858352260995251
+          ],
+          "extent_angstrom": {
+            "x_max": 3.5,
+            "x_min": -3.5,
+            "y_max": 3.5,
+            "y_min": -1.75,
+            "z_max": 3.25,
+            "z_min": -3.25
+          },
+          "principal_axes": [
+            [
+              -0.9794038511749454,
+              -0.20091190395199948,
+              0.020062481254029367
+            ],
+            [
+              0.02348352728913883,
+              -0.014658487834383295,
+              0.9996167529010652
+            ],
+            [
+              -0.20054081941027874,
+              0.9794996353163136,
+              0.01907469961656568
+            ]
+          ],
+          "principal_variances_angstrom2": [
+            3.6546519170992795,
+            1.92494984946265,
+            1.172218645459578
+          ],
+          "signed_halfspace_volume_angstrom3": {
+            "+x": 31.859375,
+            "+y": 62.203125,
+            "+z": 40.6875,
+            "-x": 43.8125,
+            "-y": 13.46875,
+            "-z": 34.984375
+          },
+          "volume_angstrom3": 75.671875
+        },
+        "persistent_open": {
+          "anisotropy": 1.8890862033041054,
+          "centroid_angstrom": [
+            0.06602175463623396,
+            -0.9995096291012838,
+            -0.0161376604850214
+          ],
+          "extent_angstrom": {
+            "x_max": 3.0,
+            "x_min": -3.0,
+            "y_max": 3.0,
+            "y_min": -3.5,
+            "z_max": 3.5,
+            "z_min": -3.5
+          },
+          "principal_axes": [
+            [
+              0.03147469389238438,
+              -0.022396411641940905,
+              0.9992535936337407
+            ],
+            [
+              -0.37855961700774166,
+              0.9250006455815819,
+              0.03265611802723586
+            ],
+            [
+              0.9250415990728919,
+              0.37930489901821945,
+              -0.02063573515641739
+            ]
+          ],
+          "principal_variances_angstrom2": [
+            2.6155585606084824,
+            1.7463735410360701,
+            1.384562841035915
+          ],
+          "signed_halfspace_volume_angstrom3": {
+            "+x": 49.609375,
+            "+y": 21.140625,
+            "+z": 45.625,
+            "-x": 38.015625,
+            "-y": 66.484375,
+            "-z": 42.0
+          },
+          "volume_angstrom3": 87.625
+        }
+      },
+      "domain_volume_angstrom3": 179.890625,
+      "energy_analysis": {
+        "availability": "available",
+        "cutoffs_kcal_per_mol": [
+          0.0,
+          1.0,
+          3.0,
+          6.0
+        ],
+        "energy_unit": "kcal/mol",
+        "mean_relative_energy_kcal_per_mol": 0.01634555031358578,
+        "population_support_by_cutoff": [
+          0.17146173849706303,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "ensemble_residual": {
+        "baseline": "lowest-energy-retained",
+        "baseline_frame_number": 1,
+        "status": "primary"
+      },
+      "evidence_status": "exploratory",
+      "normalized_pocket_flexibility": 0.07397643352159576,
+      "persistence_thresholds": {
+        "persistent_excluded_minimum_occupation": 0.9,
+        "persistent_open_maximum_occupation": 0.1
+      },
+      "probe_accessibility": {
+        "connected_accessible_volume_angstrom3": [
+          95.52230226625257,
+          59.83821052695477,
+          46.03123246324816,
+          34.864363208714735,
+          25.806618462785657,
+          18.320859011993317,
+          12.22918404447958,
+          7.561492094253505
+        ],
+        "connected_target_reach_probability": [
+          [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "direction_names": [
+          "+x",
+          "-x",
+          "+y",
+          "-y",
+          "+z",
+          "-z"
+        ],
+        "evidence_status": "exploratory",
+        "point_accessible_volume_angstrom3": [
+          95.52738421782159,
+          59.853295376326514,
+          46.04189460808252,
+          34.864363208714735,
+          25.806618462785657,
+          18.320859011993317,
+          12.22918404447958,
+          7.561492094253505
+        ],
+        "probe_radii_angstrom": [
+          0.0,
+          0.5,
+          0.75,
+          1.0,
+          1.25,
+          1.5,
+          1.75,
+          2.0
+        ],
+        "radial_clearance_probability": [
+          [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ],
+        "schema": "d3map.probe-accessibility.v2",
+        "target_distances_angstrom": [
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ]
+      },
+      "schema": "d3map.features.v2",
+      "shielding": {
+        "adaptive_fraction": 0.0885009765625,
+        "adaptive_solid_angle_steradian": 1.1121360712170898,
+        "mean_binary_entropy_nat": 0.048942040069059126,
+        "persistent_open_fraction": 0.3414306640625,
+        "persistent_open_solid_angle_steradian": 4.290544263716138,
+        "persistent_shielded_fraction": 0.570068359375,
+        "persistent_shielded_solid_angle_steradian": 7.1636902794259445
+      },
+      "source_probability_semantics": "electronic_energy",
+      "steric_occupancy_entropy_volume_angstrom3_nat": 9.22417176485951,
+      "uncertainty": {
+        "availability": "unavailable",
+        "reason": "replicate or block provenance absent from this field input"
+      },
+      "variability_status": "estimated",
+      "voxel_spacing_angstrom": 0.25,
+      "voxel_volume_angstrom3": 0.015625
+    },
+    "probe_radius_angstrom": 1.2,
+    "quadrant_asymmetry_variance": 0.07492159189422934,
+    "quadrant_mean_occupation": [
+      0.6953282469139971,
+      0.7473387189791619,
+      0.2993721977886354,
+      0.09128153452590511
+    ],
+    "radial_mean_occupation_7bins": [
+      0.2222222222222222,
+      0.28125,
+      0.27252064186503816,
+      0.3204682447552787,
+      0.4411825284972846,
+      0.5163358260020061,
+      0.5296980652492506
+    ],
+    "variability_status": "estimated"
+  },
+  "field_profile": {
+    "hydrogen_policy": "included",
+    "radii_profile": "dmap_vdw_v0.1",
+    "smoothing": "none"
+  },
+  "frozen_atoms": [
+    1
+  ],
+  "grid_convergence": null,
+  "hydrogen_policy": "included",
+  "input_sha256": "62cd58f46d37b89c4d45f773cf319167553161e3f50cafe752544bf997a9493d",
+  "origin_atoms": [
+    1
+  ],
+  "population_accounting": {
+    "missing": 0.0,
+    "quarantined": 0.0,
+    "valid": 1.0000000000000002
+  },
+  "population_model": "electronic_energy",
+  "probability_field_v2_convergence": null,
+  "reactive_direction": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "schema_version": "0.1",
+  "secondary_direction": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "software_version": "1.0.0rc1",
+  "static_profile": {
+    "direction_count": 8192,
+    "g_radii_profile": "dmap_vdw_v0.1",
+    "spacing": 0.2,
+    "sphere_radius": 3.5,
+    "vbur_radii_profile": "sambvca_2.1"
+  },
+  "steric_atoms": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    14,
+    15,
+    16,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    29,
+    30,
+    31,
+    32,
+    33,
+    35,
+    36,
+    39,
+    40,
+    42,
+    64
+  ],
+  "temperature": 298.15,
+  "topographic_projection": {
+    "direction_vectors": [
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -0.0,
+        -1.0,
+        -0.0
+      ]
+    ],
+    "directions": [
+      "+z",
+      "-z",
+      "+x",
+      "-x",
+      "+y",
+      "-y"
+    ],
+    "offsets_are_positive_distance_along_each_direction": true
+  },
+  "topology_screening": {
+    "findings": [],
+    "policy": "strict",
+    "quarantined_frame_numbers": [],
+    "valid_frame_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "weighted_quantile_convention": "inverse_cdf_left_v0.1",
+  "weights": [
+    0.17146173849706303,
+    0.17126209741676013,
+    0.17116780256533523,
+    0.16997368470851038,
+    0.16205757895932477,
+    0.15407709785300638
+  ]
+}

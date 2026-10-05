@@ -1,0 +1,110 @@
+{
+  "constructed": {
+    "3e": {
+      "path": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/analysis-inputs/3e-constructed.xyz",
+      "provenance": {
+        "paper_geometry_status": "no deposited 3e Cu complex in local CCDC corpus",
+        "removed_branch_roots": {
+          "C26": "C28",
+          "C27": "C29"
+        },
+        "source_cif_component": "Cu2",
+        "source_parent": "3b-anti",
+        "transformation": "removed the two 4,5-backbone methyl branches from the 3b-anti N-Mes/N-CH2Mes frame"
+      },
+      "source_status": "xTB_constructed_exploratory"
+    },
+    "3e-IMe": {
+      "path": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/analysis-inputs/ime/3e-IMe-constructed.xyz",
+      "provenance": {
+        "source_parent": "3e",
+        "transformation": "replaced both N-Ar/N-CH2Ar branches with N-methyl groups and added C4/C5 hydrogens"
+      },
+      "source_status": "xTB_constructed_exploratory_reference"
+    },
+    "IMes": {
+      "path": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/analysis-inputs/IMes-constructed.xyz",
+      "provenance": {
+        "copied_direct_wingtip_from_donor": "N3",
+        "paper_geometry_status": "no deposited Cu complex used as an exact coordinate source",
+        "source_parent": "3e",
+        "target_donor": "N4",
+        "transformation": "replaced the flexible N-CH2Ar branch with a copied direct N-Ar wingtip"
+      },
+      "source_status": "xTB_constructed_exploratory"
+    },
+    "IMes-IMe": {
+      "path": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/analysis-inputs/ime/IMes-IMe-constructed.xyz",
+      "provenance": {
+        "source_parent": "IMes",
+        "transformation": "replaced both N-Ar/N-CH2Ar branches with N-methyl groups and added C4/C5 hydrogens"
+      },
+      "source_status": "xTB_constructed_exploratory_reference"
+    },
+    "IPr": {
+      "path": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/analysis-inputs/IPr-constructed.xyz",
+      "provenance": {
+        "copied_direct_wingtip_from_donor": "N2",
+        "paper_geometry_status": "no deposited Cu complex used as an exact coordinate source",
+        "source_parent": "3d",
+        "target_donor": "N1",
+        "transformation": "replaced the flexible N-CH2Ar branch with a copied direct N-Ar wingtip"
+      },
+      "source_status": "xTB_constructed_exploratory"
+    },
+    "IPr-IMe": {
+      "path": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/analysis-inputs/ime/IPr-IMe-constructed.xyz",
+      "provenance": {
+        "source_parent": "IPr",
+        "transformation": "replaced both N-Ar/N-CH2Ar branches with N-methyl groups and added C4/C5 hydrogens"
+      },
+      "source_status": "xTB_constructed_exploratory_reference"
+    }
+  },
+  "coordinate_status": {
+    "3a": "reused published CCDC canonical input",
+    "3b-anti": "reused published CCDC canonical input",
+    "3b-syn": "reused published CCDC canonical input",
+    "3c": "reused published CCDC canonical input",
+    "3d": "reused published CCDC canonical input",
+    "3e": "xTB_constructed_exploratory",
+    "IMes": "xTB_constructed_exploratory",
+    "IPr": "xTB_constructed_exploratory"
+  },
+  "paper_optimized_vbur_percent": {
+    "3a": {
+      "anti": 39.9,
+      "syn": 49.5
+    },
+    "3b": {
+      "anti": 35.7,
+      "syn": 45.0
+    },
+    "3c": {
+      "single": 38.6
+    },
+    "3d": {
+      "single": 36.7
+    },
+    "3e": {
+      "single": 33.6
+    },
+    "IMes": {
+      "single": 36.4
+    },
+    "IPr": {
+      "single": 42.6
+    }
+  },
+  "paper_source": "EXTERNAL_DOCUMENT_DIRECTORY/Wingtip-Flexible-i-N-i-Heterocyclic-Carbenes-Unsymmetrical-Connection-between-IMes-and-IPr.pdf",
+  "schema": "part3f.structure-manifest.v1",
+  "table1_yields_at_0.02_mol_percent": {
+    "3a": 98.0,
+    "3b": 94.0,
+    "3c": 92.0,
+    "3d": 40.0,
+    "3e": 36.0,
+    "IMes": 63.0,
+    "IPr": 42.0
+  }
+}

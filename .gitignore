@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments and package builds
+.venv/
+venv/
+env/
+.micromamba/
+.conda/
+.python-version.local
+build/
+dist/
+*.egg-info/
+
+# Temporary, editor, and operating-system files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# LaTeX build products
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# Private machine settings and logs
+.env
+.env.*
+!.env.example
+*.local

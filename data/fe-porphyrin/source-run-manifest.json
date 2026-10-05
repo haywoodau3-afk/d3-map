@@ -1,0 +1,72 @@
+{
+  "d2_completed": 0,
+  "d2_summary": "d2-map-summary.csv",
+  "d3_completed": 0,
+  "d3_summary": "d3-map-summary.csv",
+  "failures": [
+    {
+      "error": "external calculation failed with exit code 1; see 03-chemical-validation/part3/3c/d2-map/fecl-tpp-d2map/stages/reference/stages/sampling/crest.log",
+      "project": "d2-map/fecl-tpp-d2map"
+    },
+    {
+      "error": "external calculation failed with exit code 1; see 03-chemical-validation/part3/3c/d2-map/fecl-tdcpp-d2map/stages/reference/stages/sampling/crest.log",
+      "project": "d2-map/fecl-tdcpp-d2map"
+    },
+    {
+      "error": "external calculation failed with exit code 1; see 03-chemical-validation/part3/3c/d2-map/fecl-tmp-d2map/stages/reference/stages/sampling/crest.log",
+      "project": "d2-map/fecl-tmp-d2map"
+    },
+    {
+      "error": "completed d2-map output is missing for reference: 03-chemical-validation/part3/3c/d2-map/fecl-tdcpp-d2map/project.d3map.json",
+      "project": "d3-map/fecl-tdcpp-vs-tpp-d3map"
+    },
+    {
+      "error": "completed d2-map output is missing for reference: 03-chemical-validation/part3/3c/d2-map/fecl-tdcpp-d2map/project.d3map.json",
+      "project": "d3-map/fecl-tdcpp-vs-tmp-d3map"
+    }
+  ],
+  "findings": "Doc/part3/part3c-key-findings.md",
+  "profile": {
+    "axial": {
+      "spacing": 0.25,
+      "transverse_radius": 3.5,
+      "z_max": 2.0,
+      "z_min": 0.0
+    },
+    "displaced_scan": {
+      "direction_count": 8192,
+      "spacing": 0.25,
+      "sphere_spacing": 0.2,
+      "z_max": 2.0,
+      "z_min": 0.0
+    },
+    "field": {
+      "spacing": 0.25
+    },
+    "field_radii_profile": "dmap_vdw_v0.1",
+    "reporting": {
+      "enabled": true,
+      "ml_fraction_resolutions": [
+        1,
+        2,
+        4
+      ],
+      "office_reports": false,
+      "retain_per_frame_topographic_fields": false,
+      "topographic_spacing": 0.25,
+      "z_max": 2.0,
+      "z_min": 0.0,
+      "z_spacing": 0.5
+    },
+    "static": {
+      "direction_count": 8192,
+      "spacing": 0.2,
+      "sphere_radius": 3.5
+    },
+    "temperature": 298.15,
+    "vbur_radii_profile": "sambvca_2.1"
+  },
+  "record_count": 3,
+  "schema": "part3c.run-manifest.v1",
+  "source_directory": "03-chemical-validation/3cstructures"
+}

@@ -1,0 +1,22 @@
+system,outcome,held_out,observed,loo_prediction,training_n
+cu-nhc,yield_percent,3a,98.0,61.166666666666664,6
+cu-nhc,yield_percent,3b,94.0,61.833333333333336,6
+cu-nhc,yield_percent,3c,92.0,62.166666666666664,6
+cu-nhc,yield_percent,3d,40.0,70.83333333333333,6
+cu-nhc,yield_percent,3e,36.0,71.5,6
+cu-nhc,yield_percent,IMes,63.0,67.0,6
+cu-nhc,yield_percent,IPr,42.0,70.5,6
+au-cu,yield_percent,Benzoate,86.0,61.666666666666664,6
+au-cu,yield_percent,Pivalate,90.0,61.0,6
+au-cu,yield_percent,Phenylacetate,40.0,69.33333333333333,6
+au-cu,yield_percent,4-CF3 benzoate,45.0,68.5,6
+au-cu,yield_percent,4-OMe benzoate,48.0,68.0,6
+au-cu,yield_percent,4-tBu benzoate,79.0,62.833333333333336,6
+au-cu,yield_percent,"3,5-di-tBu benzoate",68.0,64.66666666666667,6
+au-cu,de_percent,Benzoate,88.0,91.66666666666667,6
+au-cu,de_percent,Pivalate,94.0,90.66666666666667,6
+au-cu,de_percent,Phenylacetate,94.0,90.66666666666667,6
+au-cu,de_percent,4-CF3 benzoate,92.0,91.0,6
+au-cu,de_percent,4-OMe benzoate,88.0,91.66666666666667,6
+au-cu,de_percent,4-tBu benzoate,90.0,91.33333333333333,6
+au-cu,de_percent,"3,5-di-tBu benzoate",92.0,91.0,6

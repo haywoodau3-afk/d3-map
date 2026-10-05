@@ -1,0 +1,10 @@
+# Exact versions from the recorded static-foundations environment.
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+matplotlib==3.11.1
+pytest==9.1.1
+
+# d3map-catalysis runtime dependencies are installed from code/d3map/pyproject.toml.
+# Their exact resolved patch versions were not retained in the source workspace.
+

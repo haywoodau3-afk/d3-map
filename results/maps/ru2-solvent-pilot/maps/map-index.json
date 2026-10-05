@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "d2_projects": {
+    "ccl4-like/full": "maps/d2/ccl4-like-full/project.d3map.json",
+    "ccl4-like/external": "maps/d2/ccl4-like-external/project.d3map.json",
+    "dcm-like/full": "maps/d2/dcm-like-full/project.d3map.json",
+    "dcm-like/external": "maps/d2/dcm-like-external/project.d3map.json"
+  },
+  "d3_projects": {
+    "full": "maps/d3/dcm-minus-ccl4-full/project.d3map.json",
+    "external": "maps/d3/dcm-minus-ccl4-external/project.d3map.json"
+  },
+  "completed_at": "2026-09-29T03:01:10.348917+00:00"
+}

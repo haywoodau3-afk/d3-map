@@ -1,0 +1,243 @@
+{
+  "schema": "case4.full-pool-selection-aware-loo.v1",
+  "candidate_feature_count": 128,
+  "selection_cap": 3,
+  "population_size": 7,
+  "selection_policy": "Evidence selection of feature subset and prior/noise scales repeated within each six-row training fold",
+  "full_data_equivalence_check": {
+    "yield_percent": {
+      "feature_names": [
+        "d2_angular_fingerprint_12_11",
+        "d3_changed_topographic_occupied_depth_area_fraction",
+        "d3_d2_delta_angular_fingerprint_12_10"
+      ],
+      "evidence": -8.801767827981566,
+      "prior_tau": 1.376272827977018,
+      "noise_sigma_standardized": 0.08
+    },
+    "de_percent": {
+      "feature_names": [
+        "d2_persistent_blocked_fraction",
+        "d3_d2_delta_quadrant_mean_occupation_3",
+        "d3_extended_g_percent_minimum"
+      ],
+      "evidence": -7.216420144338091,
+      "prior_tau": 0.6757730973613716,
+      "noise_sigma_standardized": 0.08
+    },
+    "ee_cis_percent": {
+      "feature_names": [
+        "d2_quadrant_mean_occupation_3",
+        "d3_d2_delta_displaced_vbur_mean_8",
+        "d3_d2_delta_quadrant_mean_occupation_2"
+      ],
+      "evidence": -6.796311298126961,
+      "prior_tau": 0.4735317242569647,
+      "noise_sigma_standardized": 0.08
+    }
+  },
+  "outcomes": {
+    "yield_percent": {
+      "nested_loo": {
+        "rmse": 56.34707242998389,
+        "r2": -7.598133967064367,
+        "coverage_95": 0.0
+      },
+      "loo_intercept": {
+        "loo_intercept_rmse": 22.41898996634574,
+        "loo_intercept_r2": -0.3611111111111107
+      },
+      "selected_feature_frequency": {
+        "d2_angular_fingerprint_12_10": 1,
+        "d2_angular_fingerprint_12_5": 1,
+        "d2_persistent_blocked_fraction": 1,
+        "d2_angular_fingerprint_12_9": 1,
+        "d2_displaced_vbur_mean_8": 1,
+        "d3_d2_delta_angular_fingerprint_12_12": 1,
+        "d2_displaced_g_mean_1": 1,
+        "d3_d2_delta_angular_fingerprint_12_11": 1,
+        "d3_delta_vbur_percent_percentile_5": 1,
+        "d2_angular_fingerprint_12_1": 1,
+        "d3_extended_g_percent_minimum": 1,
+        "d3_extended_vbur_percent_population_standard_deviation": 1,
+        "d3_changed_topographic_first_contact_q50_area_fraction": 1,
+        "d3_d2_delta_angular_fingerprint_12_10": 3,
+        "d3_delta_vbur_percent_percentile_span": 1,
+        "d3_d2_delta_angular_fingerprint_12_3": 1,
+        "d3_d2_delta_quadrant_asymmetry_variance": 1,
+        "d2_angular_fingerprint_12_11": 1,
+        "d3_d2_delta_pocket_weighted_vbur_percent": 1
+      },
+      "selected_features_by_structure": {
+        "benzoate": [
+          "d2_angular_fingerprint_12_10",
+          "d2_angular_fingerprint_12_5",
+          "d2_persistent_blocked_fraction"
+        ],
+        "pivalate": [
+          "d2_angular_fingerprint_12_9",
+          "d2_displaced_vbur_mean_8",
+          "d3_d2_delta_angular_fingerprint_12_12"
+        ],
+        "phenylacetate": [
+          "d2_displaced_g_mean_1",
+          "d3_d2_delta_angular_fingerprint_12_11",
+          "d3_delta_vbur_percent_percentile_5"
+        ],
+        "para-CF3-benzoate": [
+          "d2_angular_fingerprint_12_1",
+          "d3_extended_g_percent_minimum",
+          "d3_extended_vbur_percent_population_standard_deviation"
+        ],
+        "para-OMe-benzoate": [
+          "d3_changed_topographic_first_contact_q50_area_fraction",
+          "d3_d2_delta_angular_fingerprint_12_10",
+          "d3_delta_vbur_percent_percentile_span"
+        ],
+        "para-tBu-benzoate": [
+          "d3_d2_delta_angular_fingerprint_12_10",
+          "d3_d2_delta_angular_fingerprint_12_3",
+          "d3_d2_delta_quadrant_asymmetry_variance"
+        ],
+        "35-di-tBu-benzoate": [
+          "d2_angular_fingerprint_12_11",
+          "d3_d2_delta_angular_fingerprint_12_10",
+          "d3_d2_delta_pocket_weighted_vbur_percent"
+        ]
+      }
+    },
+    "de_percent": {
+      "nested_loo": {
+        "rmse": 4.364918445160757,
+        "r2": -2.4322541860747275,
+        "coverage_95": 0.14285714285714285
+      },
+      "loo_intercept": {
+        "loo_intercept_rmse": 2.748737083745107,
+        "loo_intercept_r2": -0.36111111111111116
+      },
+      "selected_feature_frequency": {
+        "d3_d2_delta_angular_fingerprint_12_4": 1,
+        "d3_delta_g_percent_minimum": 1,
+        "d3_extended_g_percent_minimum": 1,
+        "d3_changed_topographic_contact_probability_area_fraction": 2,
+        "d3_changed_v2_adaptive_class_area_fraction": 1,
+        "d3_d2_delta_angular_fingerprint_12_3": 1,
+        "d3_d2_delta_breathing_fraction": 1,
+        "d3_delta_vbur_percent_population_standard_deviation": 1,
+        "d2_quadrant_mean_occupation_2": 1,
+        "d2_angular_fingerprint_12_1": 1,
+        "d3_changed_occupation_area_fraction": 1,
+        "d3_d2_delta_angular_fingerprint_12_1": 1,
+        "d3_d2_delta_angular_fingerprint_12_12": 1,
+        "d3_delta_g_percent_population_standard_deviation": 1,
+        "d3_delta_vbur_percent_minimum": 1,
+        "d3_changed_topographic_first_contact_interval_10_90_area_fraction": 1,
+        "d3_d2_delta_persistent_blocked_fraction": 1,
+        "d3_delta_g_percent_percentile_span": 1
+      },
+      "selected_features_by_structure": {
+        "benzoate": [
+          "d3_d2_delta_angular_fingerprint_12_4",
+          "d3_delta_g_percent_minimum",
+          "d3_extended_g_percent_minimum"
+        ],
+        "pivalate": [
+          "d3_changed_topographic_contact_probability_area_fraction",
+          "d3_changed_v2_adaptive_class_area_fraction"
+        ],
+        "phenylacetate": [
+          "d3_d2_delta_angular_fingerprint_12_3",
+          "d3_d2_delta_breathing_fraction",
+          "d3_delta_vbur_percent_population_standard_deviation"
+        ],
+        "para-CF3-benzoate": [
+          "d2_quadrant_mean_occupation_2",
+          "d3_changed_topographic_contact_probability_area_fraction"
+        ],
+        "para-OMe-benzoate": [
+          "d2_angular_fingerprint_12_1",
+          "d3_changed_occupation_area_fraction",
+          "d3_d2_delta_angular_fingerprint_12_1"
+        ],
+        "para-tBu-benzoate": [
+          "d3_d2_delta_angular_fingerprint_12_12",
+          "d3_delta_g_percent_population_standard_deviation",
+          "d3_delta_vbur_percent_minimum"
+        ],
+        "35-di-tBu-benzoate": [
+          "d3_changed_topographic_first_contact_interval_10_90_area_fraction",
+          "d3_d2_delta_persistent_blocked_fraction",
+          "d3_delta_g_percent_percentile_span"
+        ]
+      }
+    },
+    "ee_cis_percent": {
+      "nested_loo": {
+        "rmse": 21.77031163167844,
+        "r2": -0.07445993145550478,
+        "coverage_95": 0.2857142857142857
+      },
+      "loo_intercept": {
+        "loo_intercept_rmse": 24.502834303175806,
+        "loo_intercept_r2": -0.36111111111111116
+      },
+      "selected_feature_frequency": {
+        "d2_displaced_vbur_mean_8": 2,
+        "d2_quadrant_mean_occupation_2": 2,
+        "d3_changed_topographic_first_contact_q50_area_fraction": 1,
+        "d2_displaced_vbur_mean_9": 4,
+        "d2_quadrant_asymmetry_variance": 1,
+        "d3_delta_vbur_percent_percentile_5": 1,
+        "d3_d2_delta_angular_fingerprint_12_8": 1,
+        "d3_d2_delta_displaced_vbur_mean_9": 1,
+        "d2_quadrant_mean_occupation_3": 1,
+        "d3_d2_delta_quadrant_mean_occupation_2": 1,
+        "d2_displaced_vbur_mean_7": 1,
+        "d3_d2_delta_displaced_vbur_mean_7": 1,
+        "d3_extended_vbur_percent_maximum": 1,
+        "d3_d2_delta_quadrant_mean_occupation_3": 1,
+        "d2_radial_mean_occupation_7bins_1": 1,
+        "d3_d2_delta_angular_fingerprint_12_3": 1
+      },
+      "selected_features_by_structure": {
+        "benzoate": [
+          "d2_displaced_vbur_mean_8",
+          "d2_quadrant_mean_occupation_2",
+          "d3_changed_topographic_first_contact_q50_area_fraction"
+        ],
+        "pivalate": [
+          "d2_displaced_vbur_mean_9",
+          "d2_quadrant_asymmetry_variance",
+          "d3_delta_vbur_percent_percentile_5"
+        ],
+        "phenylacetate": [
+          "d2_displaced_vbur_mean_9",
+          "d3_d2_delta_angular_fingerprint_12_8",
+          "d3_d2_delta_displaced_vbur_mean_9"
+        ],
+        "para-CF3-benzoate": [
+          "d2_displaced_vbur_mean_9",
+          "d2_quadrant_mean_occupation_3",
+          "d3_d2_delta_quadrant_mean_occupation_2"
+        ],
+        "para-OMe-benzoate": [
+          "d2_displaced_vbur_mean_7",
+          "d3_d2_delta_displaced_vbur_mean_7",
+          "d3_extended_vbur_percent_maximum"
+        ],
+        "para-tBu-benzoate": [
+          "d2_displaced_vbur_mean_8",
+          "d2_quadrant_mean_occupation_2",
+          "d3_d2_delta_quadrant_mean_occupation_3"
+        ],
+        "35-di-tBu-benzoate": [
+          "d2_displaced_vbur_mean_9",
+          "d2_radial_mean_occupation_7bins_1",
+          "d3_d2_delta_angular_fingerprint_12_3"
+        ]
+      }
+    }
+  },
+  "runtime_seconds": 31.504297458042856
+}

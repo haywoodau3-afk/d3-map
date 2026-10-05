@@ -1,0 +1,94 @@
+{
+  "convergence_gate": {
+    "mean_absolute_occupation_difference": 0.02,
+    "occupation_difference_p95": 0.05
+  },
+  "execution": {
+    "command": "run-stage-a --execute",
+    "executable_resolution": "PATH or local environment configuration; no machine-specific absolute paths are committed",
+    "external_sampling": false,
+    "required_executables": {
+      "crest": "2.12",
+      "xtb": "6.7.1"
+    }
+  },
+  "inventory": "03-chemical-validation/3dstructures/manifests/chemical-inventory.json",
+  "projects": [
+    {
+      "kind": "d2-map",
+      "project": "stage-a/published_5c_4e_I/gas/project.d3map.json",
+      "seed_label": "published_5c_4e_I",
+      "solvent": "gas"
+    },
+    {
+      "kind": "d2-map",
+      "project": "stage-a/published_5c_4e_I/alpb-ccl4/project.d3map.json",
+      "seed_label": "published_5c_4e_I",
+      "solvent": "alpb-ccl4"
+    },
+    {
+      "kind": "d2-map",
+      "project": "stage-a/published_5c_4e_II/gas/project.d3map.json",
+      "seed_label": "published_5c_4e_II",
+      "solvent": "gas"
+    },
+    {
+      "kind": "d2-map",
+      "project": "stage-a/published_5c_4e_II/alpb-ccl4/project.d3map.json",
+      "seed_label": "published_5c_4e_II",
+      "solvent": "alpb-ccl4"
+    },
+    {
+      "kind": "d2-map",
+      "project": "stage-a/published_5c_4e_III/gas/project.d3map.json",
+      "seed_label": "published_5c_4e_III",
+      "solvent": "gas"
+    },
+    {
+      "kind": "d2-map",
+      "project": "stage-a/published_5c_4e_III/alpb-ccl4/project.d3map.json",
+      "seed_label": "published_5c_4e_III",
+      "solvent": "alpb-ccl4"
+    },
+    {
+      "extended": "published_5c_4e_II",
+      "kind": "d3-map",
+      "project": "stage-a/d3map/published_5c_4e_I-vs-published_5c_4e_II/gas/project.d3map.json",
+      "reference": "published_5c_4e_I",
+      "solvent": "gas"
+    },
+    {
+      "extended": "published_5c_4e_III",
+      "kind": "d3-map",
+      "project": "stage-a/d3map/published_5c_4e_I-vs-published_5c_4e_III/gas/project.d3map.json",
+      "reference": "published_5c_4e_I",
+      "solvent": "gas"
+    },
+    {
+      "extended": "published_5c_4e_II",
+      "kind": "d3-map",
+      "project": "stage-a/d3map/published_5c_4e_I-vs-published_5c_4e_II/alpb-ccl4/project.d3map.json",
+      "reference": "published_5c_4e_I",
+      "solvent": "alpb-ccl4"
+    },
+    {
+      "extended": "published_5c_4e_III",
+      "kind": "d3-map",
+      "project": "stage-a/d3map/published_5c_4e_I-vs-published_5c_4e_III/alpb-ccl4/project.d3map.json",
+      "reference": "published_5c_4e_I",
+      "solvent": "alpb-ccl4"
+    }
+  ],
+  "replication": {
+    "minimum_blocks_per_condition": 3,
+    "note": "The three SI structures are structural seed strata, not the full replicate count.",
+    "seed_strata": [
+      "published_5c_4e_I",
+      "published_5c_4e_II",
+      "published_5c_4e_III"
+    ],
+    "unit": "independent CREST block nested within chemical state and solvent"
+  },
+  "schema": "case3d-stage-a-preparation-v1",
+  "status": "static_baselines_completed_dynamic_sampling_blocked"
+}

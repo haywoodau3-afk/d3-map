@@ -1,0 +1,16 @@
+outcome,model,validation,candidate_features,r2,rmse
+yield_percent,full_dynamic_d2_d3_pool,fixed_subset_loo,128,0.9940203377549434,1.4859615773732833
+yield_percent,full_dynamic_d2_d3_pool,selection_aware_loo,128,-7.598133967064367,56.34707242998389
+yield_percent,d3map_27_feature_core,selection_aware_loo,27,-14.083587375912103,74.63139761381191
+yield_percent,traditional_case3f_all_15,fold_local_tuning_all_15,15,-0.5080635327131313,23.59821056901172
+yield_percent,intercept_only,loo_mean_of_six,0,-0.3611111111111107,22.41898996634574
+de_percent,full_dynamic_d2_d3_pool,fixed_subset_loo,128,0.9802282436172195,0.3312905419507879
+de_percent,full_dynamic_d2_d3_pool,selection_aware_loo,128,-2.4322541860747275,4.364918445160757
+de_percent,d3map_27_feature_core,selection_aware_loo,27,-0.07923531553508356,2.447622777665253
+de_percent,traditional_case3f_all_15,fold_local_tuning_all_15,15,-0.4893339267947976,2.875295293045195
+de_percent,intercept_only,loo_mean_of_six,0,-0.36111111111111116,2.748737083745107
+ee_cis_percent,full_dynamic_d2_d3_pool,fixed_subset_loo,128,0.9927413700914072,1.7893564391173489
+ee_cis_percent,full_dynamic_d2_d3_pool,selection_aware_loo,128,-0.07445993145550478,21.77031163167844
+ee_cis_percent,d3map_27_feature_core,selection_aware_loo,27,-9.824610492694879,69.0996221362283
+ee_cis_percent,traditional_case3f_all_15,fold_local_tuning_all_15,15,-0.48166343286284463,25.56491275241762
+ee_cis_percent,intercept_only,loo_mean_of_six,0,-0.36111111111111116,24.502834303175806

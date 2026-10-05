@@ -1,0 +1,3 @@
+# Results
+
+`maps/` holds selected occupation, shielding, persistence, and comparison arrays with summary JSON. `descriptors/` holds complete feature tables and descriptor manifests. `model-inputs/` and `predictions/` preserve matrices and full-precision validation outputs. `statistical-controls/` contains intercept-only leave-one-out controls. `figures/` contains archived rendered outputs; figure-generation code is intentionally omitted from this minimal package. See `figures/figure-manifest.csv` for recorded study-level provenance. Exact source-data-to-figure mappings were not recorded for every archived figure.

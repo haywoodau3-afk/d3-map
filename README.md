@@ -1,0 +1,94 @@
+# d3map paper reproducibility package
+
+**Working paper title:** *Revealing Hidden Steric Features of Catalysts with d3maps*  
+**Author and affiliation:** not recorded in the current project files; replace the placeholder in `CITATION.cff` before public release.  
+**Release candidate:** `1.0.0rc1`  
+**Repository DOI:** not yet assigned.  
+**Public repository URL:** not yet created; `CITATION.cff` contains a replaceable GitHub URL placeholder.
+
+## Description
+
+This repository collects the d3map source code, computational settings, structures, retained ensembles and trajectories, model inputs, predictions, statistical controls, and selected figures for the paper studies. The working scientific question is whether aligned ensemble and trajectory maps of steric occupation, shielding, persistence, and probe accessibility add information beyond conventional static descriptors. The records include both completed analyses and explicitly exploratory pilots; dataset manifests state the evidence status and known limitations.
+
+This package contains five study groups: Fe porphyrins; Cu–NHC catalysts; published Ru structures; a Ru2 solvent pilot; and Au–Cu complexes. The data and model artifacts are retained at the precision available in the source workspace. Details that were not recorded are marked `unrecorded` rather than inferred.
+
+## Repository structure
+
+```text
+d3-map-paper/
+├── code/
+│   ├── d3map/                 # d3map software source and install metadata
+│   ├── analysis/              # case-specific analysis drivers
+│   └── modelling/             # Bayesian models and validation summaries
+├── configuration/
+│   ├── radii/ grids/ atom-masks/ atom-maps/
+│   ├── descriptor-bins/ run-manifests/
+├── data/                      # system inputs, retained ensembles, weights, and manifests
+├── results/
+│   ├── maps/ descriptors/ model-inputs/ predictions/ statistical-controls/ figures/
+├── LICENSE
+├── LICENSE-DATA
+├── CITATION.cff
+├── CHANGELOG.md
+├── environment.yml
+├── requirements.txt
+└── VERSION
+```
+
+Each `data/<system>/` directory contains a README, manifest, input and retained structures, sampling inputs, and `energies.csv`/`weights.csv`. Empty energy cells are intentional where the analysis used a biased trajectory or a static geometry and did not use electronic energies as populations.
+
+## Software requirements
+
+- Python 3.12 for the packaged d3map source. The exact numerical-analysis environment recorded in the static-foundations workflow used Python 3.13.15, NumPy 2.5.3, SciPy 1.18.1, pandas 3.0.5, Matplotlib 3.11.1, and pytest 9.1.1.
+- d3map-catalysis 1.0.0rc1, included under `code/d3map/`.
+- xTB 6.7.1 and CREST 3.0.2 for the Au–Cu and Cu–NHC sampling records. Selected Fe and published-Ru workflows record CREST 2.12. xTB and CREST are external executables; they are not bundled.
+- Exact resolved versions of openpyxl and reportlab were not retained in the workspace; d3map dependency ranges are recorded in `code/d3map/pyproject.toml`.
+
+Create the Python environment and install the included source package:
+
+```bash
+conda env create -f environment.yml
+conda activate d3-map-paper
+python -m pip install -e ./code/d3map
+python -m d3map --version
+python -m d3map --help
+```
+
+## Reproduction commands
+
+The archived maps, model input matrices, full-precision prediction files, and rendered figure files are included under `results/`. Case-specific analysis and modelling scripts are organized under `code/analysis/` and `code/modelling/`; their source provenance and software/setup records are under `configuration/run-manifests/`. Figure files are archived renders; this minimal package does not include figure-generation code. See `results/figures/figure-manifest.csv` for their study-level provenance and the limits of the recorded source mapping.
+
+The following commands demonstrate analysis of a packaged published-Ru structure, rebuild the associated report, and recalculate the packaged intercept-only controls from a clean checkout:
+
+```bash
+# Recompute a static map for published Ru structure I without sampling:
+python -m d3map analyze data/published-ru/sampling-inputs/I/project.d3map.json
+
+# Regenerate the report from that completed map analysis:
+python -m d3map report data/published-ru/sampling-inputs/I/project.d3map.json
+
+# Rebuild intercept-only LOO controls from the packaged experimental outcomes:
+python code/modelling/reproduce_intercept_controls.py
+
+```
+
+The static-Ru commands use only the packaged single-structure input and do not launch xTB or CREST. To rerun an ensemble sampling example with the external programs installed, use `python -m d3map run data/cu-nhc/sampling-inputs/3b-syn/project.d3map.json`; stochastic sampling may not reproduce the retained conformers exactly. Study-wide modelling commands are not yet normalized into clean-checkout commands for every case. Rendered figures are included as archived outputs and are not regenerated by this minimal package. Most copied case scripts retain legacy workspace path assumptions, listed in `configuration/run-manifests/README.md`; do not treat them as verified one-command full reproductions. The raw inputs, retained ensembles, model inputs, predictions, and result arrays needed for further work are included where available.
+
+## Known unrecorded settings and release metadata
+
+- Paper author list, affiliations, ORCID iDs, final title, public GitHub URL, and repository DOI. The current manuscript draft supplies the working title shown above, but does not identify the authors.
+- Exact resolved Python versions for d3map's openpyxl/reportlab dependencies.
+- Fe CREST-energy row to aligned-ensemble frame mapping, plus free-energy and spin-state corrections. The Fe populations are fixed-state GFN2-xTB electronic-energy weights at 298.15 K.
+- Some Cu–NHC inputs are constructed screening analogues; their raw sampling energies are unavailable. The 3b syn and anti records are separate inputs.
+- Published Ru structures I–III are seed geometries from one system, not independent replicate blocks.
+- The Ru2 solvent pilot uses one short paired, explicitly biased trajectory per dielectric surrogate; it does not provide equilibrium populations, independent replicates, or a full solvent model.
+- Au–Cu ensembles are uniformly weighted xTB metadynamics trajectories, not Boltzmann conformer populations. Per-frame quarantine records are absent where not stated in source manifests.
+- Most case-specific analysis scripts still use legacy workspace paths and need rebasing before their outputs can be regenerated from a clean checkout.
+
+## Data and code licensing
+
+Code is offered under BSD-3-Clause; project-owned structures, numerical data, and results are proposed under CC BY 4.0. `LICENSE-DATA` contains the full license text. Materials from third parties are excluded from that grant and retain their original rights and terms; see system manifests and source citations. Confirm redistribution rights for every third-party structure and experimental table before making the repository public.
+
+## Citation
+
+Use the paper citation when it is finalized. Until a DOI and author list are recorded, cite the software release as `d3map-catalysis 1.0.0rc1` and update `CITATION.cff` with the canonical paper and repository metadata before the public deposit.

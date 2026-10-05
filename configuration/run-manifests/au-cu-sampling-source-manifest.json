@@ -1,0 +1,227 @@
+{
+  "schema": "case4.xtb-crest.v2",
+  "status": "success",
+  "started_at": "2026-09-28T07:52:41.983049+00:00",
+  "method": {
+    "xtb": ".micromamba/part3c/bin/xtb",
+    "xtb_version": "* xtb version 6.7.1 (edcfbbe) compiled by 'runner@sat12-gn217-0cbadaec-b866-44ae-a866-732403219ae3-6E01A8DFFD18.local' on 2026-06-10",
+    "crest": ".micromamba/part3c/bin/crest",
+    "crest_version": "Version 3.0.2, Tue, 05 August 16:30:49, 08/05/2025",
+    "model": "GFN2-xTB",
+    "charge": 2,
+    "multiplicity": 1,
+    "solvent": "CHCl3 (ALPB)",
+    "preoptimization": "tight",
+    "crest_search": "quick",
+    "threads_per_complex": 4,
+    "execution": "sequential,resumable"
+  },
+  "restraints": {
+    "frozen_atoms": [
+      2
+    ],
+    "protected_contacts": [
+      [
+        2,
+        148
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        73,
+        26
+      ],
+      [
+        73,
+        77
+      ],
+      [
+        73,
+        78
+      ]
+    ],
+    "meaning": "Anchor the Au(I) position and protect Au-carbene, Au-phosphine, and three Cu-N coordination distances during xTB and CREST; Cu is not frozen, avoiding an artificial Au-Cu distance restraint."
+  },
+  "structures": [
+    {
+      "id": "benzoate",
+      "name": "Benzoate",
+      "input": "structures/full-complexes/cu-au-carbene-benzoate.xyz",
+      "input_sha256": "30cbb4f095e6d00c30e9adb0b0e6ccb7448d777cf13667ae4dffd828cef5491b",
+      "output_directory": "sampling/runs/benzoate",
+      "status": "success",
+      "started_at": "2026-09-28T04:32:20.596676+00:00",
+      "completed_at": "2026-09-28T04:45:39.459611+00:00",
+      "preoptimized": "sampling/runs/benzoate/sampling/preoptimized.xyz",
+      "ensemble": "sampling/runs/benzoate/sampling/crest_dynamics.trj",
+      "conformers": 105,
+      "analysis_mode": "trajectory",
+      "xtb_log": "sampling/runs/benzoate/sampling/xtb-preopt.log",
+      "crest_log": "sampling/runs/benzoate/sampling/crest.log",
+      "backend_versions": {
+        "xtb": "* xtb version 6.7.1 (edcfbbe) compiled by 'runner@sat12-gn217-0cbadaec-b866-44ae-a866-732403219ae3-6E01A8DFFD18.local' on 2026-06-10",
+        "crest": "Version 3.0.2, Tue, 05 August 16:30:49, 08/05/2025"
+      },
+      "ensemble_sha256": "b9249cf775e244f1ffa0e29bc37aaa67e1d4f7d30337b35fc03ae8777c5ce38f"
+    },
+    {
+      "id": "pivalate",
+      "name": "Pivalate",
+      "input": "structures/full-complexes/cu-au-carbene-pivalate.xyz",
+      "input_sha256": "67bf481e8332c373e1c1c08b9cdc7c38962d0d495f4cbb3bfb87d07334cf3ae3",
+      "output_directory": "sampling/runs/pivalate",
+      "status": "success",
+      "started_at": "2026-09-28T04:45:39.460866+00:00",
+      "completed_at": "2026-09-28T04:57:39.642780+00:00",
+      "preoptimized": "sampling/runs/pivalate/sampling/preoptimized.xyz",
+      "ensemble": "sampling/runs/pivalate/sampling/crest_dynamics.trj",
+      "conformers": 105,
+      "analysis_mode": "trajectory",
+      "xtb_log": "sampling/runs/pivalate/sampling/xtb-preopt.log",
+      "crest_log": "sampling/runs/pivalate/sampling/crest.log",
+      "backend_versions": {
+        "xtb": "* xtb version 6.7.1 (edcfbbe) compiled by 'runner@sat12-gn217-0cbadaec-b866-44ae-a866-732403219ae3-6E01A8DFFD18.local' on 2026-06-10",
+        "crest": "Version 3.0.2, Tue, 05 August 16:30:49, 08/05/2025"
+      },
+      "ensemble_sha256": "522b568efbc9ee86dd827bc3f4642ab4b5f60ca1dc20abf1a03549502576fcfa"
+    },
+    {
+      "id": "phenylacetate",
+      "name": "Phenylacetate",
+      "input": "structures/full-complexes/cu-au-carbene-phenylacetate.xyz",
+      "input_sha256": "de0562d4d8a188aca08a4b106cd501cf3b2b0292fca2ec14786ad4f3a4c54a6b",
+      "output_directory": "sampling/runs/phenylacetate",
+      "status": "success",
+      "started_at": "2026-09-28T04:57:39.644039+00:00",
+      "completed_at": "2026-09-28T05:10:25.726165+00:00",
+      "preoptimized": "sampling/runs/phenylacetate/sampling/preoptimized.xyz",
+      "ensemble": "sampling/runs/phenylacetate/sampling/crest_dynamics.trj",
+      "conformers": 105,
+      "analysis_mode": "trajectory",
+      "xtb_log": "sampling/runs/phenylacetate/sampling/xtb-preopt.log",
+      "crest_log": "sampling/runs/phenylacetate/sampling/crest.log",
+      "backend_versions": {
+        "xtb": "* xtb version 6.7.1 (edcfbbe) compiled by 'runner@sat12-gn217-0cbadaec-b866-44ae-a866-732403219ae3-6E01A8DFFD18.local' on 2026-06-10",
+        "crest": "Version 3.0.2, Tue, 05 August 16:30:49, 08/05/2025"
+      },
+      "ensemble_sha256": "a106c9bd6fafa8fb72c0160ae0bac9531be24b18b73238b14dda1fb3c9652c74"
+    },
+    {
+      "id": "para-CF3-benzoate",
+      "name": "4-CF\u2083 benzoate",
+      "input": "structures/full-complexes/cu-au-carbene-para-CF3-benzoate.xyz",
+      "input_sha256": "32c7d0ecf27fc9139a048eed43a8777d211599a3663e8960ed0fd342aad419a2",
+      "output_directory": "sampling/runs/para-CF3-benzoate",
+      "status": "success",
+      "started_at": "2026-09-28T11:56:18.178095+00:00",
+      "checkpointed_at": "2026-09-28T07:52:25.496382+00:00",
+      "checkpoint_directory": "sampling/checkpoints/para-CF3-benzoate-before-5-7-20260928",
+      "paused_work_directory": "03-chemical-validation/4/sampling/runs/para-CF3-benzoate/sampling-paused-20260928T0751Z",
+      "partial_trajectory_frames": 802,
+      "partial_trajectory_files": [
+        "crest_1.trj",
+        "crest_6.trj"
+      ],
+      "analysis_mode": "trajectory",
+      "sampling_method": "xTB metadynamics fallback; native CREST checkpoint preserved",
+      "completed_at": "2026-09-28T12:23:07.171185+00:00",
+      "preoptimized": "sampling/runs/para-CF3-benzoate/sampling/preoptimized.xyz",
+      "ensemble": "sampling/runs/para-CF3-benzoate/sampling/crest_dynamics.trj",
+      "conformers": 105,
+      "frame_count": 105,
+      "sampling_summary": "sampling/runs/para-CF3-benzoate/sampling/sampling-summary.json",
+      "ensemble_sha256": "2aed4cdd0942ebeea4f5a54c221b3c310a0fc62239b809e28503ae9bd724d408",
+      "backend_versions": {
+        "xtb": "* xtb version 6.7.1 (edcfbbe) compiled by 'runner@sat12-gn217-0cbadaec-b866-44ae-a866-732403219ae3-6E01A8DFFD18.local' on 2026-06-10",
+        "crest": "Version 3.0.2, Tue, 05 August 16:30:49, 08/05/2025"
+      }
+    },
+    {
+      "id": "para-OMe-benzoate",
+      "name": "4-OMe benzoate",
+      "input": "structures/full-complexes/cu-au-carbene-para-OMe-benzoate.xyz",
+      "input_sha256": "521220cf9d461c507b53935cb0dc4160fa0c7ea1289c01bb3193c786079b044f",
+      "output_directory": "sampling/runs/para-OMe-benzoate",
+      "status": "success",
+      "started_at": "2026-09-28T07:52:42.126039+00:00",
+      "completed_at": "2026-09-28T08:06:50.088486+00:00",
+      "preoptimized": "sampling/runs/para-OMe-benzoate/sampling/preoptimized.xyz",
+      "ensemble": "sampling/runs/para-OMe-benzoate/sampling/crest_dynamics.trj",
+      "conformers": 105,
+      "analysis_mode": "trajectory",
+      "xtb_log": "sampling/runs/para-OMe-benzoate/sampling/xtb-preopt.log",
+      "crest_log": "sampling/runs/para-OMe-benzoate/sampling/crest.log",
+      "backend_versions": {
+        "xtb": "* xtb version 6.7.1 (edcfbbe) compiled by 'runner@sat12-gn217-0cbadaec-b866-44ae-a866-732403219ae3-6E01A8DFFD18.local' on 2026-06-10",
+        "crest": "Version 3.0.2, Tue, 05 August 16:30:49, 08/05/2025"
+      },
+      "ensemble_sha256": "ad2612d2705ebdf4a2d6108d3ec48a9724ad6587d0e0b5791acfd61109255d3d"
+    },
+    {
+      "id": "para-tBu-benzoate",
+      "name": "4-tBu benzoate",
+      "input": "structures/full-complexes/cu-au-carbene-para-tBu-benzoate.xyz",
+      "input_sha256": "74641e0d5a6a6e139c40aed9e7880aaf6557a3ddabab598c1cfaa57617c2c5bf",
+      "output_directory": "sampling/runs/para-tBu-benzoate",
+      "status": "success",
+      "started_at": "2026-09-28T08:06:50.090249+00:00",
+      "completed_at": "2026-09-28T08:34:06.558997+00:00",
+      "preoptimized": "sampling/runs/para-tBu-benzoate/sampling/preoptimized.xyz",
+      "ensemble": "sampling/runs/para-tBu-benzoate/sampling/crest_dynamics.trj",
+      "conformers": 105,
+      "analysis_mode": "trajectory",
+      "xtb_log": "sampling/runs/para-tBu-benzoate/sampling/xtb-preopt.log",
+      "crest_log": "sampling/runs/para-tBu-benzoate/sampling/crest.log",
+      "backend_versions": {
+        "xtb": "* xtb version 6.7.1 (edcfbbe) compiled by 'runner@sat12-gn217-0cbadaec-b866-44ae-a866-732403219ae3-6E01A8DFFD18.local' on 2026-06-10",
+        "crest": "Version 3.0.2, Tue, 05 August 16:30:49, 08/05/2025"
+      },
+      "ensemble_sha256": "b444ae479df866608191915a353b8e80ca922648c9139b8aa30e44316e04d20f"
+    },
+    {
+      "id": "35-di-tBu-benzoate",
+      "name": "3,5-di-tBu benzoate",
+      "input": "structures/full-complexes/cu-au-carbene-35-di-tBu-benzoate.xyz",
+      "input_sha256": "a1a8fa74a7a0198f5158bc5846be06d8c0f72333773408b10d4eace9176c5d5e",
+      "output_directory": "sampling/runs/35-di-tBu-benzoate",
+      "status": "success",
+      "started_at": "2026-09-28T12:08:38.317340+00:00",
+      "checkpointed_at": "2026-09-28T09:09:52.668751+00:00",
+      "checkpoint_directory": "03-chemical-validation/4/sampling/checkpoints/35-di-tBu-benzoate-before-analysis-20260928",
+      "paused_work_directory": "03-chemical-validation/4/sampling/runs/35-di-tBu-benzoate/sampling-paused-20260928T0905Z",
+      "partial_trajectory_frames": 324,
+      "partial_trajectory_files": [
+        "crest_1.trj",
+        "crest_3.trj",
+        "crest_5.trj",
+        "crest_6.trj"
+      ],
+      "analysis_mode": "trajectory",
+      "sampling_method": "xTB metadynamics fallback; native CREST checkpoint preserved",
+      "completed_at": "2026-09-28T12:22:59.218529+00:00",
+      "preoptimized": "sampling/runs/35-di-tBu-benzoate/sampling/preoptimized.xyz",
+      "ensemble": "sampling/runs/35-di-tBu-benzoate/sampling/crest_dynamics.trj",
+      "conformers": 105,
+      "frame_count": 105,
+      "sampling_summary": "sampling/runs/35-di-tBu-benzoate/sampling/sampling-summary.json",
+      "ensemble_sha256": "c17f7a0fe83af271ad775035f40261da47fa1a29b666868e4190af5995d52e31",
+      "backend_versions": {
+        "xtb": "* xtb version 6.7.1 (edcfbbe) compiled by 'runner@sat12-gn217-0cbadaec-b866-44ae-a866-732403219ae3-6E01A8DFFD18.local' on 2026-06-10",
+        "crest": "Version 3.0.2, Tue, 05 August 16:30:49, 08/05/2025"
+      }
+    }
+  ],
+  "run_scope": [
+    "benzoate",
+    "pivalate",
+    "phenylacetate",
+    "para-CF3-benzoate",
+    "para-OMe-benzoate",
+    "para-tBu-benzoate",
+    "35-di-tBu-benzoate"
+  ],
+  "updated_at": "2026-09-28T12:23:07.171312+00:00",
+  "excluded_ids": []
+}

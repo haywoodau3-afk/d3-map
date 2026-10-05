@@ -1,0 +1,86 @@
+{
+  "repository": "d3-map-paper",
+  "status": "prepared-from-local-research-workspace; author, DOI, public URL, and some per-run parameters remain unrecorded",
+  "software": {
+    "d3map": "1.0.0rc1",
+    "python": "3.12+",
+    "xtb": "6.7.1",
+    "crest": "3.0.2 for Au-Cu/Cu-NHC; 2.12 for selected published-Ru/Fe runs"
+  },
+  "data_license": "CC BY 4.0 proposed for project-owned outputs only; third-party materials remain subject to their own terms",
+  "systems": {
+    "fe-porphyrin": {
+      "source": "03-chemical-validation/part3/3c",
+      "population": "Boltzmann weights from relative GFN2-xTB electronic energies at 298.15 K",
+      "charge": 0,
+      "multiplicity": 6,
+      "solvent": "unrecorded/none for the Fe maps",
+      "known_unrecorded": [
+        "energy-row to aligned-frame join in exported per-geometry table",
+        "vibrational and solvent free-energy terms not calculated",
+        "spin-state ordering is a working assignment"
+      ]
+    },
+    "cu-nhc": {
+      "source": "03-chemical-validation/part3/3b and 3f",
+      "systems": [
+        "3a",
+        "3b-syn",
+        "3b-anti",
+        "3c",
+        "3d",
+        "3e",
+        "IMes",
+        "IPr"
+      ],
+      "responses": "Table 1 yield data",
+      "known_unrecorded": [
+        "energies for single/static input geometries",
+        "which run settings apply to each source ensemble unless recorded in the included project manifest"
+      ]
+    },
+    "published-ru": {
+      "source": "03-chemical-validation/part3/3d/stage-a",
+      "systems": [
+        "I",
+        "II",
+        "III"
+      ],
+      "mapping": "static one-geometry maps with unit weight",
+      "solvent": "ALPB-CCl4 maps included; gas-stage source manifest retained",
+      "known_unrecorded": [
+        "sampling inputs not applicable to static maps"
+      ]
+    },
+    "ru2-solvent-pilot": {
+      "source": "03-chemical-validation/part3/3d/metadynamics-xtb/reactive-1a-solvent-contrast",
+      "conditions": [
+        "ccl4-like",
+        "dcm-like"
+      ],
+      "weights": "equal saved-frame weights after 0.2 ps discard",
+      "energy_usage": "biased trajectory energies not used as populations",
+      "known_unrecorded": [
+        "independent replicate blocks; this is one paired pilot per condition"
+      ]
+    },
+    "au-cu": {
+      "source": "03-chemical-validation/4",
+      "systems": [
+        "benzoate",
+        "pivalate",
+        "phenylacetate",
+        "para-CF3-benzoate",
+        "para-OMe-benzoate",
+        "para-tBu-benzoate",
+        "35-di-tBu-benzoate"
+      ],
+      "reference": "common-core-R-H-reference",
+      "sampling": "xTB metadynamics trajectories with uniform saved-frame weights",
+      "known_unrecorded": [
+        "per-frame quarantine list where not present in source records",
+        "exact per-system trajectory frame counts should be checked against source run manifests before public release"
+      ]
+    }
+  }
+}

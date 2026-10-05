@@ -1,0 +1,69 @@
+{
+  "article_doi": "10.1016/j.chempr.2020.02.006",
+  "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2451929420300747-mmc5.zip",
+  "source_cif": "inputs/source/Model_Table_S17_structures.cif",
+  "source_sha256": "e469a14d9ce78d938b06f84ded7e770ed4ff28f6e49d875ab6e5258629d89f1b",
+  "method": "Read dummy-cell Cartesian coordinates; identify covalent components with 1.2 times summed covalent radii excluding metal bonds; preserve both mechanically interlocked ligand components and both metals. No optimization, hydrogen addition or coordinate changes.",
+  "primary_face": "Si",
+  "evidence_status": "published computational TS; extracted scaffold and unrelaxed carbene seed",
+  "records": [
+    {
+      "block": "Entry4_631GCHCl3_TS1RSi",
+      "scaffold": {
+        "file": "structures/gold-complex-scaffold-Rmp-Si.xyz",
+        "atom_count": 146,
+        "formula": "C66H68AuCuN5O4P",
+        "sha256": "2117fa454aa1d6de66f52048fa8f6b27ca1078813ff096ad0e82701ddbe790a2"
+      },
+      "carbene_seed": {
+        "file": "structures/gold-carbene-seed-Rmp-Si.xyz",
+        "atom_count": 172,
+        "formula": "C78H80AuCuN5O6P",
+        "sha256": "b59a5c10190a7916e7a4d65586c4ba7566cb1dc369e3a3650c6819b2669a9df9"
+      },
+      "published_transition_state": {
+        "file": "structures/published-TS1-Rmp-Si.xyz",
+        "atom_count": 188,
+        "formula": "C86H88AuCuN5O6P",
+        "sha256": "e67d7597ba8f653d92efdf38f4da13d52b5592d05cc21e82572ccc0b5af9a880"
+      },
+      "carbene_source_label": "C2",
+      "contacts_angstrom": {
+        "Au-P": 2.395113260369956,
+        "Au-carbene-C": 2.05593012770376,
+        "Cu-N137": 1.9065689261078396,
+        "Cu-N67": 2.076862376278217,
+        "Cu-N68": 2.0124649264024455
+      }
+    },
+    {
+      "block": "Entry4_631GCHCl3_TS1RRe",
+      "scaffold": {
+        "file": "structures/gold-complex-scaffold-Rmp-Re.xyz",
+        "atom_count": 146,
+        "formula": "C66H68AuCuN5O4P",
+        "sha256": "4946c96fcf6fe2edab1a4533199ca70cac29f009523d34aff5f6f63e4786f695"
+      },
+      "carbene_seed": {
+        "file": "structures/gold-carbene-seed-Rmp-Re.xyz",
+        "atom_count": 172,
+        "formula": "C78H80AuCuN5O6P",
+        "sha256": "158790e83d0a8d956f5a4c3fa6b0eeb9074a70368243c92f5a94a00f051bb51d"
+      },
+      "published_transition_state": {
+        "file": "structures/published-TS1-Rmp-Re.xyz",
+        "atom_count": 188,
+        "formula": "C86H88AuCuN5O6P",
+        "sha256": "989988fcc2768beb7ead6c587b6b9a77733100b4a687ceb2d0c7513c3a7c36e6"
+      },
+      "carbene_source_label": "C123",
+      "contacts_angstrom": {
+        "Au-P": 2.3910905127159032,
+        "Au-carbene-C": 2.0563762058533936,
+        "Cu-N1": 2.0698869655128513,
+        "Cu-N2": 2.0130826187715196,
+        "Cu-N70": 1.9048257295616309
+      }
+    }
+  ]
+}

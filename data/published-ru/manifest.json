@@ -1,0 +1,22 @@
+{
+  "systems": [
+    "published_5c_4e_I",
+    "published_5c_4e_II",
+    "published_5c_4e_III"
+  ],
+  "sampling": "static single-geometry map; unit weight",
+  "charge": 0,
+  "multiplicity": 1,
+  "solvents": [
+    "gas",
+    "ALPB-CCl4; selected maps included"
+  ],
+  "software": {
+    "xTB": "6.7.1",
+    "CREST": "2.12 declared in stage-A manifest; no new sampling for static maps",
+    "d3map": "1.0.0rc1"
+  },
+  "known_unrecorded": [
+    "replicate blocks not applicable to static maps; the three seeds are structural variants"
+  ]
+}

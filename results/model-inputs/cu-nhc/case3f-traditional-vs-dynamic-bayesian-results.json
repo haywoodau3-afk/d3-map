@@ -1,0 +1,674 @@
+{
+  "schema": "part3f.traditional-vs-dynamic-bayesian.v1",
+  "status": "completed_exploratory_same_yield_rows_nested_loo_comparison",
+  "unit_of_analysis": "seven catalyst labels; 3b syn/anti conventional descriptor values averaged to its one yield row",
+  "outcome": {
+    "name": "yield_percent",
+    "values": {
+      "3a": 98.0,
+      "3b": 94.0,
+      "3c": 92.0,
+      "3d": 40.0,
+      "3e": 36.0,
+      "IMes": 63.0,
+      "IPr": 42.0
+    },
+    "source": "attached article Table 1 at 0.02 mol%"
+  },
+  "traditional_descriptor_model": {
+    "feature_names": [
+      "dbstep_L_A"
+    ],
+    "evidence": -14.734908180906372,
+    "prior_tau": 0.4735317242569647,
+    "noise_sigma_standardized": 0.9515430799087496,
+    "outcome_mean": 66.42857142857143,
+    "outcome_sd": 27.81999965766321,
+    "predictor_means": {
+      "static_vbur_percent": 43.805484693877546,
+      "static_g_percent": 47.41908482142857,
+      "dbstep_vbur_percent": 43.77177186842643,
+      "dbstep_L_A": 6.452857520714287,
+      "dbstep_Bmin_A": 4.045507634936247,
+      "dbstep_Bmax_A": 7.917284720782633,
+      "morfeus_vbur_percent": 43.73470182465509,
+      "morfeus_G_percent": 47.43720877372429,
+      "morfeus_cone_angle_deg": 174.092903459855,
+      "morfeus_solid_angle_sr": 5.9611354636135,
+      "morfeus_L_A": 6.852857521554742,
+      "morfeus_B1_A": 4.039221854945116,
+      "morfeus_B5_A": 7.917283807860687,
+      "morfeus_SASA_A2": 567.5638182938535,
+      "morfeus_SASA_volume_A3": 949.8503096964331
+    },
+    "predictor_sds": {
+      "static_vbur_percent": 7.883550158578961,
+      "static_g_percent": 7.952353423009484,
+      "dbstep_vbur_percent": 7.883880480944309,
+      "dbstep_L_A": 0.6148397639222292,
+      "dbstep_Bmin_A": 0.723434270940053,
+      "dbstep_Bmax_A": 0.9324560200930163,
+      "morfeus_vbur_percent": 7.864921395894213,
+      "morfeus_G_percent": 7.9062005546904714,
+      "morfeus_cone_angle_deg": 18.217767872853603,
+      "morfeus_solid_angle_sr": 0.9935224632169254,
+      "morfeus_L_A": 0.6148397620397659,
+      "morfeus_B1_A": 0.7247443994568049,
+      "morfeus_B5_A": 0.9324558230071792,
+      "morfeus_SASA_A2": 32.32382865649849,
+      "morfeus_SASA_volume_A3": 75.41370378162978
+    },
+    "weights": [
+      {
+        "feature": "dbstep_L_A",
+        "posterior_weight_standardized": 0.36695470614522874,
+        "posterior_sd_standardized": 0.3003353005314254,
+        "credible_interval_95_standardized": [
+          -0.22170248289636496,
+          0.9556118951868224
+        ],
+        "absolute_contribution_fraction": 1.0
+      }
+    ],
+    "intercept_standardized": -3.556377414781764e-12,
+    "intercept_sd_standardized": 0.35964718308201993,
+    "rmse": 21.303146769942877,
+    "r2_in_sample": 0.3158992477455038,
+    "observed": [
+      98.0,
+      94.0,
+      92.0,
+      40.0,
+      36.0,
+      63.0,
+      42.0
+    ],
+    "predicted": [
+      73.50726065309291,
+      74.33197556977001,
+      75.12945111347946,
+      75.37526746390985,
+      56.71139620188136,
+      55.15652852714409,
+      54.78812047002967
+    ],
+    "predictive_sd": [
+      28.886609894190478,
+      29.02952056223775,
+      29.181896778866058,
+      29.23164414882505,
+      29.39594825695251,
+      29.76546912006547,
+      29.860301208847464
+    ],
+    "descriptor_score": [
+      0.2544460572151932,
+      0.28409073467118023,
+      0.31275628296459224,
+      0.32159224103271783,
+      -0.34928739562059896,
+      -0.4051776793686424,
+      -0.4184202408944453
+    ],
+    "weighted_score": [
+      0.2544460572151932,
+      0.28409073467118023,
+      0.31275628296459224,
+      0.32159224103271783,
+      -0.34928739562059896,
+      -0.4051776793686424,
+      -0.4184202408944453
+    ],
+    "fitted_standardized": [
+      0.2544460572116368,
+      0.28409073466762386,
+      0.31275628296103586,
+      0.32159224102916145,
+      -0.34928739562415534,
+      -0.4051776793721988,
+      -0.41842024089800167
+    ],
+    "loo_predicted": [
+      67.49696493762036,
+      69.14565613838332,
+      70.3924673208116,
+      85.18459975815364,
+      62.963480912946025,
+      51.73416761738929,
+      59.01262270539757
+    ],
+    "loo_predictive_sd": [
+      27.88089486207955,
+      29.182538177716108,
+      29.908197011235522,
+      29.790484207301983,
+      29.015818699711797,
+      33.857277894372054,
+      31.46562574081416
+    ],
+    "loo_rmse": 27.255627712789025,
+    "loo_r2": -0.11981150737985269,
+    "loo_coverage_95": 1.0,
+    "loo_intercept_rmse": 30.04903400185178,
+    "loo_intercept_r2": -0.3611111111111107,
+    "loo_improves_intercept": true,
+    "nested_loo_predicted": [
+      65.49323106602534,
+      61.75866239289534,
+      67.78874871459752,
+      95.66025063263997,
+      69.8178454103673,
+      44.855258822820204,
+      111.45648835556847
+    ],
+    "nested_loo_predictive_sd": [
+      27.64169980165276,
+      29.632195889816156,
+      29.510762252464698,
+      14.624250840371545,
+      28.50287615235695,
+      27.290829527442373,
+      4.616678380241662
+    ],
+    "nested_loo_rmse": 41.53746010150508,
+    "nested_loo_r2": -1.600832738341297,
+    "nested_loo_coverage_95": 0.7142857142857143,
+    "nested_loo_selected_features": [
+      [
+        "dbstep_L_A"
+      ],
+      [
+        "dbstep_L_A",
+        "dbstep_Bmax_A"
+      ],
+      [
+        "dbstep_L_A"
+      ],
+      [
+        "dbstep_L_A",
+        "morfeus_L_A"
+      ],
+      [
+        "dbstep_L_A",
+        "morfeus_L_A",
+        "morfeus_B1_A"
+      ],
+      [
+        "dbstep_L_A",
+        "morfeus_L_A"
+      ],
+      [
+        "dbstep_L_A",
+        "morfeus_vbur_percent",
+        "morfeus_SASA_A2"
+      ]
+    ],
+    "nested_loo_feature_selection_frequency": {
+      "dbstep_L_A": 7,
+      "dbstep_Bmax_A": 1,
+      "morfeus_L_A": 3,
+      "morfeus_B1_A": 1,
+      "morfeus_vbur_percent": 1,
+      "morfeus_SASA_A2": 1
+    },
+    "nested_loo_intercept_rmse": 30.04903400185178,
+    "nested_loo_intercept_r2": -0.3611111111111107,
+    "nested_loo_improves_intercept": false,
+    "permutation_count": 2000,
+    "permutation_seed": 20260922,
+    "permutation_loo_r2_mean": -0.4456026886512495,
+    "permutation_loo_r2_sd": 0.3162628840260365,
+    "permutation_loo_r2_95_interval": [
+      -0.6917075229106376,
+      0.5587193185894692
+    ],
+    "permutation_p_ge_observed": 0.15092453773113443,
+    "candidate_feature_count": 15,
+    "candidate_features": [
+      "static_vbur_percent",
+      "static_g_percent",
+      "dbstep_vbur_percent",
+      "dbstep_L_A",
+      "dbstep_Bmin_A",
+      "dbstep_Bmax_A",
+      "morfeus_vbur_percent",
+      "morfeus_G_percent",
+      "morfeus_cone_angle_deg",
+      "morfeus_solid_angle_sr",
+      "morfeus_L_A",
+      "morfeus_B1_A",
+      "morfeus_B5_A",
+      "morfeus_SASA_A2",
+      "morfeus_SASA_volume_A3"
+    ],
+    "feature_origin": "static descriptors only; no d2/d3 dynamic-map-derived features; DBSTEP 1.1.0 and Morfeus-ML 0.8.0 evaluated on the unchanged static input geometries",
+    "static_vbur_and_solid_g_origin": "existing Case 3f static input-geometry d2 descriptor outputs; no CREST population averaging",
+    "selection_policy": "Gaussian Bayesian ridge marginal-likelihood selection of 1-3 descriptors from the traditional candidate set; all scaling, subset selection, prior/noise selection, and posterior fitting repeated inside every leave-one-catalyst-out training fold",
+    "cone_angle_note": "Morfeus SolidAngle cone_angle, a generalized Tolman-style steric cone-angle descriptor for Cu-NHC structures; not a phosphine-specific canonical Tolman angle",
+    "sterimol_note": "Morfeus Sterimol L/B1/B5 and DBSTEP classic L/Bmin/Bmax, with the Cu-to-carbene axis declared as the measurement axis"
+  },
+  "traditional_all_features_model": {
+    "feature_names": [
+      "static_vbur_percent",
+      "static_g_percent",
+      "dbstep_vbur_percent",
+      "dbstep_L_A",
+      "dbstep_Bmin_A",
+      "dbstep_Bmax_A",
+      "morfeus_vbur_percent",
+      "morfeus_G_percent",
+      "morfeus_cone_angle_deg",
+      "morfeus_solid_angle_sr",
+      "morfeus_L_A",
+      "morfeus_B1_A",
+      "morfeus_B5_A",
+      "morfeus_SASA_A2",
+      "morfeus_SASA_volume_A3"
+    ],
+    "evidence": -15.116307626938907,
+    "prior_tau": 0.08,
+    "noise_sigma_standardized": 0.9515430799087496,
+    "outcome_mean": 66.42857142857143,
+    "outcome_sd": 27.81999965766321,
+    "predictor_means": {
+      "static_vbur_percent": 43.805484693877546,
+      "static_g_percent": 47.41908482142857,
+      "dbstep_vbur_percent": 43.77177186842643,
+      "dbstep_L_A": 6.452857520714287,
+      "dbstep_Bmin_A": 4.045507634936247,
+      "dbstep_Bmax_A": 7.917284720782633,
+      "morfeus_vbur_percent": 43.73470182465509,
+      "morfeus_G_percent": 47.43720877372429,
+      "morfeus_cone_angle_deg": 174.092903459855,
+      "morfeus_solid_angle_sr": 5.9611354636135,
+      "morfeus_L_A": 6.852857521554742,
+      "morfeus_B1_A": 4.039221854945116,
+      "morfeus_B5_A": 7.917283807860687,
+      "morfeus_SASA_A2": 567.5638182938535,
+      "morfeus_SASA_volume_A3": 949.8503096964331
+    },
+    "predictor_sds": {
+      "static_vbur_percent": 7.883550158578961,
+      "static_g_percent": 7.952353423009484,
+      "dbstep_vbur_percent": 7.883880480944309,
+      "dbstep_L_A": 0.6148397639222292,
+      "dbstep_Bmin_A": 0.723434270940053,
+      "dbstep_Bmax_A": 0.9324560200930163,
+      "morfeus_vbur_percent": 7.864921395894213,
+      "morfeus_G_percent": 7.9062005546904714,
+      "morfeus_cone_angle_deg": 18.217767872853603,
+      "morfeus_solid_angle_sr": 0.9935224632169254,
+      "morfeus_L_A": 0.6148397620397659,
+      "morfeus_B1_A": 0.7247443994568049,
+      "morfeus_B5_A": 0.9324558230071792,
+      "morfeus_SASA_A2": 32.32382865649849,
+      "morfeus_SASA_volume_A3": 75.41370378162978
+    },
+    "weights": [
+      {
+        "feature": "static_vbur_percent",
+        "posterior_weight_standardized": 0.005188724647070563,
+        "posterior_sd_standardized": 0.0788171695529483,
+        "credible_interval_95_standardized": [
+          -0.1492929276767081,
+          0.15967037697084924
+        ],
+        "absolute_contribution_fraction": 0.03411088826858717
+      },
+      {
+        "feature": "static_g_percent",
+        "posterior_weight_standardized": 0.007815562574429549,
+        "posterior_sd_standardized": 0.07882869425150087,
+        "credible_interval_95_standardized": [
+          -0.14668867815851214,
+          0.16231980330737125
+        ],
+        "absolute_contribution_fraction": 0.05137982835204636
+      },
+      {
+        "feature": "dbstep_vbur_percent",
+        "posterior_weight_standardized": 0.0052307161215785335,
+        "posterior_sd_standardized": 0.07881685140933857,
+        "credible_interval_95_standardized": [
+          -0.14925031264072508,
+          0.15971174488388212
+        ],
+        "absolute_contribution_fraction": 0.03438694194123355
+      },
+      {
+        "feature": "dbstep_L_A",
+        "posterior_weight_standardized": 0.02350158580276579,
+        "posterior_sd_standardized": 0.07846618127887205,
+        "credible_interval_95_standardized": [
+          -0.1302921295038234,
+          0.17729530110935499
+        ],
+        "absolute_contribution_fraction": 0.15450038727827994
+      },
+      {
+        "feature": "dbstep_Bmin_A",
+        "posterior_weight_standardized": -0.010486100460728932,
+        "posterior_sd_standardized": 0.0786776176251399,
+        "credible_interval_95_standardized": [
+          -0.16469423100600314,
+          0.1437220300845453
+        ],
+        "absolute_contribution_fraction": 0.06893605375476013
+      },
+      {
+        "feature": "dbstep_Bmax_A",
+        "posterior_weight_standardized": -0.011085860951517226,
+        "posterior_sd_standardized": 0.07872804508640532,
+        "credible_interval_95_standardized": [
+          -0.16539282932087165,
+          0.1432211074178372
+        ],
+        "absolute_contribution_fraction": 0.07287890377682534
+      },
+      {
+        "feature": "morfeus_vbur_percent",
+        "posterior_weight_standardized": 0.005023734540188333,
+        "posterior_sd_standardized": 0.078817669296179,
+        "credible_interval_95_standardized": [
+          -0.1494588972803225,
+          0.15950636636069918
+        ],
+        "absolute_contribution_fraction": 0.033026236550855445
+      },
+      {
+        "feature": "morfeus_G_percent",
+        "posterior_weight_standardized": 0.007694880051139025,
+        "posterior_sd_standardized": 0.0788275602036615,
+        "credible_interval_95_standardized": [
+          -0.1468071379480375,
+          0.16219689805031556
+        ],
+        "absolute_contribution_fraction": 0.05058645650290451
+      },
+      {
+        "feature": "morfeus_cone_angle_deg",
+        "posterior_weight_standardized": 0.007684889539672036,
+        "posterior_sd_standardized": 0.07882764677539296,
+        "credible_interval_95_standardized": [
+          -0.14681729814009817,
+          0.16218707721944223
+        ],
+        "absolute_contribution_fraction": 0.05052077847148519
+      },
+      {
+        "feature": "morfeus_solid_angle_sr",
+        "posterior_weight_standardized": 0.007694880051139007,
+        "posterior_sd_standardized": 0.0788275602036615,
+        "credible_interval_95_standardized": [
+          -0.14680713794803754,
+          0.16219689805031554
+        ],
+        "absolute_contribution_fraction": 0.0505864565029044
+      },
+      {
+        "feature": "morfeus_L_A",
+        "posterior_weight_standardized": 0.02350158579022739,
+        "posterior_sd_standardized": 0.07846618127901005,
+        "credible_interval_95_standardized": [
+          -0.13029212951663233,
+          0.17729530109708708
+        ],
+        "absolute_contribution_fraction": 0.154500387195852
+      },
+      {
+        "feature": "morfeus_B1_A",
+        "posterior_weight_standardized": -0.01050661804101397,
+        "posterior_sd_standardized": 0.07867558544337062,
+        "credible_interval_95_standardized": [
+          -0.1647107655100204,
+          0.14369752942799247
+        ],
+        "absolute_contribution_fraction": 0.06907093716759256
+      },
+      {
+        "feature": "morfeus_B5_A",
+        "posterior_weight_standardized": -0.011085844775770782,
+        "posterior_sd_standardized": 0.0787280452014921,
+        "credible_interval_95_standardized": [
+          -0.1653928133706953,
+          0.14322112381915372
+        ],
+        "absolute_contribution_fraction": 0.07287879743680593
+      },
+      {
+        "feature": "morfeus_SASA_A2",
+        "posterior_weight_standardized": 0.008990263836886158,
+        "posterior_sd_standardized": 0.07864339636717635,
+        "credible_interval_95_standardized": [
+          -0.14515079304277947,
+          0.16313132071655181
+        ],
+        "absolute_contribution_fraction": 0.05910236254650363
+      },
+      {
+        "feature": "morfeus_SASA_volume_A3",
+        "posterior_weight_standardized": 0.006622195485991489,
+        "posterior_sd_standardized": 0.07872185043947624,
+        "credible_interval_95_standardized": [
+          -0.14767263137538195,
+          0.16091702234736494
+        ],
+        "absolute_contribution_fraction": 0.04353458425336365
+      }
+    ],
+    "intercept_standardized": -1.0106082637406644e-12,
+    "intercept_sd_standardized": 0.35964714155825844,
+    "rmse": 24.399698610391724,
+    "r2_in_sample": 0.10256816213561692,
+    "observed": [
+      98.0,
+      94.0,
+      92.0,
+      40.0,
+      36.0,
+      63.0,
+      42.0
+    ],
+    "predicted": [
+      69.83491378404327,
+      67.13434695664601,
+      68.0177354095666,
+      66.38202609013139,
+      63.38073946726673,
+      63.120536490862065,
+      67.12970180128715
+    ],
+    "predictive_sd": [
+      29.484786268761034,
+      28.518875228302566,
+      28.83135518755525,
+      28.782180423696847,
+      29.1548264923814,
+      29.01524423803946,
+      30.07176219154991
+    ],
+    "descriptor_score": [
+      0.1224422141414963,
+      0.02536935790034346,
+      0.057123076943875244,
+      -0.0016730891080046014,
+      -0.10955542770601867,
+      -0.11890851827419156,
+      0.025202386102499644
+    ],
+    "weighted_score": [
+      0.1224422141414963,
+      0.02536935790034346,
+      0.057123076943875244,
+      -0.0016730891080046014,
+      -0.10955542770601867,
+      -0.11890851827419156,
+      0.025202386102499644
+    ],
+    "fitted_standardized": [
+      0.12244221414048569,
+      0.025369357899332853,
+      0.057123076942864635,
+      -0.0016730891090152096,
+      -0.10955542770702928,
+      -0.11890851827520217,
+      0.025202386101489036
+    ],
+    "loo_predicted": [
+      60.80323962961057,
+      61.964520065442336,
+      62.60193594037265,
+      72.23829889047987,
+      70.73810549747944,
+      62.835000880904154,
+      80.50108861080572
+    ],
+    "loo_predictive_sd": [
+      29.071600074856256,
+      28.451118110199833,
+      29.47423793019604,
+      29.074128320235403,
+      28.662319118855876,
+      32.5894859692962,
+      32.84760144163517
+    ],
+    "loo_rmse": 31.628472852740764,
+    "loo_r2": -0.5079571296016554,
+    "loo_coverage_95": 1.0,
+    "nested_loo_predicted": [
+      60.80323962961057,
+      61.964520065442336,
+      62.60193594037265,
+      82.79068335165417,
+      70.73810549747944,
+      62.835000880904154,
+      95.05187434063393
+    ],
+    "nested_loo_predictive_sd": [
+      29.071600074856256,
+      28.451118110199833,
+      29.47423793019604,
+      26.28004506710277,
+      28.662319118855876,
+      32.5894859692962,
+      32.06783619463627
+    ],
+    "nested_loo_rmse": 36.107823208833906,
+    "nested_loo_r2": -0.9653285531021911,
+    "nested_loo_coverage_95": 1.0,
+    "candidate_feature_count": 15,
+    "candidate_features": [
+      "static_vbur_percent",
+      "static_g_percent",
+      "dbstep_vbur_percent",
+      "dbstep_L_A",
+      "dbstep_Bmin_A",
+      "dbstep_Bmax_A",
+      "morfeus_vbur_percent",
+      "morfeus_G_percent",
+      "morfeus_cone_angle_deg",
+      "morfeus_solid_angle_sr",
+      "morfeus_L_A",
+      "morfeus_B1_A",
+      "morfeus_B5_A",
+      "morfeus_SASA_A2",
+      "morfeus_SASA_volume_A3"
+    ],
+    "selection_policy": "fixed all-feature set; evidence-selected prior/noise and standardization refit in each nested LOO fold; no feature subset selection"
+  },
+  "dynamic_map_model": {
+    "candidate_feature_count": 27,
+    "candidate_features": [
+      "d2_pocket_steric_entropy_volume_angstrom3_nat",
+      "d2_pocket_steric_entropy_sum",
+      "d3_d2_delta_pocket_steric_entropy_sum",
+      "d2_normalized_pocket_flexibility",
+      "d2_persistent_open_fraction",
+      "d2_breathing_fraction",
+      "d2_persistent_blocked_fraction",
+      "d2_approach_accessibility_mean",
+      "d3_d2_delta_approach_accessibility_mean",
+      "d2_pocket_weighted_vbur_percent",
+      "d2_pocket_integrated_vbur_percent",
+      "d3_d2_delta_pocket_weighted_vbur_percent",
+      "d3_d2_delta_pocket_integrated_vbur_percent",
+      "d3_delta_vbur_percent_mean",
+      "d3_delta_g_percent_mean",
+      "d3_changed_occupation_area_fraction",
+      "d3_changed_pocket_occupation_area_fraction",
+      "d3_changed_shielding_probability_area_fraction",
+      "d3_changed_topographic_contact_probability_area_fraction",
+      "d3_changed_topographic_first_contact_interval_10_90_area_fraction",
+      "d3_changed_topographic_first_contact_q50_area_fraction",
+      "d3_changed_topographic_occupied_depth_area_fraction",
+      "d3_changed_v2_adaptive_class_area_fraction",
+      "d2_quadrant_asymmetry_variance",
+      "d3_d2_delta_quadrant_asymmetry_variance",
+      "d2_displaced_g_mean_2",
+      "d2_displaced_vbur_mean_2"
+    ],
+    "r2_in_sample": 0.9994206463429128,
+    "nested_loo_r2": 0.7940934287067317,
+    "nested_loo_rmse": 11.687424784399667,
+    "nested_loo_predicted": [
+      106.30795487738276,
+      93.27659589334817,
+      89.37023664173977,
+      39.59687312929664,
+      34.789362659862924,
+      92.56831233206877,
+      43.94857777889747
+    ],
+    "selected_features_full_data": [
+      "d2_normalized_pocket_flexibility",
+      "d3_changed_topographic_first_contact_q50_area_fraction",
+      "d2_displaced_g_mean_2"
+    ],
+    "selected_features_by_nested_fold": [
+      [
+        "d2_breathing_fraction",
+        "d3_changed_topographic_first_contact_q50_area_fraction",
+        "d2_displaced_g_mean_2"
+      ],
+      [
+        "d2_pocket_steric_entropy_volume_angstrom3_nat",
+        "d3_changed_topographic_first_contact_q50_area_fraction",
+        "d2_displaced_g_mean_2"
+      ],
+      [
+        "d2_normalized_pocket_flexibility",
+        "d3_changed_topographic_first_contact_q50_area_fraction",
+        "d2_displaced_g_mean_2"
+      ],
+      [
+        "d2_pocket_steric_entropy_volume_angstrom3_nat",
+        "d3_changed_topographic_first_contact_q50_area_fraction",
+        "d2_displaced_g_mean_2"
+      ],
+      [
+        "d2_pocket_steric_entropy_volume_angstrom3_nat",
+        "d3_changed_topographic_first_contact_q50_area_fraction",
+        "d2_displaced_g_mean_2"
+      ],
+      [
+        "d2_persistent_open_fraction",
+        "d2_displaced_g_mean_2"
+      ],
+      [
+        "d2_pocket_steric_entropy_volume_angstrom3_nat",
+        "d3_changed_topographic_first_contact_q50_area_fraction",
+        "d2_displaced_g_mean_2"
+      ]
+    ],
+    "feature_origin": "dynamic CREST d2 ensemble and paired d3-map-derived features from the existing Case 3f 27-feature core"
+  },
+  "bayesian_protocol": "Same Case 3d/Case 3f Gaussian Bayesian ridge evidence grid, standardized outcomes and predictors, model-size cap of three, and nested leave-one-catalyst-out feature/hyperparameter selection for both representations.",
+  "interpretation_limit": "Exploratory comparison only (n=7). Three catalysts use xTB-constructed exploratory geometries; negative or positive LOO R2 is unstable at this sample size and does not establish prospective predictive performance or causation.",
+  "files": {
+    "traditional_feature_matrix": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/case3f-traditional-static-features.csv",
+    "per_structure_descriptors": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/case3f-traditional-per-structure.csv",
+    "catalyst_level_predictions": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/case3f-traditional-vs-dynamic-predictions.csv",
+    "comparison_plot": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/yield_traditional_vs_dynamic_bayesian.png"
+  },
+  "traditional_structure_count": 8
+}

@@ -1,0 +1,85 @@
+outcome,model,structure_number,structure_id,product,observed,loo_prediction,validation
+yield_percent,d3map_27_feature_core,1,benzoate,9,86.0,1.6838919754847836,nested LOO
+yield_percent,d3map_27_feature_core,2,pivalate,13,90.0,-1.0091785846906731,nested LOO
+yield_percent,d3map_27_feature_core,3,phenylacetate,14,40.0,125.12150381008132,nested LOO
+yield_percent,d3map_27_feature_core,4,para-CF3-benzoate,15,45.0,68.32723921642902,nested LOO
+yield_percent,d3map_27_feature_core,5,para-OMe-benzoate,16,48.0,88.52215756554564,nested LOO
+yield_percent,d3map_27_feature_core,6,para-tBu-benzoate,17,79.0,47.114334766651254,nested LOO
+yield_percent,d3map_27_feature_core,7,35-di-tBu-benzoate,18,68.0,-46.66678031576586,nested LOO
+yield_percent,full_dynamic_d2_d3_pool,1,benzoate,9,86.0,88.58255144058631,fixed LOO
+yield_percent,full_dynamic_d2_d3_pool,2,pivalate,13,90.0,91.76066005670597,fixed LOO
+yield_percent,full_dynamic_d2_d3_pool,3,phenylacetate,14,40.0,39.367809270534636,fixed LOO
+yield_percent,full_dynamic_d2_d3_pool,4,para-CF3-benzoate,15,45.0,45.28826881563914,fixed LOO
+yield_percent,full_dynamic_d2_d3_pool,5,para-OMe-benzoate,16,48.0,49.098031470881175,fixed LOO
+yield_percent,full_dynamic_d2_d3_pool,6,para-tBu-benzoate,17,79.0,77.24443636075414,fixed LOO
+yield_percent,full_dynamic_d2_d3_pool,7,35-di-tBu-benzoate,18,68.0,67.04258887802891,fixed LOO
+yield_percent,traditional_case3f_selected_1_to_3,1,benzoate,9,86.0,27.072933817501628,nested LOO
+yield_percent,traditional_case3f_selected_1_to_3,2,pivalate,13,90.0,59.38089839541512,nested LOO
+yield_percent,traditional_case3f_selected_1_to_3,3,phenylacetate,14,40.0,125.07997280945142,nested LOO
+yield_percent,traditional_case3f_selected_1_to_3,4,para-CF3-benzoate,15,45.0,68.54708327653276,nested LOO
+yield_percent,traditional_case3f_selected_1_to_3,5,para-OMe-benzoate,16,48.0,72.18041697504432,nested LOO
+yield_percent,traditional_case3f_selected_1_to_3,6,para-tBu-benzoate,17,79.0,61.36506023149765,nested LOO
+yield_percent,traditional_case3f_selected_1_to_3,7,35-di-tBu-benzoate,18,68.0,-146.90057651577342,nested LOO
+yield_percent,traditional_case3f_all_15,1,benzoate,9,86.0,61.13095376313873,nested LOO; all 15 fixed
+yield_percent,traditional_case3f_all_15,2,pivalate,13,90.0,59.226822477504086,nested LOO; all 15 fixed
+yield_percent,traditional_case3f_all_15,3,phenylacetate,14,40.0,70.71489001335263,nested LOO; all 15 fixed
+yield_percent,traditional_case3f_all_15,4,para-CF3-benzoate,15,45.0,68.22310290228813,nested LOO; all 15 fixed
+yield_percent,traditional_case3f_all_15,5,para-OMe-benzoate,16,48.0,68.18297911483303,nested LOO; all 15 fixed
+yield_percent,traditional_case3f_all_15,6,para-tBu-benzoate,17,79.0,62.95498644143981,nested LOO; all 15 fixed
+yield_percent,traditional_case3f_all_15,7,35-di-tBu-benzoate,18,68.0,54.39269329121506,nested LOO; all 15 fixed
+de_percent,d3map_27_feature_core,1,benzoate,9,88.0,85.00752103354789,nested LOO
+de_percent,d3map_27_feature_core,2,pivalate,13,94.0,98.90131065942589,nested LOO
+de_percent,d3map_27_feature_core,3,phenylacetate,14,94.0,91.76014281630621,nested LOO
+de_percent,d3map_27_feature_core,4,para-CF3-benzoate,15,92.0,91.45125021152984,nested LOO
+de_percent,d3map_27_feature_core,5,para-OMe-benzoate,16,88.0,89.54048619475174,nested LOO
+de_percent,d3map_27_feature_core,6,para-tBu-benzoate,17,90.0,89.26003667183046,nested LOO
+de_percent,d3map_27_feature_core,7,35-di-tBu-benzoate,18,92.0,91.15176989536263,nested LOO
+de_percent,full_dynamic_d2_d3_pool,1,benzoate,9,88.0,88.78479121372874,fixed LOO
+de_percent,full_dynamic_d2_d3_pool,2,pivalate,13,94.0,94.1838831667985,fixed LOO
+de_percent,full_dynamic_d2_d3_pool,3,phenylacetate,14,94.0,93.75482548035873,fixed LOO
+de_percent,full_dynamic_d2_d3_pool,4,para-CF3-benzoate,15,92.0,92.15156864531168,fixed LOO
+de_percent,full_dynamic_d2_d3_pool,5,para-OMe-benzoate,16,88.0,87.84756519125375,fixed LOO
+de_percent,full_dynamic_d2_d3_pool,6,para-tBu-benzoate,17,90.0,90.04504566619245,fixed LOO
+de_percent,full_dynamic_d2_d3_pool,7,35-di-tBu-benzoate,18,92.0,91.89893263711026,fixed LOO
+de_percent,traditional_case3f_selected_1_to_3,1,benzoate,9,88.0,91.53985410067325,nested LOO
+de_percent,traditional_case3f_selected_1_to_3,2,pivalate,13,94.0,89.59376305945743,nested LOO
+de_percent,traditional_case3f_selected_1_to_3,3,phenylacetate,14,94.0,90.82636129557896,nested LOO
+de_percent,traditional_case3f_selected_1_to_3,4,para-CF3-benzoate,15,92.0,88.30421003348415,nested LOO
+de_percent,traditional_case3f_selected_1_to_3,5,para-OMe-benzoate,16,88.0,91.43787061671594,nested LOO
+de_percent,traditional_case3f_selected_1_to_3,6,para-tBu-benzoate,17,90.0,91.00891328180057,nested LOO
+de_percent,traditional_case3f_selected_1_to_3,7,35-di-tBu-benzoate,18,92.0,87.45915176444163,nested LOO
+de_percent,traditional_case3f_all_15,1,benzoate,9,88.0,91.79794254582637,nested LOO; all 15 fixed
+de_percent,traditional_case3f_all_15,2,pivalate,13,94.0,90.50952179645182,nested LOO; all 15 fixed
+de_percent,traditional_case3f_all_15,3,phenylacetate,14,94.0,90.5943363400814,nested LOO; all 15 fixed
+de_percent,traditional_case3f_all_15,4,para-CF3-benzoate,15,92.0,90.89869774481531,nested LOO; all 15 fixed
+de_percent,traditional_case3f_all_15,5,para-OMe-benzoate,16,88.0,91.62497384923091,nested LOO; all 15 fixed
+de_percent,traditional_case3f_all_15,6,para-tBu-benzoate,17,90.0,91.26217497502651,nested LOO; all 15 fixed
+de_percent,traditional_case3f_all_15,7,35-di-tBu-benzoate,18,92.0,90.07165283528724,nested LOO; all 15 fixed
+ee_cis_percent,d3map_27_feature_core,1,benzoate,9,57.0,75.44594334337829,nested LOO
+ee_cis_percent,d3map_27_feature_core,2,pivalate,13,10.0,62.75682331780149,nested LOO
+ee_cis_percent,d3map_27_feature_core,3,phenylacetate,14,54.0,35.491114174001936,nested LOO
+ee_cis_percent,d3map_27_feature_core,4,para-CF3-benzoate,15,46.0,64.6361836808679,nested LOO
+ee_cis_percent,d3map_27_feature_core,5,para-OMe-benzoate,16,42.0,87.83451890424885,nested LOO
+ee_cis_percent,d3map_27_feature_core,6,para-tBu-benzoate,17,74.0,-3.6366290026005075,nested LOO
+ee_cis_percent,d3map_27_feature_core,7,35-di-tBu-benzoate,18,78.0,-68.56614117999979,nested LOO
+ee_cis_percent,full_dynamic_d2_d3_pool,1,benzoate,9,57.0,56.113942433271674,fixed LOO
+ee_cis_percent,full_dynamic_d2_d3_pool,2,pivalate,13,10.0,11.950236745047995,fixed LOO
+ee_cis_percent,full_dynamic_d2_d3_pool,3,phenylacetate,14,54.0,52.88340782537622,fixed LOO
+ee_cis_percent,full_dynamic_d2_d3_pool,4,para-CF3-benzoate,15,46.0,46.35081867336091,fixed LOO
+ee_cis_percent,full_dynamic_d2_d3_pool,5,para-OMe-benzoate,16,42.0,41.40680322600213,fixed LOO
+ee_cis_percent,full_dynamic_d2_d3_pool,6,para-tBu-benzoate,17,74.0,77.84406872804878,fixed LOO
+ee_cis_percent,full_dynamic_d2_d3_pool,7,35-di-tBu-benzoate,18,78.0,79.15128418104709,fixed LOO
+ee_cis_percent,traditional_case3f_selected_1_to_3,1,benzoate,9,57.0,4.785610385100952,nested LOO
+ee_cis_percent,traditional_case3f_selected_1_to_3,2,pivalate,13,10.0,45.94584886249304,nested LOO
+ee_cis_percent,traditional_case3f_selected_1_to_3,3,phenylacetate,14,54.0,81.01225854169668,nested LOO
+ee_cis_percent,traditional_case3f_selected_1_to_3,4,para-CF3-benzoate,15,46.0,61.37777953897634,nested LOO
+ee_cis_percent,traditional_case3f_selected_1_to_3,5,para-OMe-benzoate,16,42.0,69.63663027422037,nested LOO
+ee_cis_percent,traditional_case3f_selected_1_to_3,6,para-tBu-benzoate,17,74.0,21.96618951249735,nested LOO
+ee_cis_percent,traditional_case3f_selected_1_to_3,7,35-di-tBu-benzoate,18,78.0,58.578292838864385,nested LOO
+ee_cis_percent,traditional_case3f_all_15,1,benzoate,9,57.0,43.726873020679285,nested LOO; all 15 fixed
+ee_cis_percent,traditional_case3f_all_15,2,pivalate,13,10.0,54.10955037414337,nested LOO; all 15 fixed
+ee_cis_percent,traditional_case3f_all_15,3,phenylacetate,14,54.0,43.0637656101434,nested LOO; all 15 fixed
+ee_cis_percent,traditional_case3f_all_15,4,para-CF3-benzoate,15,46.0,58.28284023668648,nested LOO; all 15 fixed
+ee_cis_percent,traditional_case3f_all_15,5,para-OMe-benzoate,16,42.0,54.078765276799466,nested LOO; all 15 fixed
+ee_cis_percent,traditional_case3f_all_15,6,para-tBu-benzoate,17,74.0,30.68404722427401,nested LOO; all 15 fixed
+ee_cis_percent,traditional_case3f_all_15,7,35-di-tBu-benzoate,18,78.0,65.33164210080781,nested LOO; all 15 fixed

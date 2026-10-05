@@ -1,0 +1,25 @@
+{
+  "systems": [
+    "benzoate",
+    "pivalate",
+    "phenylacetate",
+    "para-CF3-benzoate",
+    "para-OMe-benzoate",
+    "para-tBu-benzoate",
+    "35-di-tBu-benzoate"
+  ],
+  "reference": "common-core-R-H-reference",
+  "sampling": "xTB metadynamics trajectories; equal frame weights",
+  "charge": 2,
+  "multiplicity": 1,
+  "solvent": "CHCl3 (ALPB)",
+  "software": {
+    "xTB": "6.7.1",
+    "CREST": "3.0.2 (selected workflows; trajectory fallback is recorded)",
+    "d3map": "1.0.0rc1"
+  },
+  "known_unrecorded": [
+    "per-frame quarantine lists where absent in source",
+    "trajectory-to-retained-frame correspondence for incomplete fallback logs"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "systems": [
+    "Fe(TDCPP)Cl",
+    "Fe(TMP)Cl",
+    "Fe(TPP)Cl"
+  ],
+  "sampling": "CREST conformers; Boltzmann weights from relative GFN2-xTB electronic energies",
+  "temperature_K": 298.15,
+  "charge": 0,
+  "multiplicity": 6,
+  "solvent": null,
+  "software": {
+    "xTB": "6.7.1",
+    "CREST": "2.12",
+    "d3map": "1.0.0rc1"
+  },
+  "known_unrecorded": [
+    "aligned-frame to raw CREST energy-row join",
+    "spin-state ordering validation",
+    "free-energy corrections"
+  ],
+  "energy_provenance": {
+    "values": "Copied from each source analysis-energy-weighted.json population.energies array; values are GFN2-xTB electronic energies in hartree, in source CREST-energy order.",
+    "source_records_bundled": false,
+    "energy_row_to_retained_frame_join": "unrecorded",
+    "weights": "Stored in weights.csv from the archived per-geometry descriptor records; do not assume row-level energy/frame pairing where the join was not retained."
+  }
+}

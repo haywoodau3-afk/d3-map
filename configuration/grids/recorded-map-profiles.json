@@ -1,0 +1,61 @@
+{
+  "source_run_profile": {
+    "axial": {
+      "spacing": 0.25,
+      "transverse_radius": 3.5,
+      "z_max": 2.0,
+      "z_min": 0.0
+    },
+    "displaced_scan": {
+      "direction_count": 8192,
+      "spacing": 0.25,
+      "sphere_spacing": 0.2,
+      "z_max": 2.0,
+      "z_min": 0.0
+    },
+    "field": {
+      "spacing": 0.25
+    },
+    "field_radii_profile": "dmap_vdw_v0.1",
+    "reporting": {
+      "enabled": true,
+      "ml_fraction_resolutions": [
+        1,
+        2,
+        4
+      ],
+      "office_reports": false,
+      "retain_per_frame_topographic_fields": false,
+      "topographic_spacing": 0.25,
+      "z_max": 2.0,
+      "z_min": 0.0,
+      "z_spacing": 0.5
+    },
+    "static": {
+      "direction_count": 8192,
+      "spacing": 0.2,
+      "sphere_radius": 3.5
+    },
+    "temperature": 298.15,
+    "vbur_radii_profile": "sambvca_2.1"
+  },
+  "comparison_tolerances": {
+    "contact_probability": 0.01,
+    "first_contact_interval_10_90": 0.05,
+    "first_contact_q50": 0.05,
+    "occupied_depth": 0.05
+  },
+  "recorded_persistence_thresholds": {
+    "persistent_open_pocc_below": 0.1,
+    "persistent_blocked_pocc_above": 0.9
+  },
+  "probe_accessibility": {
+    "probe_radii_angstrom": "unrecorded in exported run manifest",
+    "depth_increment_angstrom": "unrecorded in exported run manifest"
+  },
+  "angular_sampling": {
+    "static_direction_count": 8192,
+    "displaced_scan_direction_count": 8192
+  },
+  "source": "03-chemical-validation/part3/3c/run-manifest.json and saved project config"
+}

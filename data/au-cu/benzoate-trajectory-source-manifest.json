@@ -1,0 +1,43 @@
+{
+  "schema": "case4.xtb-metadynamics-xyz-ensemble.v1",
+  "status": "validated",
+  "complex": "Structure 1; Au-Cu benzoate carbene complex",
+  "product": 9,
+  "atom_count": 172,
+  "frame_count": 105,
+  "format": "multi-frame XYZ; source trajectory copied without coordinate or comment changes",
+  "sampling_method": "GFN2-xTB metadynamics trajectory",
+  "xtb_version": "6.7.1",
+  "charge": 2,
+  "multiplicity": 1,
+  "solvent_model": "ALPB(CHCl3)",
+  "frozen_atoms_1based": [
+    2
+  ],
+  "protected_contacts_1based": [
+    [
+      2,
+      148
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      73,
+      26
+    ],
+    [
+      73,
+      77
+    ],
+    [
+      73,
+      78
+    ]
+  ],
+  "frame_policy": "uniform trajectory snapshots; not a set of independently optimized conformers and not Boltzmann-weighted",
+  "source_trajectory": "03-chemical-validation/4/sampling/runs/benzoate/sampling/crest_dynamics.trj",
+  "source_sha256": "b9249cf775e244f1ffa0e29bc37aaa67e1d4f7d30337b35fc03ae8777c5ce38f",
+  "ensemble_sha256": "b9249cf775e244f1ffa0e29bc37aaa67e1d4f7d30337b35fc03ae8777c5ce38f"
+}

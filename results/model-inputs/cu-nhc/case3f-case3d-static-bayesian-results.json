@@ -1,0 +1,257 @@
+{
+  "schema": "part3f.case3d-static-protocol.v1",
+  "status": "completed_exact_case3d_static_protocol_on_case3f_yields",
+  "unit_of_analysis": "one catalyst label; 3b syn/anti static rows averaged within the 3b outcome",
+  "features_considered": [
+    "g_percent",
+    "vbur_percent",
+    "approach_accessibility_mean",
+    "persistent_open_fraction",
+    "persistent_blocked_fraction",
+    "pocket_integrated_vbur_percent",
+    "pocket_weighted_vbur_percent",
+    "quadrant_asymmetry_variance",
+    "d3_changed_occupation_area_fraction",
+    "d3_changed_pocket_occupation_area_fraction",
+    "d3_changed_topographic_contact_probability_area_fraction",
+    "d3_changed_topographic_first_contact_q50_area_fraction",
+    "d3_changed_topographic_occupied_depth_area_fraction",
+    "d3_delta_vbur_percent_mean",
+    "d3_delta_g_percent_mean"
+  ],
+  "maximum_model_features": 3,
+  "validation_protocol": {
+    "nested_leave_one_catalyst_out": true,
+    "outcome_shuffle_permutations": 2000,
+    "permutation_seed": 20260922,
+    "permutation_scope": "fixed full-data subset and prior hyperparameters; calibration control, not nested selection",
+    "case3d_match": "same 15 descriptors, standardization, evidence grid, <=3 feature selection, nested LOO refitting, and shuffle count"
+  },
+  "static_geometry_definition": "single input-geometry d2 baselines and static full-minus-IMe d3 comparisons; 3b syn/anti averaged",
+  "model": {
+    "feature_names": [
+      "d3_changed_occupation_area_fraction",
+      "d3_changed_topographic_occupied_depth_area_fraction"
+    ],
+    "evidence": -14.496942718346178,
+    "prior_tau": 4.0,
+    "noise_sigma_standardized": 0.45271711646111473,
+    "outcome_mean": 66.42857142857143,
+    "outcome_sd": 27.81999965766321,
+    "predictor_means": {
+      "g_percent": 47.41908482142857,
+      "vbur_percent": 43.805484693877546,
+      "approach_accessibility_mean": 0.026159334126040427,
+      "persistent_open_fraction": 0.6582310679852589,
+      "persistent_blocked_fraction": 0.3417689320147411,
+      "pocket_integrated_vbur_percent": 34.176893201474115,
+      "pocket_weighted_vbur_percent": 34.176893201474115,
+      "quadrant_asymmetry_variance": 0.008177492598416223,
+      "d3_changed_occupation_area_fraction": 0.1985920012079346,
+      "d3_changed_pocket_occupation_area_fraction": 0.06364403155989527,
+      "d3_changed_topographic_contact_probability_area_fraction": 0.1718947586961856,
+      "d3_changed_topographic_first_contact_q50_area_fraction": 0.12132979760803779,
+      "d3_changed_topographic_occupied_depth_area_fraction": 0.33558877375762036,
+      "d3_delta_vbur_percent_mean": 16.453762755102044,
+      "d3_delta_g_percent_mean": 16.211809430803573
+    },
+    "predictor_sds": {
+      "g_percent": 7.952353423009484,
+      "vbur_percent": 7.883550158578961,
+      "approach_accessibility_mean": 0.02596947641836094,
+      "persistent_open_fraction": 0.06905125504441033,
+      "persistent_blocked_fraction": 0.06905125504441033,
+      "pocket_integrated_vbur_percent": 6.905125504441034,
+      "pocket_weighted_vbur_percent": 6.905125504441034,
+      "quadrant_asymmetry_variance": 0.006098990223428936,
+      "d3_changed_occupation_area_fraction": 0.08391641512349249,
+      "d3_changed_pocket_occupation_area_fraction": 0.03656572802313582,
+      "d3_changed_topographic_contact_probability_area_fraction": 0.0733762661814883,
+      "d3_changed_topographic_first_contact_q50_area_fraction": 0.02530765021886642,
+      "d3_changed_topographic_occupied_depth_area_fraction": 0.10198933568926695,
+      "d3_delta_vbur_percent_mean": 8.924084690595125,
+      "d3_delta_g_percent_mean": 8.583307010636286
+    },
+    "weights": [
+      {
+        "feature": "d3_changed_occupation_area_fraction",
+        "posterior_weight_standardized": -3.5198941077844776,
+        "posterior_sd_standardized": 0.7327394033699376,
+        "credible_interval_95_standardized": [
+          -4.956063338389555,
+          -2.0837248771794
+        ],
+        "absolute_contribution_fraction": 0.4934187610265158
+      },
+      {
+        "feature": "d3_changed_topographic_occupied_depth_area_fraction",
+        "posterior_weight_standardized": 3.6137910817726393,
+        "posterior_sd_standardized": 0.7327394033692624,
+        "credible_interval_95_standardized": [
+          2.177621851168885,
+          5.049960312376394
+        ],
+        "absolute_contribution_fraction": 0.5065812389734843
+      }
+    ],
+    "intercept_standardized": -1.0761541537363819e-12,
+    "intercept_sd_standardized": 0.17111055763578595,
+    "rmse": 8.707329350469854,
+    "r2_in_sample": 0.8857115105992699,
+    "observed": [
+      98.0,
+      94.0,
+      92.0,
+      40.0,
+      36.0,
+      63.0,
+      42.0
+    ],
+    "predicted": [
+      105.43266797316772,
+      76.14466657869848,
+      84.975625443484,
+      47.62842806452743,
+      40.05652406051571,
+      68.71606048932281,
+      42.04602739007423
+    ],
+    "predictive_sd": [
+      16.08584090615953,
+      13.623640381661279,
+      14.324630179321625,
+      14.444389889261144,
+      14.974253790366705,
+      13.730486569302842,
+      17.454013572251082
+    ],
+    "descriptor_score": [
+      1.4020164279147387,
+      0.349248571880576,
+      0.6666805982448527,
+      -0.6757779868928014,
+      -0.9479528286320958,
+      0.08222462577030333,
+      -0.8764394082855756
+    ],
+    "weighted_score": [
+      1.4020164279147387,
+      0.349248571880576,
+      0.6666805982448527,
+      -0.6757779868928014,
+      -0.9479528286320958,
+      0.08222462577030333,
+      -0.8764394082855756
+    ],
+    "fitted_standardized": [
+      1.4020164279136624,
+      0.34924857187949987,
+      0.6666805982437766,
+      -0.6757779868938776,
+      -0.947952828633172,
+      0.08222462576922718,
+      -0.8764394082866518
+    ],
+    "loo_predicted": [
+      118.1929659182953,
+      72.33969684023583,
+      81.82695434658324,
+      51.23013251454901,
+      42.991901983876375,
+      70.00338667369178,
+      25.60996318887436
+    ],
+    "loo_predictive_sd": [
+      19.676086326032184,
+      13.619134942143434,
+      14.997091633185008,
+      15.137215464958425,
+      15.779320563774434,
+      15.292613487734325,
+      48.204069016792936
+    ],
+    "loo_rmse": 14.506642639221669,
+    "loo_r2": 0.6827757536318795,
+    "loo_coverage_95": 1.0,
+    "loo_intercept_rmse": 30.04903400185178,
+    "loo_intercept_r2": -0.3611111111111107,
+    "loo_improves_intercept": true,
+    "nested_loo_predicted": [
+      136.9541751777932,
+      72.91618922678265,
+      62.03069243279218,
+      70.95569819154115,
+      71.87549149568295,
+      152.7099490558934,
+      164.2458660932966
+    ],
+    "nested_loo_predictive_sd": [
+      6.468177185853976,
+      8.306682795548015,
+      28.648027614025647,
+      28.48904147253113,
+      27.681370170326574,
+      22.344771464132737,
+      6.8251232690237
+    ],
+    "nested_loo_rmse": 63.35540016858945,
+    "nested_loo_r2": -5.050619263999972,
+    "nested_loo_coverage_95": 0.42857142857142855,
+    "nested_loo_selected_features": [
+      [
+        "pocket_integrated_vbur_percent",
+        "d3_changed_occupation_area_fraction",
+        "d3_changed_topographic_occupied_depth_area_fraction"
+      ],
+      [
+        "d3_changed_occupation_area_fraction",
+        "d3_changed_topographic_occupied_depth_area_fraction"
+      ],
+      [
+        "g_percent"
+      ],
+      [
+        "d3_changed_occupation_area_fraction"
+      ],
+      [
+        "approach_accessibility_mean"
+      ],
+      [
+        "d3_changed_occupation_area_fraction",
+        "d3_changed_topographic_first_contact_q50_area_fraction",
+        "d3_changed_topographic_occupied_depth_area_fraction"
+      ],
+      [
+        "approach_accessibility_mean",
+        "quadrant_asymmetry_variance"
+      ]
+    ],
+    "nested_loo_feature_selection_frequency": {
+      "pocket_integrated_vbur_percent": 1,
+      "d3_changed_occupation_area_fraction": 4,
+      "d3_changed_topographic_occupied_depth_area_fraction": 3,
+      "g_percent": 1,
+      "approach_accessibility_mean": 2,
+      "d3_changed_topographic_first_contact_q50_area_fraction": 1,
+      "quadrant_asymmetry_variance": 1
+    },
+    "nested_loo_intercept_rmse": 30.04903400185178,
+    "nested_loo_intercept_r2": -0.3611111111111107,
+    "nested_loo_improves_intercept": false,
+    "permutation_count": 2000,
+    "permutation_seed": 20260922,
+    "permutation_loo_r2_mean": -2.7121613716230515,
+    "permutation_loo_r2_sd": 2.8617666618092192,
+    "permutation_loo_r2_95_interval": [
+      -10.34510209826642,
+      0.43367782442805103
+    ],
+    "permutation_p_ge_observed": 0.0029985007496251873
+  },
+  "files": {
+    "inputs": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/case3f-case3d-static-model-inputs.csv",
+    "nested_loo_predictions": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/case3f-case3d-static-nested-loo-predictions.csv",
+    "plot": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/yield_case3d_static_protocol.png"
+  },
+  "scientific_boundary": "Exploratory seven-catalyst static comparison; constructed 3e/IMes/IPr geometries and small n prevent general predictive claims."
+}

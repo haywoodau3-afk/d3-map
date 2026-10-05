@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or its data, cite the paper and this repository.
+  Replace the clearly marked author and repository placeholders before public release.
+title: "Revealing Hidden Steric Features of Catalysts with d3maps"
+# Working title recorded in the current manuscript draft; final title may change.
+authors:
+  - name: "AUTHOR NAME REQUIRED"
+    affiliation: "Unrecorded"
+version: 1.0.0rc1
+date-released: 2026-10-05
+repository-code: https://github.com/OWNER/d3-map-paper
+license: BSD-3-Clause

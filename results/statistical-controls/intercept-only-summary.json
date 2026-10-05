@@ -1,0 +1,30 @@
+{
+  "method": "leave-one-out training-mean intercept baseline",
+  "metrics": "RMSE and R2 are computed on out-of-fold predictions; R2 denominator uses the full observed-response mean.",
+  "summaries": [
+    {
+      "system": "cu-nhc",
+      "outcome": "yield_percent",
+      "n": 7,
+      "rmse": 30.04903400185178,
+      "r2": -0.36111111111111116,
+      "prediction_rule": "mean of training outcomes in each leave-one-out fold"
+    },
+    {
+      "system": "au-cu",
+      "outcome": "yield_percent",
+      "n": 7,
+      "rmse": 22.41898996634574,
+      "r2": -0.3611111111111107,
+      "prediction_rule": "mean of training outcomes in each leave-one-out fold"
+    },
+    {
+      "system": "au-cu",
+      "outcome": "de_percent",
+      "n": 7,
+      "rmse": 2.748737083745107,
+      "r2": -0.36111111111111094,
+      "prediction_rule": "mean of training outcomes in each leave-one-out fold"
+    }
+  ]
+}

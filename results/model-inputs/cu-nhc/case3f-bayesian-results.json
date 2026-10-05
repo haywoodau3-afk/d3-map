@@ -1,0 +1,2894 @@
+{
+  "schema": "part3f.bayesian-yield-results.v1",
+  "status": "completed_exploratory_dynamic_d3_d2_bayesian_yield_fit",
+  "unit_of_analysis": "one catalyst label; 3b syn/anti dynamic rows averaged within the published 3b yield row",
+  "outcome": {
+    "name": "yield_percent",
+    "values": {
+      "3a": 98.0,
+      "3b": 94.0,
+      "3c": 92.0,
+      "3d": 40.0,
+      "3e": 36.0,
+      "IMes": 63.0,
+      "IPr": 42.0
+    },
+    "source": "attached article Table 1, 0.02 mol% Cu(I)-NHC condition"
+  },
+  "feature_pool": {
+    "all_numeric_features": [
+      "d2_angular_fingerprint_12_1",
+      "d2_angular_fingerprint_12_10",
+      "d2_angular_fingerprint_12_11",
+      "d2_angular_fingerprint_12_12",
+      "d2_angular_fingerprint_12_2",
+      "d2_angular_fingerprint_12_3",
+      "d2_angular_fingerprint_12_4",
+      "d2_angular_fingerprint_12_5",
+      "d2_angular_fingerprint_12_6",
+      "d2_angular_fingerprint_12_7",
+      "d2_angular_fingerprint_12_8",
+      "d2_angular_fingerprint_12_9",
+      "d2_approach_accessibility_mean",
+      "d2_approach_accessibility_min",
+      "d2_breathing_fraction",
+      "d2_displaced_g_mean_1",
+      "d2_displaced_g_mean_2",
+      "d2_displaced_g_mean_3",
+      "d2_displaced_g_mean_4",
+      "d2_displaced_g_mean_5",
+      "d2_displaced_g_mean_6",
+      "d2_displaced_g_mean_7",
+      "d2_displaced_g_mean_8",
+      "d2_displaced_g_mean_9",
+      "d2_displaced_vbur_mean_1",
+      "d2_displaced_vbur_mean_2",
+      "d2_displaced_vbur_mean_3",
+      "d2_displaced_vbur_mean_4",
+      "d2_displaced_vbur_mean_5",
+      "d2_displaced_vbur_mean_6",
+      "d2_displaced_vbur_mean_7",
+      "d2_displaced_vbur_mean_8",
+      "d2_displaced_vbur_mean_9",
+      "d2_ensemble_g_percent_mean",
+      "d2_ensemble_vbur_percent_mean",
+      "d2_legacy_pocket_steric_entropy_voxel_sum",
+      "d2_legacy_uniform_approach_accessibility_mean",
+      "d2_legacy_uniform_approach_accessibility_min",
+      "d2_normalized_pocket_flexibility",
+      "d2_persistent_blocked_fraction",
+      "d2_persistent_open_fraction",
+      "d2_pocket_integrated_vbur_percent",
+      "d2_pocket_steric_entropy_sum",
+      "d2_pocket_steric_entropy_volume_angstrom3_nat",
+      "d2_pocket_weighted_vbur_percent",
+      "d2_probe_radius_angstrom",
+      "d2_quadrant_asymmetry_variance",
+      "d2_quadrant_mean_occupation_1",
+      "d2_quadrant_mean_occupation_2",
+      "d2_quadrant_mean_occupation_3",
+      "d2_quadrant_mean_occupation_4",
+      "d2_radial_mean_occupation_7bins_1",
+      "d2_radial_mean_occupation_7bins_2",
+      "d2_radial_mean_occupation_7bins_3",
+      "d2_radial_mean_occupation_7bins_4",
+      "d2_radial_mean_occupation_7bins_5",
+      "d2_radial_mean_occupation_7bins_6",
+      "d2_radial_mean_occupation_7bins_7",
+      "d2_source_count",
+      "d3_changed_occupation_area_fraction",
+      "d3_changed_pocket_occupation_area_fraction",
+      "d3_changed_shielding_probability_area_fraction",
+      "d3_changed_topographic_contact_probability_area_fraction",
+      "d3_changed_topographic_first_contact_interval_10_90_area_fraction",
+      "d3_changed_topographic_first_contact_q50_area_fraction",
+      "d3_changed_topographic_occupied_depth_area_fraction",
+      "d3_changed_v2_adaptive_class_area_fraction",
+      "d3_d2_delta_angular_fingerprint_12_1",
+      "d3_d2_delta_angular_fingerprint_12_10",
+      "d3_d2_delta_angular_fingerprint_12_11",
+      "d3_d2_delta_angular_fingerprint_12_12",
+      "d3_d2_delta_angular_fingerprint_12_2",
+      "d3_d2_delta_angular_fingerprint_12_3",
+      "d3_d2_delta_angular_fingerprint_12_4",
+      "d3_d2_delta_angular_fingerprint_12_5",
+      "d3_d2_delta_angular_fingerprint_12_6",
+      "d3_d2_delta_angular_fingerprint_12_7",
+      "d3_d2_delta_angular_fingerprint_12_8",
+      "d3_d2_delta_angular_fingerprint_12_9",
+      "d3_d2_delta_approach_accessibility_mean",
+      "d3_d2_delta_approach_accessibility_min",
+      "d3_d2_delta_breathing_fraction",
+      "d3_d2_delta_displaced_g_mean_1",
+      "d3_d2_delta_displaced_g_mean_2",
+      "d3_d2_delta_displaced_g_mean_3",
+      "d3_d2_delta_displaced_g_mean_4",
+      "d3_d2_delta_displaced_g_mean_5",
+      "d3_d2_delta_displaced_g_mean_6",
+      "d3_d2_delta_displaced_g_mean_7",
+      "d3_d2_delta_displaced_g_mean_8",
+      "d3_d2_delta_displaced_g_mean_9",
+      "d3_d2_delta_displaced_vbur_mean_1",
+      "d3_d2_delta_displaced_vbur_mean_2",
+      "d3_d2_delta_displaced_vbur_mean_3",
+      "d3_d2_delta_displaced_vbur_mean_4",
+      "d3_d2_delta_displaced_vbur_mean_5",
+      "d3_d2_delta_displaced_vbur_mean_6",
+      "d3_d2_delta_displaced_vbur_mean_7",
+      "d3_d2_delta_displaced_vbur_mean_8",
+      "d3_d2_delta_displaced_vbur_mean_9",
+      "d3_d2_delta_legacy_pocket_steric_entropy_voxel_sum",
+      "d3_d2_delta_legacy_uniform_approach_accessibility_mean",
+      "d3_d2_delta_legacy_uniform_approach_accessibility_min",
+      "d3_d2_delta_persistent_blocked_fraction",
+      "d3_d2_delta_persistent_open_fraction",
+      "d3_d2_delta_pocket_integrated_vbur_percent",
+      "d3_d2_delta_pocket_steric_entropy_sum",
+      "d3_d2_delta_pocket_weighted_vbur_percent",
+      "d3_d2_delta_probe_radius_angstrom",
+      "d3_d2_delta_quadrant_asymmetry_variance",
+      "d3_d2_delta_quadrant_mean_occupation_1",
+      "d3_d2_delta_quadrant_mean_occupation_2",
+      "d3_d2_delta_quadrant_mean_occupation_3",
+      "d3_d2_delta_quadrant_mean_occupation_4",
+      "d3_d2_delta_radial_mean_occupation_7bins_1",
+      "d3_d2_delta_radial_mean_occupation_7bins_2",
+      "d3_d2_delta_radial_mean_occupation_7bins_3",
+      "d3_d2_delta_radial_mean_occupation_7bins_4",
+      "d3_d2_delta_radial_mean_occupation_7bins_5",
+      "d3_d2_delta_radial_mean_occupation_7bins_6",
+      "d3_d2_delta_radial_mean_occupation_7bins_7",
+      "d3_delta_g_percent_lowest_energy_value",
+      "d3_delta_g_percent_maximum",
+      "d3_delta_g_percent_mean",
+      "d3_delta_g_percent_minimum",
+      "d3_delta_g_percent_percentile_5",
+      "d3_delta_g_percent_percentile_95",
+      "d3_delta_g_percent_percentile_span",
+      "d3_delta_vbur_percent_lowest_energy_value",
+      "d3_delta_vbur_percent_maximum",
+      "d3_delta_vbur_percent_mean",
+      "d3_delta_vbur_percent_minimum",
+      "d3_delta_vbur_percent_percentile_5",
+      "d3_delta_vbur_percent_percentile_95",
+      "d3_delta_vbur_percent_percentile_span",
+      "d3_extended_g_percent_lowest_energy_value",
+      "d3_extended_g_percent_maximum",
+      "d3_extended_g_percent_mean",
+      "d3_extended_g_percent_minimum",
+      "d3_extended_g_percent_percentile_5",
+      "d3_extended_g_percent_percentile_95",
+      "d3_extended_g_percent_percentile_span",
+      "d3_extended_g_percent_population_standard_deviation",
+      "d3_extended_vbur_percent_lowest_energy_value",
+      "d3_extended_vbur_percent_maximum",
+      "d3_extended_vbur_percent_mean",
+      "d3_extended_vbur_percent_minimum",
+      "d3_extended_vbur_percent_percentile_5",
+      "d3_extended_vbur_percent_percentile_95",
+      "d3_extended_vbur_percent_percentile_span",
+      "d3_extended_vbur_percent_population_standard_deviation",
+      "d3_reference_g_percent_lowest_energy_value",
+      "d3_reference_g_percent_maximum",
+      "d3_reference_g_percent_mean",
+      "d3_reference_g_percent_minimum",
+      "d3_reference_g_percent_percentile_5",
+      "d3_reference_g_percent_percentile_95",
+      "d3_reference_g_percent_percentile_span",
+      "d3_reference_vbur_percent_lowest_energy_value",
+      "d3_reference_vbur_percent_maximum",
+      "d3_reference_vbur_percent_mean",
+      "d3_reference_vbur_percent_minimum",
+      "d3_reference_vbur_percent_percentile_5",
+      "d3_reference_vbur_percent_percentile_95",
+      "d3_reference_vbur_percent_percentile_span",
+      "d3_source_count"
+    ],
+    "complete_features": [
+      "d2_angular_fingerprint_12_1",
+      "d2_angular_fingerprint_12_10",
+      "d2_angular_fingerprint_12_11",
+      "d2_angular_fingerprint_12_12",
+      "d2_angular_fingerprint_12_2",
+      "d2_angular_fingerprint_12_3",
+      "d2_angular_fingerprint_12_4",
+      "d2_angular_fingerprint_12_5",
+      "d2_angular_fingerprint_12_6",
+      "d2_angular_fingerprint_12_7",
+      "d2_angular_fingerprint_12_8",
+      "d2_angular_fingerprint_12_9",
+      "d2_approach_accessibility_mean",
+      "d2_approach_accessibility_min",
+      "d2_breathing_fraction",
+      "d2_displaced_g_mean_1",
+      "d2_displaced_g_mean_2",
+      "d2_displaced_g_mean_3",
+      "d2_displaced_g_mean_4",
+      "d2_displaced_g_mean_5",
+      "d2_displaced_g_mean_6",
+      "d2_displaced_g_mean_7",
+      "d2_displaced_g_mean_8",
+      "d2_displaced_g_mean_9",
+      "d2_displaced_vbur_mean_1",
+      "d2_displaced_vbur_mean_2",
+      "d2_displaced_vbur_mean_3",
+      "d2_displaced_vbur_mean_4",
+      "d2_displaced_vbur_mean_5",
+      "d2_displaced_vbur_mean_6",
+      "d2_displaced_vbur_mean_7",
+      "d2_displaced_vbur_mean_8",
+      "d2_displaced_vbur_mean_9",
+      "d2_ensemble_g_percent_mean",
+      "d2_ensemble_vbur_percent_mean",
+      "d2_legacy_pocket_steric_entropy_voxel_sum",
+      "d2_legacy_uniform_approach_accessibility_mean",
+      "d2_legacy_uniform_approach_accessibility_min",
+      "d2_normalized_pocket_flexibility",
+      "d2_persistent_blocked_fraction",
+      "d2_persistent_open_fraction",
+      "d2_pocket_integrated_vbur_percent",
+      "d2_pocket_steric_entropy_sum",
+      "d2_pocket_steric_entropy_volume_angstrom3_nat",
+      "d2_pocket_weighted_vbur_percent",
+      "d2_probe_radius_angstrom",
+      "d2_quadrant_asymmetry_variance",
+      "d2_quadrant_mean_occupation_1",
+      "d2_quadrant_mean_occupation_2",
+      "d2_quadrant_mean_occupation_3",
+      "d2_quadrant_mean_occupation_4",
+      "d2_radial_mean_occupation_7bins_1",
+      "d2_radial_mean_occupation_7bins_2",
+      "d2_radial_mean_occupation_7bins_3",
+      "d2_radial_mean_occupation_7bins_4",
+      "d2_radial_mean_occupation_7bins_5",
+      "d2_radial_mean_occupation_7bins_6",
+      "d2_radial_mean_occupation_7bins_7",
+      "d2_source_count",
+      "d3_changed_occupation_area_fraction",
+      "d3_changed_pocket_occupation_area_fraction",
+      "d3_changed_shielding_probability_area_fraction",
+      "d3_changed_topographic_contact_probability_area_fraction",
+      "d3_changed_topographic_first_contact_interval_10_90_area_fraction",
+      "d3_changed_topographic_first_contact_q50_area_fraction",
+      "d3_changed_topographic_occupied_depth_area_fraction",
+      "d3_changed_v2_adaptive_class_area_fraction",
+      "d3_d2_delta_angular_fingerprint_12_1",
+      "d3_d2_delta_angular_fingerprint_12_10",
+      "d3_d2_delta_angular_fingerprint_12_11",
+      "d3_d2_delta_angular_fingerprint_12_12",
+      "d3_d2_delta_angular_fingerprint_12_2",
+      "d3_d2_delta_angular_fingerprint_12_3",
+      "d3_d2_delta_angular_fingerprint_12_4",
+      "d3_d2_delta_angular_fingerprint_12_5",
+      "d3_d2_delta_angular_fingerprint_12_6",
+      "d3_d2_delta_angular_fingerprint_12_7",
+      "d3_d2_delta_angular_fingerprint_12_8",
+      "d3_d2_delta_angular_fingerprint_12_9",
+      "d3_d2_delta_approach_accessibility_mean",
+      "d3_d2_delta_approach_accessibility_min",
+      "d3_d2_delta_breathing_fraction",
+      "d3_d2_delta_displaced_g_mean_1",
+      "d3_d2_delta_displaced_g_mean_2",
+      "d3_d2_delta_displaced_g_mean_3",
+      "d3_d2_delta_displaced_g_mean_4",
+      "d3_d2_delta_displaced_g_mean_5",
+      "d3_d2_delta_displaced_g_mean_6",
+      "d3_d2_delta_displaced_g_mean_7",
+      "d3_d2_delta_displaced_g_mean_8",
+      "d3_d2_delta_displaced_g_mean_9",
+      "d3_d2_delta_displaced_vbur_mean_1",
+      "d3_d2_delta_displaced_vbur_mean_2",
+      "d3_d2_delta_displaced_vbur_mean_3",
+      "d3_d2_delta_displaced_vbur_mean_4",
+      "d3_d2_delta_displaced_vbur_mean_5",
+      "d3_d2_delta_displaced_vbur_mean_6",
+      "d3_d2_delta_displaced_vbur_mean_7",
+      "d3_d2_delta_displaced_vbur_mean_8",
+      "d3_d2_delta_displaced_vbur_mean_9",
+      "d3_d2_delta_legacy_pocket_steric_entropy_voxel_sum",
+      "d3_d2_delta_legacy_uniform_approach_accessibility_mean",
+      "d3_d2_delta_legacy_uniform_approach_accessibility_min",
+      "d3_d2_delta_persistent_blocked_fraction",
+      "d3_d2_delta_persistent_open_fraction",
+      "d3_d2_delta_pocket_integrated_vbur_percent",
+      "d3_d2_delta_pocket_steric_entropy_sum",
+      "d3_d2_delta_pocket_weighted_vbur_percent",
+      "d3_d2_delta_probe_radius_angstrom",
+      "d3_d2_delta_quadrant_asymmetry_variance",
+      "d3_d2_delta_quadrant_mean_occupation_1",
+      "d3_d2_delta_quadrant_mean_occupation_2",
+      "d3_d2_delta_quadrant_mean_occupation_3",
+      "d3_d2_delta_quadrant_mean_occupation_4",
+      "d3_d2_delta_radial_mean_occupation_7bins_1",
+      "d3_d2_delta_radial_mean_occupation_7bins_2",
+      "d3_d2_delta_radial_mean_occupation_7bins_3",
+      "d3_d2_delta_radial_mean_occupation_7bins_4",
+      "d3_d2_delta_radial_mean_occupation_7bins_5",
+      "d3_d2_delta_radial_mean_occupation_7bins_6",
+      "d3_d2_delta_radial_mean_occupation_7bins_7",
+      "d3_delta_g_percent_lowest_energy_value",
+      "d3_delta_g_percent_maximum",
+      "d3_delta_g_percent_mean",
+      "d3_delta_g_percent_minimum",
+      "d3_delta_g_percent_percentile_5",
+      "d3_delta_g_percent_percentile_95",
+      "d3_delta_g_percent_percentile_span",
+      "d3_delta_vbur_percent_lowest_energy_value",
+      "d3_delta_vbur_percent_maximum",
+      "d3_delta_vbur_percent_mean",
+      "d3_delta_vbur_percent_minimum",
+      "d3_delta_vbur_percent_percentile_5",
+      "d3_delta_vbur_percent_percentile_95",
+      "d3_delta_vbur_percent_percentile_span",
+      "d3_extended_g_percent_lowest_energy_value",
+      "d3_extended_g_percent_maximum",
+      "d3_extended_g_percent_mean",
+      "d3_extended_g_percent_minimum",
+      "d3_extended_g_percent_percentile_5",
+      "d3_extended_g_percent_percentile_95",
+      "d3_extended_g_percent_percentile_span",
+      "d3_extended_g_percent_population_standard_deviation",
+      "d3_extended_vbur_percent_lowest_energy_value",
+      "d3_extended_vbur_percent_maximum",
+      "d3_extended_vbur_percent_mean",
+      "d3_extended_vbur_percent_minimum",
+      "d3_extended_vbur_percent_percentile_5",
+      "d3_extended_vbur_percent_percentile_95",
+      "d3_extended_vbur_percent_percentile_span",
+      "d3_extended_vbur_percent_population_standard_deviation",
+      "d3_reference_g_percent_lowest_energy_value",
+      "d3_reference_g_percent_maximum",
+      "d3_reference_g_percent_mean",
+      "d3_reference_g_percent_minimum",
+      "d3_reference_g_percent_percentile_5",
+      "d3_reference_g_percent_percentile_95",
+      "d3_reference_g_percent_percentile_span",
+      "d3_reference_vbur_percent_lowest_energy_value",
+      "d3_reference_vbur_percent_maximum",
+      "d3_reference_vbur_percent_mean",
+      "d3_reference_vbur_percent_minimum",
+      "d3_reference_vbur_percent_percentile_5",
+      "d3_reference_vbur_percent_percentile_95",
+      "d3_reference_vbur_percent_percentile_span",
+      "d3_source_count"
+    ],
+    "excluded_non_numeric_or_incomplete": [],
+    "excluded_constant_features": [
+      "d2_approach_accessibility_min",
+      "d2_legacy_uniform_approach_accessibility_min",
+      "d2_probe_radius_angstrom",
+      "d3_d2_delta_approach_accessibility_min",
+      "d3_d2_delta_legacy_uniform_approach_accessibility_min",
+      "d3_d2_delta_probe_radius_angstrom",
+      "d3_reference_g_percent_percentile_span",
+      "d3_reference_vbur_percent_percentile_span"
+    ],
+    "excluded_string_fields": [
+      "d2_coordination_distribution",
+      "d2_coordination_sectors",
+      "d2_feature_schema",
+      "d2_probability_field_v2",
+      "d2_source_count",
+      "d2_variability_status",
+      "d3_source_count"
+    ],
+    "full_pool_nonconstant_features": [
+      "d2_angular_fingerprint_12_1",
+      "d2_angular_fingerprint_12_10",
+      "d2_angular_fingerprint_12_11",
+      "d2_angular_fingerprint_12_12",
+      "d2_angular_fingerprint_12_2",
+      "d2_angular_fingerprint_12_3",
+      "d2_angular_fingerprint_12_4",
+      "d2_angular_fingerprint_12_5",
+      "d2_angular_fingerprint_12_6",
+      "d2_angular_fingerprint_12_7",
+      "d2_angular_fingerprint_12_8",
+      "d2_angular_fingerprint_12_9",
+      "d2_approach_accessibility_mean",
+      "d2_breathing_fraction",
+      "d2_displaced_g_mean_1",
+      "d2_displaced_g_mean_2",
+      "d2_displaced_g_mean_3",
+      "d2_displaced_g_mean_4",
+      "d2_displaced_g_mean_5",
+      "d2_displaced_g_mean_6",
+      "d2_displaced_g_mean_7",
+      "d2_displaced_g_mean_8",
+      "d2_displaced_g_mean_9",
+      "d2_displaced_vbur_mean_1",
+      "d2_displaced_vbur_mean_2",
+      "d2_displaced_vbur_mean_3",
+      "d2_displaced_vbur_mean_4",
+      "d2_displaced_vbur_mean_5",
+      "d2_displaced_vbur_mean_6",
+      "d2_displaced_vbur_mean_7",
+      "d2_displaced_vbur_mean_8",
+      "d2_displaced_vbur_mean_9",
+      "d2_ensemble_g_percent_mean",
+      "d2_ensemble_vbur_percent_mean",
+      "d2_legacy_pocket_steric_entropy_voxel_sum",
+      "d2_legacy_uniform_approach_accessibility_mean",
+      "d2_normalized_pocket_flexibility",
+      "d2_persistent_blocked_fraction",
+      "d2_persistent_open_fraction",
+      "d2_pocket_integrated_vbur_percent",
+      "d2_pocket_steric_entropy_sum",
+      "d2_pocket_steric_entropy_volume_angstrom3_nat",
+      "d2_pocket_weighted_vbur_percent",
+      "d2_quadrant_asymmetry_variance",
+      "d2_quadrant_mean_occupation_1",
+      "d2_quadrant_mean_occupation_2",
+      "d2_quadrant_mean_occupation_3",
+      "d2_quadrant_mean_occupation_4",
+      "d2_radial_mean_occupation_7bins_1",
+      "d2_radial_mean_occupation_7bins_2",
+      "d2_radial_mean_occupation_7bins_3",
+      "d2_radial_mean_occupation_7bins_4",
+      "d2_radial_mean_occupation_7bins_5",
+      "d2_radial_mean_occupation_7bins_6",
+      "d2_radial_mean_occupation_7bins_7",
+      "d2_source_count",
+      "d3_changed_occupation_area_fraction",
+      "d3_changed_pocket_occupation_area_fraction",
+      "d3_changed_shielding_probability_area_fraction",
+      "d3_changed_topographic_contact_probability_area_fraction",
+      "d3_changed_topographic_first_contact_interval_10_90_area_fraction",
+      "d3_changed_topographic_first_contact_q50_area_fraction",
+      "d3_changed_topographic_occupied_depth_area_fraction",
+      "d3_changed_v2_adaptive_class_area_fraction",
+      "d3_d2_delta_angular_fingerprint_12_1",
+      "d3_d2_delta_angular_fingerprint_12_10",
+      "d3_d2_delta_angular_fingerprint_12_11",
+      "d3_d2_delta_angular_fingerprint_12_12",
+      "d3_d2_delta_angular_fingerprint_12_2",
+      "d3_d2_delta_angular_fingerprint_12_3",
+      "d3_d2_delta_angular_fingerprint_12_4",
+      "d3_d2_delta_angular_fingerprint_12_5",
+      "d3_d2_delta_angular_fingerprint_12_6",
+      "d3_d2_delta_angular_fingerprint_12_7",
+      "d3_d2_delta_angular_fingerprint_12_8",
+      "d3_d2_delta_angular_fingerprint_12_9",
+      "d3_d2_delta_approach_accessibility_mean",
+      "d3_d2_delta_breathing_fraction",
+      "d3_d2_delta_displaced_g_mean_1",
+      "d3_d2_delta_displaced_g_mean_2",
+      "d3_d2_delta_displaced_g_mean_3",
+      "d3_d2_delta_displaced_g_mean_4",
+      "d3_d2_delta_displaced_g_mean_5",
+      "d3_d2_delta_displaced_g_mean_6",
+      "d3_d2_delta_displaced_g_mean_7",
+      "d3_d2_delta_displaced_g_mean_8",
+      "d3_d2_delta_displaced_g_mean_9",
+      "d3_d2_delta_displaced_vbur_mean_1",
+      "d3_d2_delta_displaced_vbur_mean_2",
+      "d3_d2_delta_displaced_vbur_mean_3",
+      "d3_d2_delta_displaced_vbur_mean_4",
+      "d3_d2_delta_displaced_vbur_mean_5",
+      "d3_d2_delta_displaced_vbur_mean_6",
+      "d3_d2_delta_displaced_vbur_mean_7",
+      "d3_d2_delta_displaced_vbur_mean_8",
+      "d3_d2_delta_displaced_vbur_mean_9",
+      "d3_d2_delta_legacy_pocket_steric_entropy_voxel_sum",
+      "d3_d2_delta_legacy_uniform_approach_accessibility_mean",
+      "d3_d2_delta_persistent_blocked_fraction",
+      "d3_d2_delta_persistent_open_fraction",
+      "d3_d2_delta_pocket_integrated_vbur_percent",
+      "d3_d2_delta_pocket_steric_entropy_sum",
+      "d3_d2_delta_pocket_weighted_vbur_percent",
+      "d3_d2_delta_quadrant_asymmetry_variance",
+      "d3_d2_delta_quadrant_mean_occupation_1",
+      "d3_d2_delta_quadrant_mean_occupation_2",
+      "d3_d2_delta_quadrant_mean_occupation_3",
+      "d3_d2_delta_quadrant_mean_occupation_4",
+      "d3_d2_delta_radial_mean_occupation_7bins_1",
+      "d3_d2_delta_radial_mean_occupation_7bins_2",
+      "d3_d2_delta_radial_mean_occupation_7bins_3",
+      "d3_d2_delta_radial_mean_occupation_7bins_4",
+      "d3_d2_delta_radial_mean_occupation_7bins_5",
+      "d3_d2_delta_radial_mean_occupation_7bins_6",
+      "d3_d2_delta_radial_mean_occupation_7bins_7",
+      "d3_delta_g_percent_lowest_energy_value",
+      "d3_delta_g_percent_maximum",
+      "d3_delta_g_percent_mean",
+      "d3_delta_g_percent_minimum",
+      "d3_delta_g_percent_percentile_5",
+      "d3_delta_g_percent_percentile_95",
+      "d3_delta_g_percent_percentile_span",
+      "d3_delta_vbur_percent_lowest_energy_value",
+      "d3_delta_vbur_percent_maximum",
+      "d3_delta_vbur_percent_mean",
+      "d3_delta_vbur_percent_minimum",
+      "d3_delta_vbur_percent_percentile_5",
+      "d3_delta_vbur_percent_percentile_95",
+      "d3_delta_vbur_percent_percentile_span",
+      "d3_extended_g_percent_lowest_energy_value",
+      "d3_extended_g_percent_maximum",
+      "d3_extended_g_percent_mean",
+      "d3_extended_g_percent_minimum",
+      "d3_extended_g_percent_percentile_5",
+      "d3_extended_g_percent_percentile_95",
+      "d3_extended_g_percent_percentile_span",
+      "d3_extended_g_percent_population_standard_deviation",
+      "d3_extended_vbur_percent_lowest_energy_value",
+      "d3_extended_vbur_percent_maximum",
+      "d3_extended_vbur_percent_mean",
+      "d3_extended_vbur_percent_minimum",
+      "d3_extended_vbur_percent_percentile_5",
+      "d3_extended_vbur_percent_percentile_95",
+      "d3_extended_vbur_percent_percentile_span",
+      "d3_extended_vbur_percent_population_standard_deviation",
+      "d3_reference_g_percent_lowest_energy_value",
+      "d3_reference_g_percent_maximum",
+      "d3_reference_g_percent_mean",
+      "d3_reference_g_percent_minimum",
+      "d3_reference_g_percent_percentile_5",
+      "d3_reference_g_percent_percentile_95",
+      "d3_reference_vbur_percent_lowest_energy_value",
+      "d3_reference_vbur_percent_maximum",
+      "d3_reference_vbur_percent_mean",
+      "d3_reference_vbur_percent_minimum",
+      "d3_reference_vbur_percent_percentile_5",
+      "d3_reference_vbur_percent_percentile_95",
+      "d3_source_count"
+    ],
+    "full_pool_nonconstant_feature_count": 158,
+    "full_fit_candidates": [
+      "d2_angular_fingerprint_12_1",
+      "d2_angular_fingerprint_12_10",
+      "d2_angular_fingerprint_12_11",
+      "d2_angular_fingerprint_12_12",
+      "d2_angular_fingerprint_12_2",
+      "d2_angular_fingerprint_12_3",
+      "d2_angular_fingerprint_12_4",
+      "d2_angular_fingerprint_12_5",
+      "d2_angular_fingerprint_12_6",
+      "d2_angular_fingerprint_12_7",
+      "d2_angular_fingerprint_12_8",
+      "d2_angular_fingerprint_12_9",
+      "d2_approach_accessibility_mean",
+      "d2_breathing_fraction",
+      "d2_displaced_g_mean_1",
+      "d2_displaced_g_mean_2",
+      "d2_displaced_g_mean_3",
+      "d2_displaced_g_mean_4",
+      "d2_displaced_g_mean_5",
+      "d2_displaced_g_mean_6",
+      "d2_displaced_g_mean_7",
+      "d2_displaced_g_mean_8",
+      "d2_displaced_g_mean_9",
+      "d2_displaced_vbur_mean_1",
+      "d2_displaced_vbur_mean_2",
+      "d2_displaced_vbur_mean_3",
+      "d2_displaced_vbur_mean_4",
+      "d2_displaced_vbur_mean_5",
+      "d2_displaced_vbur_mean_6",
+      "d2_displaced_vbur_mean_7",
+      "d2_displaced_vbur_mean_8",
+      "d2_displaced_vbur_mean_9",
+      "d2_ensemble_g_percent_mean",
+      "d2_ensemble_vbur_percent_mean",
+      "d2_legacy_pocket_steric_entropy_voxel_sum",
+      "d2_legacy_uniform_approach_accessibility_mean",
+      "d2_normalized_pocket_flexibility",
+      "d2_persistent_blocked_fraction",
+      "d2_persistent_open_fraction",
+      "d2_pocket_integrated_vbur_percent",
+      "d2_pocket_steric_entropy_sum",
+      "d2_pocket_steric_entropy_volume_angstrom3_nat",
+      "d2_pocket_weighted_vbur_percent",
+      "d2_quadrant_asymmetry_variance",
+      "d2_quadrant_mean_occupation_1",
+      "d2_quadrant_mean_occupation_2",
+      "d2_quadrant_mean_occupation_3",
+      "d2_quadrant_mean_occupation_4",
+      "d2_radial_mean_occupation_7bins_1",
+      "d2_radial_mean_occupation_7bins_2",
+      "d2_radial_mean_occupation_7bins_3",
+      "d2_radial_mean_occupation_7bins_4",
+      "d2_radial_mean_occupation_7bins_5",
+      "d2_radial_mean_occupation_7bins_6",
+      "d2_radial_mean_occupation_7bins_7",
+      "d3_changed_occupation_area_fraction",
+      "d3_changed_pocket_occupation_area_fraction",
+      "d3_changed_shielding_probability_area_fraction",
+      "d3_changed_topographic_contact_probability_area_fraction",
+      "d3_changed_topographic_first_contact_interval_10_90_area_fraction",
+      "d3_changed_topographic_first_contact_q50_area_fraction",
+      "d3_changed_topographic_occupied_depth_area_fraction",
+      "d3_changed_v2_adaptive_class_area_fraction",
+      "d3_d2_delta_angular_fingerprint_12_1",
+      "d3_d2_delta_angular_fingerprint_12_10",
+      "d3_d2_delta_angular_fingerprint_12_11",
+      "d3_d2_delta_angular_fingerprint_12_12",
+      "d3_d2_delta_angular_fingerprint_12_2",
+      "d3_d2_delta_angular_fingerprint_12_3",
+      "d3_d2_delta_angular_fingerprint_12_4",
+      "d3_d2_delta_angular_fingerprint_12_5",
+      "d3_d2_delta_angular_fingerprint_12_6",
+      "d3_d2_delta_angular_fingerprint_12_7",
+      "d3_d2_delta_angular_fingerprint_12_8",
+      "d3_d2_delta_angular_fingerprint_12_9",
+      "d3_d2_delta_approach_accessibility_mean",
+      "d3_d2_delta_breathing_fraction",
+      "d3_d2_delta_displaced_g_mean_1",
+      "d3_d2_delta_displaced_g_mean_2",
+      "d3_d2_delta_displaced_g_mean_3",
+      "d3_d2_delta_displaced_g_mean_4",
+      "d3_d2_delta_displaced_g_mean_5",
+      "d3_d2_delta_displaced_g_mean_6",
+      "d3_d2_delta_displaced_g_mean_7",
+      "d3_d2_delta_displaced_g_mean_8",
+      "d3_d2_delta_displaced_g_mean_9",
+      "d3_d2_delta_displaced_vbur_mean_1",
+      "d3_d2_delta_displaced_vbur_mean_2",
+      "d3_d2_delta_displaced_vbur_mean_3",
+      "d3_d2_delta_displaced_vbur_mean_4",
+      "d3_d2_delta_displaced_vbur_mean_5",
+      "d3_d2_delta_displaced_vbur_mean_6",
+      "d3_d2_delta_displaced_vbur_mean_7",
+      "d3_d2_delta_displaced_vbur_mean_8",
+      "d3_d2_delta_displaced_vbur_mean_9",
+      "d3_d2_delta_legacy_pocket_steric_entropy_voxel_sum",
+      "d3_d2_delta_legacy_uniform_approach_accessibility_mean",
+      "d3_d2_delta_persistent_blocked_fraction",
+      "d3_d2_delta_persistent_open_fraction",
+      "d3_d2_delta_pocket_integrated_vbur_percent",
+      "d3_d2_delta_pocket_steric_entropy_sum",
+      "d3_d2_delta_pocket_weighted_vbur_percent",
+      "d3_d2_delta_quadrant_asymmetry_variance",
+      "d3_d2_delta_quadrant_mean_occupation_1",
+      "d3_d2_delta_quadrant_mean_occupation_2",
+      "d3_d2_delta_quadrant_mean_occupation_3",
+      "d3_d2_delta_quadrant_mean_occupation_4",
+      "d3_d2_delta_radial_mean_occupation_7bins_1",
+      "d3_d2_delta_radial_mean_occupation_7bins_2",
+      "d3_d2_delta_radial_mean_occupation_7bins_3",
+      "d3_d2_delta_radial_mean_occupation_7bins_4",
+      "d3_d2_delta_radial_mean_occupation_7bins_5",
+      "d3_d2_delta_radial_mean_occupation_7bins_6",
+      "d3_d2_delta_radial_mean_occupation_7bins_7",
+      "d3_delta_g_percent_lowest_energy_value",
+      "d3_delta_g_percent_maximum",
+      "d3_delta_g_percent_mean",
+      "d3_delta_g_percent_minimum",
+      "d3_delta_g_percent_percentile_5",
+      "d3_delta_g_percent_percentile_95",
+      "d3_delta_g_percent_percentile_span",
+      "d3_delta_vbur_percent_lowest_energy_value",
+      "d3_delta_vbur_percent_maximum",
+      "d3_delta_vbur_percent_mean",
+      "d3_delta_vbur_percent_minimum",
+      "d3_delta_vbur_percent_percentile_5",
+      "d3_delta_vbur_percent_percentile_95",
+      "d3_delta_vbur_percent_percentile_span",
+      "d3_extended_g_percent_lowest_energy_value",
+      "d3_extended_g_percent_maximum",
+      "d3_extended_g_percent_mean",
+      "d3_extended_g_percent_minimum",
+      "d3_extended_g_percent_percentile_5",
+      "d3_extended_g_percent_percentile_95",
+      "d3_extended_g_percent_percentile_span",
+      "d3_extended_g_percent_population_standard_deviation",
+      "d3_extended_vbur_percent_lowest_energy_value",
+      "d3_extended_vbur_percent_maximum",
+      "d3_extended_vbur_percent_mean",
+      "d3_extended_vbur_percent_minimum",
+      "d3_extended_vbur_percent_percentile_5",
+      "d3_extended_vbur_percent_percentile_95",
+      "d3_extended_vbur_percent_percentile_span",
+      "d3_extended_vbur_percent_population_standard_deviation",
+      "d3_reference_g_percent_lowest_energy_value",
+      "d3_reference_g_percent_maximum",
+      "d3_reference_g_percent_mean",
+      "d3_reference_g_percent_minimum",
+      "d3_reference_g_percent_percentile_5",
+      "d3_reference_g_percent_percentile_95",
+      "d3_reference_vbur_percent_lowest_energy_value",
+      "d3_reference_vbur_percent_maximum",
+      "d3_reference_vbur_percent_mean",
+      "d3_reference_vbur_percent_minimum",
+      "d3_reference_vbur_percent_percentile_5",
+      "d3_reference_vbur_percent_percentile_95"
+    ],
+    "full_fit_candidate_count": 156,
+    "core_feature_rationales": {
+      "d2_pocket_steric_entropy_volume_angstrom3_nat": "absolute CREST ensemble steric-entropy volume",
+      "d2_pocket_steric_entropy_sum": "CREST ensemble steric-entropy occupancy mass; available when normalized entropy is not estimable",
+      "d3_d2_delta_pocket_steric_entropy_sum": "matched full-minus-IMe CREST ensemble entropy-occupancy difference",
+      "d2_normalized_pocket_flexibility": "absolute CREST ensemble flexibility",
+      "d2_persistent_open_fraction": "persistent dynamic access state",
+      "d2_breathing_fraction": "dynamic breathing state fraction",
+      "d2_persistent_blocked_fraction": "persistent dynamic blocking state",
+      "d2_approach_accessibility_mean": "mean dynamic approach accessibility",
+      "d3_d2_delta_approach_accessibility_mean": "matched full-minus-IMe accessibility difference",
+      "d2_pocket_weighted_vbur_percent": "dynamic ensemble %Vbur baseline feature",
+      "d2_pocket_integrated_vbur_percent": "dynamic ensemble integrated %Vbur",
+      "d3_d2_delta_pocket_weighted_vbur_percent": "matched full-minus-IMe ensemble %Vbur difference",
+      "d3_d2_delta_pocket_integrated_vbur_percent": "matched full-minus-IMe integrated %Vbur difference",
+      "d3_delta_vbur_percent_mean": "dynamic d3 scalar %Vbur mean difference",
+      "d3_delta_g_percent_mean": "dynamic d3 scalar G mean difference",
+      "d3_changed_occupation_area_fraction": "dynamic d3 occupied-area change",
+      "d3_changed_pocket_occupation_area_fraction": "dynamic d3 pocket occupation change",
+      "d3_changed_shielding_probability_area_fraction": "dynamic d3 shielding-probability change",
+      "d3_changed_topographic_contact_probability_area_fraction": "dynamic d3 contact-probability change",
+      "d3_changed_topographic_first_contact_interval_10_90_area_fraction": "dynamic d3 first-contact interval change",
+      "d3_changed_topographic_first_contact_q50_area_fraction": "dynamic d3 first-contact median change",
+      "d3_changed_topographic_occupied_depth_area_fraction": "dynamic d3 occupied-depth change",
+      "d3_changed_v2_adaptive_class_area_fraction": "dynamic d3 adaptive-class change",
+      "d2_quadrant_asymmetry_variance": "dynamic directional asymmetry",
+      "d3_d2_delta_quadrant_asymmetry_variance": "matched full-minus-IMe directional asymmetry difference",
+      "d2_displaced_g_mean_2": "displaced dynamic G signal selected by the initial full-pool fit",
+      "d2_displaced_vbur_mean_2": "matched displaced dynamic %Vbur signal"
+    },
+    "core_features_missing_or_constant": [
+      "d2_approach_accessibility_min",
+      "d3_d2_delta_approach_accessibility_min",
+      "d3_d2_delta_normalized_pocket_flexibility",
+      "d3_d2_delta_pocket_steric_entropy_volume_angstrom3_nat"
+    ],
+    "candidate_features": [
+      "d2_pocket_steric_entropy_volume_angstrom3_nat",
+      "d2_pocket_steric_entropy_sum",
+      "d3_d2_delta_pocket_steric_entropy_sum",
+      "d2_normalized_pocket_flexibility",
+      "d2_persistent_open_fraction",
+      "d2_breathing_fraction",
+      "d2_persistent_blocked_fraction",
+      "d2_approach_accessibility_mean",
+      "d3_d2_delta_approach_accessibility_mean",
+      "d2_pocket_weighted_vbur_percent",
+      "d2_pocket_integrated_vbur_percent",
+      "d3_d2_delta_pocket_weighted_vbur_percent",
+      "d3_d2_delta_pocket_integrated_vbur_percent",
+      "d3_delta_vbur_percent_mean",
+      "d3_delta_g_percent_mean",
+      "d3_changed_occupation_area_fraction",
+      "d3_changed_pocket_occupation_area_fraction",
+      "d3_changed_shielding_probability_area_fraction",
+      "d3_changed_topographic_contact_probability_area_fraction",
+      "d3_changed_topographic_first_contact_interval_10_90_area_fraction",
+      "d3_changed_topographic_first_contact_q50_area_fraction",
+      "d3_changed_topographic_occupied_depth_area_fraction",
+      "d3_changed_v2_adaptive_class_area_fraction",
+      "d2_quadrant_asymmetry_variance",
+      "d3_d2_delta_quadrant_asymmetry_variance",
+      "d2_displaced_g_mean_2",
+      "d2_displaced_vbur_mean_2"
+    ],
+    "candidate_feature_count": 27,
+    "feature_policy": "archive all finite numeric d2 ensemble fields, matched full-minus-IMe d2 ensemble deltas, and dynamic d3 changed-area/scalar-comparison fields; fit only the mechanistically motivated core because n=7"
+  },
+  "model_policy": "case-3d Gaussian Bayesian ridge with marginal-likelihood selection of at most three features; selection and hyperparameters are refit in every nested leave-one-catalyst-out fold",
+  "static_baseline_features": [
+    "static_vbur_percent",
+    "static_g_percent"
+  ],
+  "core_feature_ensemble_model": {
+    "feature_names": [
+      "d2_normalized_pocket_flexibility",
+      "d3_changed_topographic_first_contact_q50_area_fraction",
+      "d2_displaced_g_mean_2"
+    ],
+    "evidence": -6.465381842751489,
+    "prior_tau": 0.4735317242569647,
+    "noise_sigma_standardized": 0.08,
+    "outcome_mean": 66.42857142857143,
+    "outcome_sd": 27.81999965766321,
+    "predictor_means": {
+      "d2_pocket_steric_entropy_volume_angstrom3_nat": 2.1761209358109737,
+      "d2_pocket_steric_entropy_sum": 139.2717398919023,
+      "d3_d2_delta_pocket_steric_entropy_sum": 139.2717398919023,
+      "d2_normalized_pocket_flexibility": 0.017452153954488413,
+      "d2_persistent_open_fraction": 0.6384956136541301,
+      "d2_breathing_fraction": 0.02046134183717784,
+      "d2_persistent_blocked_fraction": 0.3410430445086921,
+      "d2_approach_accessibility_mean": 0.17865481216749263,
+      "d3_d2_delta_approach_accessibility_mean": -0.29238306790724833,
+      "d2_pocket_weighted_vbur_percent": 35.15965504196565,
+      "d2_pocket_integrated_vbur_percent": 35.15965504196565,
+      "d3_d2_delta_pocket_weighted_vbur_percent": 10.199051500627288,
+      "d3_d2_delta_pocket_integrated_vbur_percent": 10.19905150062729,
+      "d3_delta_vbur_percent_mean": 12.496629977499197,
+      "d3_delta_g_percent_mean": 11.949981659606717,
+      "d3_changed_occupation_area_fraction": 0.3485268859822962,
+      "d3_changed_pocket_occupation_area_fraction": 0.18844561072614704,
+      "d3_changed_shielding_probability_area_fraction": 0.45266287667410715,
+      "d3_changed_topographic_contact_probability_area_fraction": 0.3811961698406407,
+      "d3_changed_topographic_first_contact_interval_10_90_area_fraction": 0.1173977187651385,
+      "d3_changed_topographic_first_contact_q50_area_fraction": 0.2369627993884831,
+      "d3_changed_topographic_occupied_depth_area_fraction": 0.6016253641105009,
+      "d3_changed_v2_adaptive_class_area_fraction": 0.00965892117640857,
+      "d2_quadrant_asymmetry_variance": 0.0522530156498759,
+      "d3_d2_delta_quadrant_asymmetry_variance": 0.004329676692202982,
+      "d2_displaced_g_mean_2": 71.06093322956274,
+      "d2_displaced_vbur_mean_2": 47.15374677783818
+    },
+    "predictor_sds": {
+      "d2_pocket_steric_entropy_volume_angstrom3_nat": 3.694137839442284,
+      "d2_pocket_steric_entropy_sum": 236.42482172430618,
+      "d3_d2_delta_pocket_steric_entropy_sum": 236.42482172430618,
+      "d2_normalized_pocket_flexibility": 0.029626415169348892,
+      "d2_persistent_open_fraction": 0.07300557082593154,
+      "d2_breathing_fraction": 0.03576158691600637,
+      "d2_persistent_blocked_fraction": 0.04293364656074667,
+      "d2_approach_accessibility_mean": 0.15873457529121415,
+      "d3_d2_delta_approach_accessibility_mean": 0.27505557651854307,
+      "d2_pocket_weighted_vbur_percent": 5.789458808351816,
+      "d2_pocket_integrated_vbur_percent": 5.789458808351822,
+      "d3_d2_delta_pocket_weighted_vbur_percent": 8.514023642440607,
+      "d3_d2_delta_pocket_integrated_vbur_percent": 8.51402364244061,
+      "d3_delta_vbur_percent_mean": 10.59468603905064,
+      "d3_delta_g_percent_mean": 11.298678884608725,
+      "d3_changed_occupation_area_fraction": 0.08825145976278298,
+      "d3_changed_pocket_occupation_area_fraction": 0.036539128764513075,
+      "d3_changed_shielding_probability_area_fraction": 0.12559775566877476,
+      "d3_changed_topographic_contact_probability_area_fraction": 0.0354623499384146,
+      "d3_changed_topographic_first_contact_interval_10_90_area_fraction": 0.11984066093160463,
+      "d3_changed_topographic_first_contact_q50_area_fraction": 0.07738939294064326,
+      "d3_changed_topographic_occupied_depth_area_fraction": 0.03606179682164047,
+      "d3_changed_v2_adaptive_class_area_fraction": 0.016881510113739038,
+      "d2_quadrant_asymmetry_variance": 0.0407724568948287,
+      "d3_d2_delta_quadrant_asymmetry_variance": 0.054826883558525503,
+      "d2_displaced_g_mean_2": 27.679282757030442,
+      "d2_displaced_vbur_mean_2": 6.624386088012631
+    },
+    "weights": [
+      {
+        "feature": "d2_normalized_pocket_flexibility",
+        "posterior_weight_standardized": 0.5191709433290556,
+        "posterior_sd_standardized": 0.03509202908855768,
+        "credible_interval_95_standardized": [
+          0.4503905663154825,
+          0.5879513203426286
+        ],
+        "absolute_contribution_fraction": 0.3755215800040317
+      },
+      {
+        "feature": "d3_changed_topographic_first_contact_q50_area_fraction",
+        "posterior_weight_standardized": 0.34458593991718983,
+        "posterior_sd_standardized": 0.03576286958165447,
+        "credible_interval_95_standardized": [
+          0.2744907155371471,
+          0.41468116429723256
+        ],
+        "absolute_contribution_fraction": 0.24924248605889876
+      },
+      {
+        "feature": "d2_displaced_g_mean_2",
+        "posterior_weight_standardized": -0.5187760282404438,
+        "posterior_sd_standardized": 0.03814401716849235,
+        "credible_interval_95_standardized": [
+          -0.5935383018906888,
+          -0.44401375459019876
+        ],
+        "absolute_contribution_fraction": 0.3752359339370696
+      }
+    ],
+    "intercept_standardized": -1.9242643232964746e-10,
+    "intercept_sd_standardized": 0.03022452096933861,
+    "rmse": 0.6199484833316607,
+    "r2_in_sample": 0.9994206463429128,
+    "observed": [
+      98.0,
+      94.0,
+      92.0,
+      40.0,
+      36.0,
+      63.0,
+      42.0
+    ],
+    "predicted": [
+      98.13590962984804,
+      93.51861307382612,
+      91.72521839588049,
+      39.730721724011744,
+      35.233575455007966,
+      63.41955630713988,
+      43.23640537681264
+    ],
+    "predictive_sd": [
+      2.9570166613127804,
+      2.569495591772491,
+      3.085238613336666,
+      2.565082451513783,
+      2.602787003595459,
+      3.0648548206375414,
+      2.6042420882741344
+    ],
+    "descriptor_score": [
+      1.1397317971532006,
+      0.9737613941036067,
+      0.9092971705229415,
+      -0.9596639118524315,
+      -1.1213154691616714,
+      -0.10816014209581028,
+      -0.8336508386698359
+    ],
+    "weighted_score": [
+      1.1397317971532006,
+      0.9737613941036067,
+      0.9092971705229415,
+      -0.9596639118524315,
+      -1.1213154691616714,
+      -0.10816014209581028,
+      -0.8336508386698359
+    ],
+    "fitted_standardized": [
+      1.139731796960774,
+      0.9737613939111803,
+      0.909297170330515,
+      -0.9596639120448579,
+      -1.1213154693540979,
+      -0.10816014228823671,
+      -0.8336508388622623
+    ],
+    "loo_predicted": [
+      98.99238979527775,
+      93.27659589334816,
+      89.37023664173977,
+      39.596873129296604,
+      34.78936265986295,
+      67.20017534163847,
+      43.94857777889746
+    ],
+    "loo_predictive_sd": [
+      4.377814598214136,
+      2.6851817326695633,
+      8.085319101909453,
+      2.7014034499763016,
+      2.6862555926885814,
+      7.566016580449507,
+      2.8305501249326537
+    ],
+    "loo_rmse": 2.120996687270206,
+    "loo_r2": 0.993218706687284,
+    "loo_coverage_95": 1.0,
+    "loo_intercept_rmse": 30.04903400185178,
+    "loo_intercept_r2": -0.3611111111111107,
+    "loo_improves_intercept": true,
+    "nested_loo_predicted": [
+      106.30795487738276,
+      93.27659589334817,
+      89.37023664173977,
+      39.59687312929664,
+      34.789362659862924,
+      92.56831233206877,
+      43.94857777889747
+    ],
+    "nested_loo_predictive_sd": [
+      5.127923055486604,
+      2.6851817339469357,
+      8.085319101909453,
+      2.7014034514159153,
+      2.6862555918812117,
+      3.175459541326285,
+      2.8305501250081173
+    ],
+    "nested_loo_rmse": 11.687424784399667,
+    "nested_loo_r2": 0.7940934287067317,
+    "nested_loo_coverage_95": 0.8571428571428571,
+    "nested_loo_selected_features": [
+      [
+        "d2_breathing_fraction",
+        "d3_changed_topographic_first_contact_q50_area_fraction",
+        "d2_displaced_g_mean_2"
+      ],
+      [
+        "d2_pocket_steric_entropy_volume_angstrom3_nat",
+        "d3_changed_topographic_first_contact_q50_area_fraction",
+        "d2_displaced_g_mean_2"
+      ],
+      [
+        "d2_normalized_pocket_flexibility",
+        "d3_changed_topographic_first_contact_q50_area_fraction",
+        "d2_displaced_g_mean_2"
+      ],
+      [
+        "d2_pocket_steric_entropy_volume_angstrom3_nat",
+        "d3_changed_topographic_first_contact_q50_area_fraction",
+        "d2_displaced_g_mean_2"
+      ],
+      [
+        "d2_pocket_steric_entropy_volume_angstrom3_nat",
+        "d3_changed_topographic_first_contact_q50_area_fraction",
+        "d2_displaced_g_mean_2"
+      ],
+      [
+        "d2_persistent_open_fraction",
+        "d2_displaced_g_mean_2"
+      ],
+      [
+        "d2_pocket_steric_entropy_volume_angstrom3_nat",
+        "d3_changed_topographic_first_contact_q50_area_fraction",
+        "d2_displaced_g_mean_2"
+      ]
+    ],
+    "nested_loo_feature_selection_frequency": {
+      "d2_breathing_fraction": 1,
+      "d3_changed_topographic_first_contact_q50_area_fraction": 6,
+      "d2_displaced_g_mean_2": 7,
+      "d2_pocket_steric_entropy_volume_angstrom3_nat": 4,
+      "d2_normalized_pocket_flexibility": 1,
+      "d2_persistent_open_fraction": 1
+    },
+    "nested_loo_intercept_rmse": 30.04903400185178,
+    "nested_loo_intercept_r2": -0.3611111111111107,
+    "nested_loo_improves_intercept": true,
+    "permutation_count": 2000,
+    "permutation_seed": 20260922,
+    "permutation_loo_r2_mean": -4.394342020249339,
+    "permutation_loo_r2_sd": 3.375486336010506,
+    "permutation_loo_r2_95_interval": [
+      -11.267112593236885,
+      0.8319466320847224
+    ],
+    "permutation_p_ge_observed": 0.0009995002498750624
+  },
+  "static_vbur_model": {
+    "feature_names": [
+      "static_vbur_percent"
+    ],
+    "evidence": -15.042536042970571,
+    "prior_tau": 0.08,
+    "noise_sigma_standardized": 0.9515430799087496,
+    "outcome_mean": 66.42857142857143,
+    "outcome_sd": 27.81999965766321,
+    "predictor_means": {
+      "static_vbur_percent": 43.805484693877546
+    },
+    "predictor_sds": {
+      "static_vbur_percent": 7.883550158578961
+    },
+    "weights": [
+      {
+        "feature": "static_vbur_percent",
+        "posterior_weight_standardized": 0.007214519327385394,
+        "posterior_sd_standardized": 0.07835569726067972,
+        "credible_interval_95_standardized": [
+          -0.14636264730354684,
+          0.16079168595831764
+        ],
+        "absolute_contribution_fraction": 1.0
+      }
+    ],
+    "intercept_standardized": 7.399782568975645e-13,
+    "intercept_sd_standardized": 0.3596471942292019,
+    "rmse": 25.724014326549568,
+    "r2_in_sample": 0.0025065913814730223,
+    "observed": [
+      98.0,
+      94.0,
+      92.0,
+      40.0,
+      36.0,
+      63.0,
+      42.0
+    ],
+    "predicted": [
+      66.65640420577576,
+      66.42170332249533,
+      66.33452870870545,
+      66.27860966048561,
+      66.26428892862444,
+      66.28361055097682,
+      66.7608546230807
+    ],
+    "predictive_sd": [
+      28.40763327529326,
+      28.299757418366895,
+      28.31808481740982,
+      28.346488347582795,
+      28.355850117528846,
+      28.34341949468417,
+      28.528839224222803
+    ],
+    "descriptor_score": [
+      0.008189531990917306,
+      -0.0002468765701366783,
+      -0.003380399749956735,
+      -0.0053904302642611285,
+      -0.005905194176461027,
+      -0.005210671437778618,
+      0.01194404020767692
+    ],
+    "weighted_score": [
+      0.008189531990917306,
+      -0.0002468765701366783,
+      -0.003380399749956735,
+      -0.0053904302642611285,
+      -0.005905194176461027,
+      -0.005210671437778618,
+      0.01194404020767692
+    ],
+    "fitted_standardized": [
+      0.008189531991657284,
+      -0.0002468765693967,
+      -0.0033803997492167564,
+      -0.00539043026352115,
+      -0.005905194175721049,
+      -0.00521067143703864,
+      0.011944040208416898
+    ],
+    "loo_predicted": [
+      61.0438940385011,
+      61.82635882392732,
+      62.02509463448266,
+      70.79682961322617,
+      71.49661475715192,
+      66.8574993383446,
+      72.30652563782562
+    ],
+    "loo_predictive_sd": [
+      27.27231982436771,
+      28.172736438345062,
+      28.655577820034296,
+      28.50035988725312,
+      27.508201828522786,
+      31.335886645189284,
+      29.435751285275828
+    ],
+    "loo_rmse": 30.334355998394166,
+    "loo_r2": -0.38708190912533946,
+    "loo_coverage_95": 1.0,
+    "loo_intercept_rmse": 30.04903400185178,
+    "loo_intercept_r2": -0.3611111111111107,
+    "loo_improves_intercept": false,
+    "validation_note": "fixed descriptor set; no nested subset selection"
+  },
+  "static_g_model": {
+    "feature_names": [
+      "static_g_percent"
+    ],
+    "evidence": -15.038726547023133,
+    "prior_tau": 0.08,
+    "noise_sigma_standardized": 0.9515430799087496,
+    "outcome_mean": 66.42857142857143,
+    "outcome_sd": 27.81999965766321,
+    "predictor_means": {
+      "static_g_percent": 47.41908482142857
+    },
+    "predictor_sds": {
+      "static_g_percent": 7.952353423009484
+    },
+    "weights": [
+      {
+        "feature": "static_g_percent",
+        "posterior_weight_standardized": 0.009941175397366523,
+        "posterior_sd_standardized": 0.0783556972606812,
+        "credible_interval_95_standardized": [
+          -0.14363599123356863,
+          0.16351834202830168
+        ],
+        "absolute_contribution_fraction": 1.0
+      }
+    ],
+    "intercept_standardized": -3.4345431124085e-12,
+    "intercept_sd_standardized": 0.3596471822803737,
+    "rmse": 25.694950584417047,
+    "r2_in_sample": 0.004759312396294457,
+    "observed": [
+      98.0,
+      94.0,
+      92.0,
+      40.0,
+      36.0,
+      63.0,
+      42.0
+    ],
+    "predicted": [
+      66.78323661761814,
+      66.40030980430689,
+      66.32304519230838,
+      66.24535604947472,
+      66.15280832741058,
+      66.24493151863956,
+      66.85031248957289
+    ],
+    "predictive_sd": [
+      28.437391375584248,
+      28.30053567475525,
+      28.31187928618008,
+      28.33648001999079,
+      28.38300556403333,
+      28.33665074317657,
+      28.494220054454793
+    ],
+    "descriptor_score": [
+      0.012748569141141784,
+      -0.0010158743535861928,
+      -0.003793178916823989,
+      -0.00658574339524441,
+      -0.009912404905056715,
+      -0.006601003310427035,
+      0.015159635739996574
+    ],
+    "weighted_score": [
+      0.012748569141141784,
+      -0.0010158743535861928,
+      -0.003793178916823989,
+      -0.00658574339524441,
+      -0.009912404905056715,
+      -0.006601003310427035,
+      0.015159635739996574
+    ],
+    "fitted_standardized": [
+      0.012748569137707241,
+      -0.0010158743570207358,
+      -0.003793178920258532,
+      -0.006585743398678953,
+      -0.009912404908491258,
+      -0.0066010033138615785,
+      0.015159635736562031
+    ],
+    "loo_predicted": [
+      61.08596609346577,
+      61.8033788053703,
+      62.03069243279218,
+      70.73545592227833,
+      71.45578919713898,
+      66.81619001559994,
+      72.05653442794865
+    ],
+    "loo_predictive_sd": [
+      27.334739853674385,
+      28.17360489045496,
+      28.648027614025647,
+      28.486564432178493,
+      27.55014811555903,
+      31.32570420005157,
+      29.28268460533953
+    ],
+    "loo_rmse": 30.277685130559284,
+    "loo_r2": -0.3819040369900708,
+    "loo_coverage_95": 1.0,
+    "loo_intercept_rmse": 30.04903400185178,
+    "loo_intercept_r2": -0.3611111111111107,
+    "loo_improves_intercept": false,
+    "validation_note": "fixed descriptor set; no nested subset selection"
+  },
+  "full_feature_ensemble_model": {
+    "feature_names": [
+      "d2_angular_fingerprint_12_5",
+      "d2_radial_mean_occupation_7bins_3",
+      "d3_d2_delta_displaced_g_mean_9"
+    ],
+    "evidence": -6.010945957065837,
+    "prior_tau": 0.4735317242569647,
+    "noise_sigma_standardized": 0.08,
+    "outcome_mean": 66.42857142857143,
+    "outcome_sd": 27.81999965766321,
+    "predictor_means": {
+      "d2_angular_fingerprint_12_1": 0.6660193637143139,
+      "d2_angular_fingerprint_12_10": 0.148015803962128,
+      "d2_angular_fingerprint_12_11": 0.21054934580981138,
+      "d2_angular_fingerprint_12_12": 0.37242950951250586,
+      "d2_angular_fingerprint_12_2": 0.7561943223014808,
+      "d2_angular_fingerprint_12_3": 0.73303348861678,
+      "d2_angular_fingerprint_12_4": 0.7501319006640298,
+      "d2_angular_fingerprint_12_5": 0.7153482428965374,
+      "d2_angular_fingerprint_12_6": 0.6357537676371393,
+      "d2_angular_fingerprint_12_7": 0.3732935123066133,
+      "d2_angular_fingerprint_12_8": 0.2383085159161679,
+      "d2_angular_fingerprint_12_9": 0.14912158704084935,
+      "d2_approach_accessibility_mean": 0.17865481216749263,
+      "d2_breathing_fraction": 0.02046134183717784,
+      "d2_displaced_g_mean_1": 47.904920275678144,
+      "d2_displaced_g_mean_2": 71.06093322956274,
+      "d2_displaced_g_mean_3": 70.84781156167335,
+      "d2_displaced_g_mean_4": 70.49636808398171,
+      "d2_displaced_g_mean_5": 70.04135831951466,
+      "d2_displaced_g_mean_6": 69.56017494218709,
+      "d2_displaced_g_mean_7": 69.09875822639837,
+      "d2_displaced_g_mean_8": 68.86087398931026,
+      "d2_displaced_g_mean_9": 68.8629141820739,
+      "d2_displaced_vbur_mean_1": 45.21633661015226,
+      "d2_displaced_vbur_mean_2": 47.15374677783818,
+      "d2_displaced_vbur_mean_3": 48.887064838377164,
+      "d2_displaced_vbur_mean_4": 50.50075314608133,
+      "d2_displaced_vbur_mean_5": 51.84902628209711,
+      "d2_displaced_vbur_mean_6": 52.91588707372087,
+      "d2_displaced_vbur_mean_7": 53.670770993429265,
+      "d2_displaced_vbur_mean_8": 54.15802601510227,
+      "d2_displaced_vbur_mean_9": 54.20569621992764,
+      "d2_ensemble_g_percent_mean": 47.904920275678144,
+      "d2_ensemble_vbur_percent_mean": 45.21633661015226,
+      "d2_legacy_pocket_steric_entropy_voxel_sum": 139.2717398919023,
+      "d2_legacy_uniform_approach_accessibility_mean": 0.18223837295520676,
+      "d2_normalized_pocket_flexibility": 0.017452153954488413,
+      "d2_persistent_blocked_fraction": 0.3410430445086921,
+      "d2_persistent_open_fraction": 0.6384956136541301,
+      "d2_pocket_integrated_vbur_percent": 35.15965504196565,
+      "d2_pocket_steric_entropy_sum": 139.2717398919023,
+      "d2_pocket_steric_entropy_volume_angstrom3_nat": 2.1761209358109737,
+      "d2_pocket_weighted_vbur_percent": 35.15965504196565,
+      "d2_quadrant_asymmetry_variance": 0.0522530156498759,
+      "d2_quadrant_mean_occupation_1": 0.5334800862686572,
+      "d2_quadrant_mean_occupation_2": 0.5104161019494055,
+      "d2_quadrant_mean_occupation_3": 0.16750873109710435,
+      "d2_quadrant_mean_occupation_4": 0.15592232790518157,
+      "d2_radial_mean_occupation_7bins_1": 0.22222222423642984,
+      "d2_radial_mean_occupation_7bins_2": 0.28061224560856074,
+      "d2_radial_mean_occupation_7bins_3": 0.2627373151510096,
+      "d2_radial_mean_occupation_7bins_4": 0.25360211971752966,
+      "d2_radial_mean_occupation_7bins_5": 0.3117400648804766,
+      "d2_radial_mean_occupation_7bins_6": 0.380333510313143,
+      "d2_radial_mean_occupation_7bins_7": 0.394755730372002,
+      "d3_changed_occupation_area_fraction": 0.3485268859822962,
+      "d3_changed_pocket_occupation_area_fraction": 0.18844561072614704,
+      "d3_changed_shielding_probability_area_fraction": 0.45266287667410715,
+      "d3_changed_topographic_contact_probability_area_fraction": 0.3811961698406407,
+      "d3_changed_topographic_first_contact_interval_10_90_area_fraction": 0.1173977187651385,
+      "d3_changed_topographic_first_contact_q50_area_fraction": 0.2369627993884831,
+      "d3_changed_topographic_occupied_depth_area_fraction": 0.6016253641105009,
+      "d3_changed_v2_adaptive_class_area_fraction": 0.00965892117640857,
+      "d3_d2_delta_angular_fingerprint_12_1": -0.0738511458930378,
+      "d3_d2_delta_angular_fingerprint_12_10": -0.007286434063389691,
+      "d3_d2_delta_angular_fingerprint_12_11": -0.33839438981035175,
+      "d3_d2_delta_angular_fingerprint_12_12": -0.34698816958259254,
+      "d3_d2_delta_angular_fingerprint_12_2": 0.12986091924772633,
+      "d3_d2_delta_angular_fingerprint_12_3": 0.42864917982718476,
+      "d3_d2_delta_angular_fingerprint_12_4": 0.5648150213500787,
+      "d3_d2_delta_angular_fingerprint_12_5": 0.43820956897894703,
+      "d3_d2_delta_angular_fingerprint_12_6": 0.3679227699379131,
+      "d3_d2_delta_angular_fingerprint_12_7": 0.1285748342057975,
+      "d3_d2_delta_angular_fingerprint_12_8": 0.08957765793420858,
+      "d3_d2_delta_angular_fingerprint_12_9": 0.05332572843386337,
+      "d3_d2_delta_approach_accessibility_mean": -0.29238306790724833,
+      "d3_d2_delta_breathing_fraction": 0.02046134183717782,
+      "d3_d2_delta_displaced_g_mean_1": 11.949981659606717,
+      "d3_d2_delta_displaced_g_mean_2": 35.562886354562735,
+      "d3_d2_delta_displaced_g_mean_3": 36.68207495453049,
+      "d3_d2_delta_displaced_g_mean_4": 38.284628407642415,
+      "d3_d2_delta_displaced_g_mean_5": 39.988519312818234,
+      "d3_d2_delta_displaced_g_mean_6": 41.72639983057995,
+      "d3_d2_delta_displaced_g_mean_7": 43.37767145184481,
+      "d3_d2_delta_displaced_g_mean_8": 44.9525313553817,
+      "d3_d2_delta_displaced_g_mean_9": 46.58682601243104,
+      "d3_d2_delta_displaced_vbur_mean_1": 12.496629977499197,
+      "d3_d2_delta_displaced_vbur_mean_2": 14.414588614572876,
+      "d3_d2_delta_displaced_vbur_mean_3": 16.563085246540425,
+      "d3_d2_delta_displaced_vbur_mean_4": 18.823457227713995,
+      "d3_d2_delta_displaced_vbur_mean_5": 21.274090057607307,
+      "d3_d2_delta_displaced_vbur_mean_6": 23.79694574719026,
+      "d3_d2_delta_displaced_vbur_mean_7": 26.41630670771497,
+      "d3_d2_delta_displaced_vbur_mean_8": 28.813319382449215,
+      "d3_d2_delta_displaced_vbur_mean_9": 31.013094179111313,
+      "d3_d2_delta_legacy_pocket_steric_entropy_voxel_sum": 139.2717398919023,
+      "d3_d2_delta_legacy_uniform_approach_accessibility_mean": -0.2887995071195342,
+      "d3_d2_delta_persistent_blocked_fraction": 0.09143700909530843,
+      "d3_d2_delta_persistent_open_fraction": -0.11189835093248625,
+      "d3_d2_delta_pocket_integrated_vbur_percent": 10.19905150062729,
+      "d3_d2_delta_pocket_steric_entropy_sum": 139.2717398919023,
+      "d3_d2_delta_pocket_weighted_vbur_percent": 10.199051500627288,
+      "d3_d2_delta_quadrant_asymmetry_variance": 0.004329676692202982,
+      "d3_d2_delta_quadrant_mean_occupation_1": 0.16367163657298947,
+      "d3_d2_delta_quadrant_mean_occupation_2": 0.3395448276298553,
+      "d3_d2_delta_quadrant_mean_occupation_3": 0.04270952874846422,
+      "d3_d2_delta_quadrant_mean_occupation_4": -0.15088963407919426,
+      "d3_d2_delta_radial_mean_occupation_7bins_1": -0.031746029731824145,
+      "d3_d2_delta_radial_mean_occupation_7bins_2": -0.008928570717969866,
+      "d3_d2_delta_radial_mean_occupation_7bins_3": -0.040612285558839556,
+      "d3_d2_delta_radial_mean_occupation_7bins_4": -0.03116609220300019,
+      "d3_d2_delta_radial_mean_occupation_7bins_5": 0.03851525432757182,
+      "d3_d2_delta_radial_mean_occupation_7bins_6": 0.12635993696959644,
+      "d3_d2_delta_radial_mean_occupation_7bins_7": 0.17897093859551289,
+      "d3_delta_g_percent_lowest_energy_value": 11.986432756696429,
+      "d3_delta_g_percent_maximum": 12.339564732142858,
+      "d3_delta_g_percent_mean": 11.949981659606717,
+      "d3_delta_g_percent_minimum": 10.420445033482142,
+      "d3_delta_g_percent_percentile_5": 11.876569475446429,
+      "d3_delta_g_percent_percentile_95": 11.997767857142858,
+      "d3_delta_g_percent_percentile_span": 0.12119838169642858,
+      "d3_delta_vbur_percent_lowest_energy_value": 12.551020408163266,
+      "d3_delta_vbur_percent_maximum": 12.830038265306124,
+      "d3_delta_vbur_percent_mean": 12.496629977499197,
+      "d3_delta_vbur_percent_minimum": 10.302295918367344,
+      "d3_delta_vbur_percent_percentile_5": 12.399872448979588,
+      "d3_delta_vbur_percent_percentile_95": 12.559630102040813,
+      "d3_delta_vbur_percent_percentile_span": 0.15975765306122572,
+      "d3_extended_g_percent_lowest_energy_value": 47.941371372767854,
+      "d3_extended_g_percent_maximum": 48.294503348214285,
+      "d3_extended_g_percent_mean": 47.904920275678144,
+      "d3_extended_g_percent_minimum": 46.37538364955357,
+      "d3_extended_g_percent_percentile_5": 47.831508091517854,
+      "d3_extended_g_percent_percentile_95": 47.952706473214285,
+      "d3_extended_g_percent_percentile_span": 0.12119838169642858,
+      "d3_extended_g_percent_population_standard_deviation": 0.0429994576014101,
+      "d3_extended_vbur_percent_lowest_energy_value": 45.270727040816325,
+      "d3_extended_vbur_percent_maximum": 45.54974489795918,
+      "d3_extended_vbur_percent_mean": 45.21633661015226,
+      "d3_extended_vbur_percent_minimum": 43.022002551020414,
+      "d3_extended_vbur_percent_percentile_5": 45.11957908163266,
+      "d3_extended_vbur_percent_percentile_95": 45.27933673469388,
+      "d3_extended_vbur_percent_percentile_span": 0.15975765306122572,
+      "d3_extended_vbur_percent_population_standard_deviation": 0.054791640479985575,
+      "d3_reference_g_percent_lowest_energy_value": 35.95493861607143,
+      "d3_reference_g_percent_maximum": 35.95493861607143,
+      "d3_reference_g_percent_mean": 35.95493861607143,
+      "d3_reference_g_percent_minimum": 35.95493861607143,
+      "d3_reference_g_percent_percentile_5": 35.95493861607143,
+      "d3_reference_g_percent_percentile_95": 35.95493861607143,
+      "d3_reference_vbur_percent_lowest_energy_value": 32.71970663265306,
+      "d3_reference_vbur_percent_maximum": 32.71970663265306,
+      "d3_reference_vbur_percent_mean": 32.71970663265306,
+      "d3_reference_vbur_percent_minimum": 32.71970663265306,
+      "d3_reference_vbur_percent_percentile_5": 32.71970663265306,
+      "d3_reference_vbur_percent_percentile_95": 32.71970663265306
+    },
+    "predictor_sds": {
+      "d2_angular_fingerprint_12_1": 0.11494344436965315,
+      "d2_angular_fingerprint_12_10": 0.2206847835893298,
+      "d2_angular_fingerprint_12_11": 0.26469397202765454,
+      "d2_angular_fingerprint_12_12": 0.22685127378668754,
+      "d2_angular_fingerprint_12_2": 0.2028014953470121,
+      "d2_angular_fingerprint_12_3": 0.25453563296220855,
+      "d2_angular_fingerprint_12_4": 0.23220230053228694,
+      "d2_angular_fingerprint_12_5": 0.24872907014986814,
+      "d2_angular_fingerprint_12_6": 0.2467749729369183,
+      "d2_angular_fingerprint_12_7": 0.3062667521584861,
+      "d2_angular_fingerprint_12_8": 0.22626287437603682,
+      "d2_angular_fingerprint_12_9": 0.20708402649665444,
+      "d2_approach_accessibility_mean": 0.15873457529121415,
+      "d2_breathing_fraction": 0.03576158691600637,
+      "d2_displaced_g_mean_1": 7.022903818509884,
+      "d2_displaced_g_mean_2": 27.679282757030442,
+      "d2_displaced_g_mean_3": 27.842952062558872,
+      "d2_displaced_g_mean_4": 28.12353999908495,
+      "d2_displaced_g_mean_5": 28.51672178750191,
+      "d2_displaced_g_mean_6": 28.945622007827815,
+      "d2_displaced_g_mean_7": 29.38376603660052,
+      "d2_displaced_g_mean_8": 29.66484659959375,
+      "d2_displaced_g_mean_9": 29.868599212034123,
+      "d2_displaced_vbur_mean_1": 6.900670658986259,
+      "d2_displaced_vbur_mean_2": 6.624386088012631,
+      "d2_displaced_vbur_mean_3": 6.986967259201408,
+      "d2_displaced_vbur_mean_4": 8.048088366203357,
+      "d2_displaced_vbur_mean_5": 9.54237286607654,
+      "d2_displaced_vbur_mean_6": 11.291460075570333,
+      "d2_displaced_vbur_mean_7": 13.134536601470446,
+      "d2_displaced_vbur_mean_8": 15.052806414793933,
+      "d2_displaced_vbur_mean_9": 16.854365417564992,
+      "d2_ensemble_g_percent_mean": 7.022903818509884,
+      "d2_ensemble_vbur_percent_mean": 6.900670658986259,
+      "d2_legacy_pocket_steric_entropy_voxel_sum": 236.42482172430618,
+      "d2_legacy_uniform_approach_accessibility_mean": 0.16534692976897244,
+      "d2_normalized_pocket_flexibility": 0.029626415169348892,
+      "d2_persistent_blocked_fraction": 0.04293364656074667,
+      "d2_persistent_open_fraction": 0.07300557082593154,
+      "d2_pocket_integrated_vbur_percent": 5.789458808351822,
+      "d2_pocket_steric_entropy_sum": 236.42482172430618,
+      "d2_pocket_steric_entropy_volume_angstrom3_nat": 3.694137839442284,
+      "d2_pocket_weighted_vbur_percent": 5.789458808351816,
+      "d2_quadrant_asymmetry_variance": 0.0407724568948287,
+      "d2_quadrant_mean_occupation_1": 0.14912051552153896,
+      "d2_quadrant_mean_occupation_2": 0.17819176886883095,
+      "d2_quadrant_mean_occupation_3": 0.15173302743038294,
+      "d2_quadrant_mean_occupation_4": 0.16626503613316815,
+      "d2_radial_mean_occupation_7bins_1": 0.047814607392205916,
+      "d2_radial_mean_occupation_7bins_2": 0.012206526472361211,
+      "d2_radial_mean_occupation_7bins_3": 0.00729733550028855,
+      "d2_radial_mean_occupation_7bins_4": 0.035630223778804974,
+      "d2_radial_mean_occupation_7bins_5": 0.05873836035053447,
+      "d2_radial_mean_occupation_7bins_6": 0.06910046047247025,
+      "d2_radial_mean_occupation_7bins_7": 0.07404309168070258,
+      "d3_changed_occupation_area_fraction": 0.08825145976278298,
+      "d3_changed_pocket_occupation_area_fraction": 0.036539128764513075,
+      "d3_changed_shielding_probability_area_fraction": 0.12559775566877476,
+      "d3_changed_topographic_contact_probability_area_fraction": 0.0354623499384146,
+      "d3_changed_topographic_first_contact_interval_10_90_area_fraction": 0.11984066093160463,
+      "d3_changed_topographic_first_contact_q50_area_fraction": 0.07738939294064326,
+      "d3_changed_topographic_occupied_depth_area_fraction": 0.03606179682164047,
+      "d3_changed_v2_adaptive_class_area_fraction": 0.016881510113739038,
+      "d3_d2_delta_angular_fingerprint_12_1": 0.3287582993968964,
+      "d3_d2_delta_angular_fingerprint_12_10": 0.3005113577540256,
+      "d3_d2_delta_angular_fingerprint_12_11": 0.48842162057913957,
+      "d3_d2_delta_angular_fingerprint_12_12": 0.4661605298075011,
+      "d3_d2_delta_angular_fingerprint_12_2": 0.3219853404964018,
+      "d3_d2_delta_angular_fingerprint_12_3": 0.23268125925749242,
+      "d3_d2_delta_angular_fingerprint_12_4": 0.2851547200511712,
+      "d3_d2_delta_angular_fingerprint_12_5": 0.4387221798127931,
+      "d3_d2_delta_angular_fingerprint_12_6": 0.5654799859268269,
+      "d3_d2_delta_angular_fingerprint_12_7": 0.5855788158410773,
+      "d3_d2_delta_angular_fingerprint_12_8": 0.3708352580755482,
+      "d3_d2_delta_angular_fingerprint_12_9": 0.1999570359073036,
+      "d3_d2_delta_approach_accessibility_mean": 0.27505557651854307,
+      "d3_d2_delta_breathing_fraction": 0.035761586916006366,
+      "d3_d2_delta_displaced_g_mean_1": 11.298678884608725,
+      "d3_d2_delta_displaced_g_mean_2": 32.06295378607874,
+      "d3_d2_delta_displaced_g_mean_3": 32.02631706537185,
+      "d3_d2_delta_displaced_g_mean_4": 31.834483059610246,
+      "d3_d2_delta_displaced_g_mean_5": 31.67682680019519,
+      "d3_d2_delta_displaced_g_mean_6": 31.406322004680593,
+      "d3_d2_delta_displaced_g_mean_7": 31.134052542612736,
+      "d3_d2_delta_displaced_g_mean_8": 30.783625232959295,
+      "d3_d2_delta_displaced_g_mean_9": 30.29281981644638,
+      "d3_d2_delta_displaced_vbur_mean_1": 10.59468603905064,
+      "d3_d2_delta_displaced_vbur_mean_2": 10.550374286708998,
+      "d3_d2_delta_displaced_vbur_mean_3": 10.886008622099492,
+      "d3_d2_delta_displaced_vbur_mean_4": 11.471469619980056,
+      "d3_d2_delta_displaced_vbur_mean_5": 12.404782221820097,
+      "d3_d2_delta_displaced_vbur_mean_6": 13.585331691691296,
+      "d3_d2_delta_displaced_vbur_mean_7": 14.990576578756297,
+      "d3_d2_delta_displaced_vbur_mean_8": 16.422983143168935,
+      "d3_d2_delta_displaced_vbur_mean_9": 17.814367714410153,
+      "d3_d2_delta_legacy_pocket_steric_entropy_voxel_sum": 236.42482172430618,
+      "d3_d2_delta_legacy_uniform_approach_accessibility_mean": 0.2784124808728061,
+      "d3_d2_delta_persistent_blocked_fraction": 0.0729372953630095,
+      "d3_d2_delta_persistent_open_fraction": 0.09792107382672083,
+      "d3_d2_delta_pocket_integrated_vbur_percent": 8.51402364244061,
+      "d3_d2_delta_pocket_steric_entropy_sum": 236.42482172430618,
+      "d3_d2_delta_pocket_weighted_vbur_percent": 8.514023642440607,
+      "d3_d2_delta_quadrant_asymmetry_variance": 0.054826883558525503,
+      "d3_d2_delta_quadrant_mean_occupation_1": 0.17228005899222407,
+      "d3_d2_delta_quadrant_mean_occupation_2": 0.30359527796824665,
+      "d3_d2_delta_quadrant_mean_occupation_3": 0.2724007916422388,
+      "d3_d2_delta_quadrant_mean_occupation_4": 0.28237870027883255,
+      "d3_d2_delta_radial_mean_occupation_7bins_1": 0.10350194269139408,
+      "d3_d2_delta_radial_mean_occupation_7bins_2": 0.03717260723288778,
+      "d3_d2_delta_radial_mean_occupation_7bins_3": 0.08520823025010947,
+      "d3_d2_delta_radial_mean_occupation_7bins_4": 0.10738127228432176,
+      "d3_d2_delta_radial_mean_occupation_7bins_5": 0.10936095411760603,
+      "d3_d2_delta_radial_mean_occupation_7bins_6": 0.09248958252434861,
+      "d3_d2_delta_radial_mean_occupation_7bins_7": 0.0802314234309878,
+      "d3_delta_g_percent_lowest_energy_value": 11.355120418624402,
+      "d3_delta_g_percent_maximum": 11.334999078430098,
+      "d3_delta_g_percent_mean": 11.298678884608725,
+      "d3_delta_g_percent_minimum": 11.180056171952648,
+      "d3_delta_g_percent_percentile_5": 11.20029011895683,
+      "d3_delta_g_percent_percentile_95": 11.352795951034578,
+      "d3_delta_g_percent_percentile_span": 0.2158617285271149,
+      "d3_delta_vbur_percent_lowest_energy_value": 10.681928091504137,
+      "d3_delta_vbur_percent_maximum": 10.680409026754878,
+      "d3_delta_vbur_percent_mean": 10.59468603905064,
+      "d3_delta_vbur_percent_minimum": 10.699797903944386,
+      "d3_delta_vbur_percent_percentile_5": 10.46867380453248,
+      "d3_delta_vbur_percent_percentile_95": 10.673006629605114,
+      "d3_delta_vbur_percent_percentile_span": 0.2804275612688079,
+      "d3_extended_g_percent_lowest_energy_value": 7.090086354189943,
+      "d3_extended_g_percent_maximum": 6.7745493727764,
+      "d3_extended_g_percent_mean": 7.022903818509884,
+      "d3_extended_g_percent_minimum": 7.246072250371528,
+      "d3_extended_g_percent_percentile_5": 6.903266590918422,
+      "d3_extended_g_percent_percentile_95": 7.08566629901508,
+      "d3_extended_g_percent_percentile_span": 0.2158617285271149,
+      "d3_extended_g_percent_population_standard_deviation": 0.07791199159071183,
+      "d3_extended_vbur_percent_lowest_energy_value": 6.997919004486853,
+      "d3_extended_vbur_percent_maximum": 6.772946963025606,
+      "d3_extended_vbur_percent_mean": 6.900670658986259,
+      "d3_extended_vbur_percent_minimum": 7.589949028760781,
+      "d3_extended_vbur_percent_percentile_5": 6.759139380462993,
+      "d3_extended_vbur_percent_percentile_95": 6.99540079542479,
+      "d3_extended_vbur_percent_percentile_span": 0.2804275612688079,
+      "d3_extended_vbur_percent_population_standard_deviation": 0.09448539973031898,
+      "d3_reference_g_percent_lowest_energy_value": 8.160829823180793,
+      "d3_reference_g_percent_maximum": 8.160829823180793,
+      "d3_reference_g_percent_mean": 8.160829823180793,
+      "d3_reference_g_percent_minimum": 8.160829823180793,
+      "d3_reference_g_percent_percentile_5": 8.160829823180793,
+      "d3_reference_g_percent_percentile_95": 8.160829823180793,
+      "d3_reference_vbur_percent_lowest_energy_value": 7.693871654444293,
+      "d3_reference_vbur_percent_maximum": 7.693871654444293,
+      "d3_reference_vbur_percent_mean": 7.693871654444293,
+      "d3_reference_vbur_percent_minimum": 7.693871654444293,
+      "d3_reference_vbur_percent_percentile_5": 7.693871654444293,
+      "d3_reference_vbur_percent_percentile_95": 7.693871654444293
+    },
+    "weights": [
+      {
+        "feature": "d2_angular_fingerprint_12_5",
+        "posterior_weight_standardized": 0.35069476089439167,
+        "posterior_sd_standardized": 0.09456435888297537,
+        "credible_interval_95_standardized": [
+          0.16534861748375992,
+          0.5360409043050234
+        ],
+        "absolute_contribution_fraction": 0.2746805274302665
+      },
+      {
+        "feature": "d2_radial_mean_occupation_7bins_3",
+        "posterior_weight_standardized": 0.4420174214787154,
+        "posterior_sd_standardized": 0.03916265826032217,
+        "credible_interval_95_standardized": [
+          0.36525861128848397,
+          0.5187762316689468
+        ],
+        "absolute_contribution_fraction": 0.34620870341916077
+      },
+      {
+        "feature": "d3_d2_delta_displaced_g_mean_9",
+        "posterior_weight_standardized": -0.48402470238266804,
+        "posterior_sd_standardized": 0.09047147580185404,
+        "credible_interval_95_standardized": [
+          -0.661348794954302,
+          -0.3067006098110341
+        ],
+        "absolute_contribution_fraction": 0.37911076915057274
+      }
+    ],
+    "intercept_standardized": 1.181117494178432e-10,
+    "intercept_sd_standardized": 0.030262656993796162,
+    "rmse": 1.1667472987857934,
+    "r2_in_sample": 0.9979479584168469,
+    "observed": [
+      98.0,
+      94.0,
+      92.0,
+      40.0,
+      36.0,
+      63.0,
+      42.0
+    ],
+    "predicted": [
+      96.68600325598787,
+      95.05774379330127,
+      91.98594982900929,
+      42.24328018770762,
+      34.99344348674509,
+      62.80922921315561,
+      41.2243502570939
+    ],
+    "predictive_sd": [
+      2.87106973059097,
+      2.849160713858106,
+      2.523097361976342,
+      2.732885948042829,
+      2.8681387910372806,
+      3.048144391513225,
+      2.5237928452868115
+    ],
+    "descriptor_score": [
+      1.087614385207081,
+      1.0290860069639816,
+      0.9186692563496143,
+      -0.8693490848943154,
+      -1.129947100357105,
+      -0.13009857164770733,
+      -0.905974891621565
+    ],
+    "weighted_score": [
+      1.087614385207081,
+      1.0290860069639816,
+      0.9186692563496143,
+      -0.8693490848943154,
+      -1.129947100357105,
+      -0.13009857164770733,
+      -0.905974891621565
+    ],
+    "fitted_standardized": [
+      1.0876143853251927,
+      1.0290860070820933,
+      0.918669256467726,
+      -0.8693490847762037,
+      -1.1299471002389934,
+      -0.13009857152959559,
+      -0.9059748915034532
+    ],
+    "loo_predicted": [
+      94.22339179612311,
+      97.00587500071845,
+      91.97207500537915,
+      44.50190732963436,
+      32.84079774022196,
+      60.851064924616665,
+      40.9229369197841
+    ],
+    "loo_predictive_sd": [
+      3.63688224499363,
+      3.648358449996611,
+      2.635799414299112,
+      3.1573886790513166,
+      3.6886527245002947,
+      6.947329321666356,
+      2.659478288250293
+    ],
+    "loo_rmse": 2.911174265055209,
+    "loo_r2": 0.9872247632906397,
+    "loo_coverage_95": 1.0,
+    "loo_intercept_rmse": 30.04903400185178,
+    "loo_intercept_r2": -0.3611111111111107,
+    "loo_improves_intercept": true,
+    "validation_note": "full finite d2/d3-derived candidate pool; fixed-subset LOO shown, nested full-pool selection omitted because n=7"
+  },
+  "scientific_boundary": "The yield fit is exploratory association over seven catalyst labels. It is not a causal mechanism, kinetic probability, free-energy model, or validation of xTB-constructed 3e/IMes/IPr geometries.",
+  "files": {
+    "feature_matrix": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/case3f-feature-matrix.csv",
+    "yield_table": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/case3f-yield-table.csv",
+    "feature_pool_manifest": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/feature-pool-manifest.json",
+    "comparison_plot": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/yield_four_model_comparison.png",
+    "comparison_plot_legacy_path": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/yield_bayesian_vs_dynamic_vbur.png",
+    "case3d_static_results": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/case3f-case3d-static-bayesian-results.json",
+    "case3d_static_inputs": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/case3f-case3d-static-model-inputs.csv",
+    "case3d_static_plot": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/yield_case3d_static_protocol.png",
+    "case3d_static_v2_results": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/case3f-case3d-v2-static-bayesian-results.json",
+    "case3d_static_v2_plot": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/yield_static_bayesian_v2.png",
+    "static_bayesian_v1_plot": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/yield_static_bayesian_v1.png",
+    "dynamic_bayesian_plot": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/yield_dynamic_bayesian.png",
+    "dynamic_ml_report": "SOURCE_WORKSPACE/03-chemical-validation/Doc/part3/part3f-dynamic-yield-ML.md",
+    "full_ml_comparison_report": "SOURCE_WORKSPACE/03-chemical-validation/Doc/part3/part3f-full-ML-comparison.md"
+  },
+  "case3d_static_protocol_model": {
+    "feature_names": [
+      "d3_changed_occupation_area_fraction",
+      "d3_changed_topographic_occupied_depth_area_fraction"
+    ],
+    "evidence": -14.496942718346178,
+    "prior_tau": 4.0,
+    "noise_sigma_standardized": 0.45271711646111473,
+    "outcome_mean": 66.42857142857143,
+    "outcome_sd": 27.81999965766321,
+    "predictor_means": {
+      "g_percent": 47.41908482142857,
+      "vbur_percent": 43.805484693877546,
+      "approach_accessibility_mean": 0.026159334126040427,
+      "persistent_open_fraction": 0.6582310679852589,
+      "persistent_blocked_fraction": 0.3417689320147411,
+      "pocket_integrated_vbur_percent": 34.176893201474115,
+      "pocket_weighted_vbur_percent": 34.176893201474115,
+      "quadrant_asymmetry_variance": 0.008177492598416223,
+      "d3_changed_occupation_area_fraction": 0.1985920012079346,
+      "d3_changed_pocket_occupation_area_fraction": 0.06364403155989527,
+      "d3_changed_topographic_contact_probability_area_fraction": 0.1718947586961856,
+      "d3_changed_topographic_first_contact_q50_area_fraction": 0.12132979760803779,
+      "d3_changed_topographic_occupied_depth_area_fraction": 0.33558877375762036,
+      "d3_delta_vbur_percent_mean": 16.453762755102044,
+      "d3_delta_g_percent_mean": 16.211809430803573
+    },
+    "predictor_sds": {
+      "g_percent": 7.952353423009484,
+      "vbur_percent": 7.883550158578961,
+      "approach_accessibility_mean": 0.02596947641836094,
+      "persistent_open_fraction": 0.06905125504441033,
+      "persistent_blocked_fraction": 0.06905125504441033,
+      "pocket_integrated_vbur_percent": 6.905125504441034,
+      "pocket_weighted_vbur_percent": 6.905125504441034,
+      "quadrant_asymmetry_variance": 0.006098990223428936,
+      "d3_changed_occupation_area_fraction": 0.08391641512349249,
+      "d3_changed_pocket_occupation_area_fraction": 0.03656572802313582,
+      "d3_changed_topographic_contact_probability_area_fraction": 0.0733762661814883,
+      "d3_changed_topographic_first_contact_q50_area_fraction": 0.02530765021886642,
+      "d3_changed_topographic_occupied_depth_area_fraction": 0.10198933568926695,
+      "d3_delta_vbur_percent_mean": 8.924084690595125,
+      "d3_delta_g_percent_mean": 8.583307010636286
+    },
+    "weights": [
+      {
+        "feature": "d3_changed_occupation_area_fraction",
+        "posterior_weight_standardized": -3.5198941077844776,
+        "posterior_sd_standardized": 0.7327394033699376,
+        "credible_interval_95_standardized": [
+          -4.956063338389555,
+          -2.0837248771794
+        ],
+        "absolute_contribution_fraction": 0.4934187610265158
+      },
+      {
+        "feature": "d3_changed_topographic_occupied_depth_area_fraction",
+        "posterior_weight_standardized": 3.6137910817726393,
+        "posterior_sd_standardized": 0.7327394033692624,
+        "credible_interval_95_standardized": [
+          2.177621851168885,
+          5.049960312376394
+        ],
+        "absolute_contribution_fraction": 0.5065812389734843
+      }
+    ],
+    "intercept_standardized": -1.0761541537363819e-12,
+    "intercept_sd_standardized": 0.17111055763578595,
+    "rmse": 8.707329350469854,
+    "r2_in_sample": 0.8857115105992699,
+    "observed": [
+      98.0,
+      94.0,
+      92.0,
+      40.0,
+      36.0,
+      63.0,
+      42.0
+    ],
+    "predicted": [
+      105.43266797316772,
+      76.14466657869848,
+      84.975625443484,
+      47.62842806452743,
+      40.05652406051571,
+      68.71606048932281,
+      42.04602739007423
+    ],
+    "predictive_sd": [
+      16.08584090615953,
+      13.623640381661279,
+      14.324630179321625,
+      14.444389889261144,
+      14.974253790366705,
+      13.730486569302842,
+      17.454013572251082
+    ],
+    "descriptor_score": [
+      1.4020164279147387,
+      0.349248571880576,
+      0.6666805982448527,
+      -0.6757779868928014,
+      -0.9479528286320958,
+      0.08222462577030333,
+      -0.8764394082855756
+    ],
+    "weighted_score": [
+      1.4020164279147387,
+      0.349248571880576,
+      0.6666805982448527,
+      -0.6757779868928014,
+      -0.9479528286320958,
+      0.08222462577030333,
+      -0.8764394082855756
+    ],
+    "fitted_standardized": [
+      1.4020164279136624,
+      0.34924857187949987,
+      0.6666805982437766,
+      -0.6757779868938776,
+      -0.947952828633172,
+      0.08222462576922718,
+      -0.8764394082866518
+    ],
+    "loo_predicted": [
+      118.1929659182953,
+      72.33969684023583,
+      81.82695434658324,
+      51.23013251454901,
+      42.991901983876375,
+      70.00338667369178,
+      25.60996318887436
+    ],
+    "loo_predictive_sd": [
+      19.676086326032184,
+      13.619134942143434,
+      14.997091633185008,
+      15.137215464958425,
+      15.779320563774434,
+      15.292613487734325,
+      48.204069016792936
+    ],
+    "loo_rmse": 14.506642639221669,
+    "loo_r2": 0.6827757536318795,
+    "loo_coverage_95": 1.0,
+    "loo_intercept_rmse": 30.04903400185178,
+    "loo_intercept_r2": -0.3611111111111107,
+    "loo_improves_intercept": true,
+    "nested_loo_predicted": [
+      136.9541751777932,
+      72.91618922678265,
+      62.03069243279218,
+      70.95569819154115,
+      71.87549149568295,
+      152.7099490558934,
+      164.2458660932966
+    ],
+    "nested_loo_predictive_sd": [
+      6.468177185853976,
+      8.306682795548015,
+      28.648027614025647,
+      28.48904147253113,
+      27.681370170326574,
+      22.344771464132737,
+      6.8251232690237
+    ],
+    "nested_loo_rmse": 63.35540016858945,
+    "nested_loo_r2": -5.050619263999972,
+    "nested_loo_coverage_95": 0.42857142857142855,
+    "nested_loo_selected_features": [
+      [
+        "pocket_integrated_vbur_percent",
+        "d3_changed_occupation_area_fraction",
+        "d3_changed_topographic_occupied_depth_area_fraction"
+      ],
+      [
+        "d3_changed_occupation_area_fraction",
+        "d3_changed_topographic_occupied_depth_area_fraction"
+      ],
+      [
+        "g_percent"
+      ],
+      [
+        "d3_changed_occupation_area_fraction"
+      ],
+      [
+        "approach_accessibility_mean"
+      ],
+      [
+        "d3_changed_occupation_area_fraction",
+        "d3_changed_topographic_first_contact_q50_area_fraction",
+        "d3_changed_topographic_occupied_depth_area_fraction"
+      ],
+      [
+        "approach_accessibility_mean",
+        "quadrant_asymmetry_variance"
+      ]
+    ],
+    "nested_loo_feature_selection_frequency": {
+      "pocket_integrated_vbur_percent": 1,
+      "d3_changed_occupation_area_fraction": 4,
+      "d3_changed_topographic_occupied_depth_area_fraction": 3,
+      "g_percent": 1,
+      "approach_accessibility_mean": 2,
+      "d3_changed_topographic_first_contact_q50_area_fraction": 1,
+      "quadrant_asymmetry_variance": 1
+    },
+    "nested_loo_intercept_rmse": 30.04903400185178,
+    "nested_loo_intercept_r2": -0.3611111111111107,
+    "nested_loo_improves_intercept": false,
+    "permutation_count": 2000,
+    "permutation_seed": 20260922,
+    "permutation_loo_r2_mean": -2.7121613716230515,
+    "permutation_loo_r2_sd": 2.8617666618092192,
+    "permutation_loo_r2_95_interval": [
+      -10.34510209826642,
+      0.43367782442805103
+    ],
+    "permutation_p_ge_observed": 0.0029985007496251873
+  },
+  "case3d_v2_static_protocol_model": {
+    "status": "completed_case3d_v2_static_bayesian_yield_candidate",
+    "features_considered": [
+      "g_percent",
+      "vbur_percent",
+      "approach_accessibility_mean",
+      "persistent_open_fraction",
+      "persistent_blocked_fraction",
+      "pocket_integrated_vbur_percent",
+      "pocket_weighted_vbur_percent",
+      "quadrant_asymmetry_variance",
+      "d3_changed_occupation_area_fraction",
+      "d3_changed_pocket_occupation_area_fraction",
+      "d3_changed_topographic_contact_probability_area_fraction",
+      "d3_changed_topographic_first_contact_q50_area_fraction",
+      "d3_changed_topographic_occupied_depth_area_fraction",
+      "d3_delta_vbur_percent_mean",
+      "d3_delta_g_percent_mean"
+    ],
+    "features_selected": [
+      "g_percent",
+      "d3_changed_occupation_area_fraction"
+    ],
+    "feature_selection_method": "minimum inner leave-one-catalyst-out RMSE over all 105 two-feature pairs on logit-transformed yield",
+    "ridge_precision_fixed": 0.25,
+    "outcome_transform": "logit(yield_percent/100); inverted with logistic function for yield-scale diagnostics",
+    "standardized_logit_model": {
+      "outcome_mean": 1.187759544999187,
+      "outcome_sd": 1.8115253677699747,
+      "intercept_standardized": 0.0,
+      "weights": [
+        {
+          "feature": "g_percent",
+          "posterior_mean_standardized": 1.5715681784664632,
+          "posterior_sd_standardized_approx": 0.6888665776927683,
+          "credible_interval_95_standardized_approx": [
+            0.22138968618863752,
+            2.921746670744289
+          ],
+          "absolute_contribution_fraction": 0.5348468473488603,
+          "loo_coefficient_sign_consistency": 1.0
+        },
+        {
+          "feature": "d3_changed_occupation_area_fraction",
+          "posterior_mean_standardized": -1.3667835875698215,
+          "posterior_sd_standardized_approx": 0.6888665776927683,
+          "credible_interval_95_standardized_approx": [
+            -2.7169620798476473,
+            -0.01660509529199583
+          ],
+          "absolute_contribution_fraction": 0.46515315265113955,
+          "loo_coefficient_sign_consistency": 0.8571428571428571
+        }
+      ],
+      "predictor_means": {
+        "g_percent": 47.41908482142857,
+        "d3_changed_occupation_area_fraction": 0.1985920012079346
+      },
+      "predictor_sds": {
+        "g_percent": 7.952353423009484,
+        "d3_changed_occupation_area_fraction": 0.08391641512349249
+      },
+      "fitted_logit_yield": [
+        3.069467412933221,
+        1.2404295434851658,
+        1.6534972020433238,
+        0.982406705253747,
+        0.11158465616183277,
+        0.5804251150048412,
+        0.6765061801121783
+      ],
+      "fitted_yield_percent": [
+        95.56155885116782,
+        77.563877367972,
+        83.9363147270973,
+        72.75854981651182,
+        52.786725512496204,
+        64.11652194245377,
+        66.29584674497352
+      ],
+      "in_sample_r2_logit_scale": 0.6454520095587494
+    },
+    "raw_score_plot": {
+      "weighted_score": [
+        0.8852290679904935,
+        0.03640263724424906,
+        0.2779439375278036,
+        -0.052617401759487696,
+        -0.4840765683774463,
+        -0.26465894997553024,
+        -0.3982227226500812
+      ],
+      "raw_scale_intercept": 66.42857142857143,
+      "raw_scale_outcome_sd": 27.81999965766321,
+      "raw_scale_slope_standardized": [
+        1.4184619907325617,
+        -1.306843471853889
+      ],
+      "predictor_means": {
+        "g_percent": 47.41908482142857,
+        "d3_changed_occupation_area_fraction": 0.1985920012079346
+      },
+      "predictor_sds": {
+        "g_percent": 7.952353423009484,
+        "d3_changed_occupation_area_fraction": 0.08391641512349249
+      },
+      "fitted": [
+        91.05564379702048,
+        67.44129278424448,
+        74.16097167544449,
+        64.96475532963535,
+        52.961561462028094,
+        59.06575953085468,
+        55.350015420772465
+      ],
+      "loo_predicted": [
+        82.66755949321765,
+        62.765322061532906,
+        68.07144028331103,
+        71.91999864051556,
+        61.540434170007316,
+        58.28065473991852,
+        108.54065588870643
+      ],
+      "in_sample_rmse": 17.632983214553246,
+      "in_sample_r2": 0.5313116730698608,
+      "loo_r2": -0.7021710463177608,
+      "loo_rmse": 33.60356274588204
+    },
+    "fixed_pair_conditional_loo": {
+      "predicted_yield_percent": [
+        88.0028488031627,
+        72.56828449743884,
+        79.69894632506539,
+        79.72197581779932,
+        61.290914501539675,
+        64.93745125797287,
+        99.26510419196057
+      ],
+      "rmse": 29.78755487408389,
+      "mae": 23.992195163372212,
+      "r2": -0.3375260826755486,
+      "model_scale_r2": -1.0056457504836502,
+      "coverage_95": null
+    },
+    "nested_pair_selection_loo": {
+      "predicted_yield_percent": [
+        59.273434723365085,
+        72.56828449743884,
+        66.36417448365903,
+        79.72197581779932,
+        64.62818588155794,
+        77.97587662035976,
+        99.96185366512469
+      ],
+      "selected_features_by_fold": [
+        [
+          "approach_accessibility_mean",
+          "d3_changed_topographic_first_contact_q50_area_fraction"
+        ],
+        [
+          "g_percent",
+          "d3_changed_occupation_area_fraction"
+        ],
+        [
+          "g_percent",
+          "d3_delta_g_percent_mean"
+        ],
+        [
+          "g_percent",
+          "d3_changed_occupation_area_fraction"
+        ],
+        [
+          "d3_changed_occupation_area_fraction",
+          "d3_changed_topographic_occupied_depth_area_fraction"
+        ],
+        [
+          "d3_changed_occupation_area_fraction",
+          "d3_changed_topographic_occupied_depth_area_fraction"
+        ],
+        [
+          "quadrant_asymmetry_variance",
+          "d3_changed_topographic_first_contact_q50_area_fraction"
+        ]
+      ],
+      "rmse": 35.045934322985104,
+      "mae": 32.44028546862553,
+      "r2": -0.8514322929913949,
+      "model_scale_r2": -3.6140569125476887
+    },
+    "full_data_pair_selection_inner_cv_rmse_logit": 2.3751888130647436,
+    "pair_screen": [
+      {
+        "features": [
+          "g_percent",
+          "d3_changed_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.3751888130647436
+      },
+      {
+        "features": [
+          "d3_changed_occupation_area_fraction",
+          "d3_changed_topographic_occupied_depth_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.3937606289686304
+      },
+      {
+        "features": [
+          "vbur_percent",
+          "d3_changed_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.5833441901158993
+      },
+      {
+        "features": [
+          "d3_changed_occupation_area_fraction",
+          "d3_changed_topographic_contact_probability_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.635409812399364
+      },
+      {
+        "features": [
+          "persistent_open_fraction",
+          "d3_changed_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.6476931283564227
+      },
+      {
+        "features": [
+          "pocket_integrated_vbur_percent",
+          "d3_changed_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.6476931283564236
+      },
+      {
+        "features": [
+          "pocket_weighted_vbur_percent",
+          "d3_changed_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.6476931283564236
+      },
+      {
+        "features": [
+          "persistent_blocked_fraction",
+          "d3_changed_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.6476931283564245
+      },
+      {
+        "features": [
+          "d3_changed_occupation_area_fraction",
+          "d3_delta_g_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.6482896619601606
+      },
+      {
+        "features": [
+          "g_percent",
+          "d3_delta_g_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.659772599456185
+      },
+      {
+        "features": [
+          "g_percent",
+          "d3_delta_vbur_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.717943198952124
+      },
+      {
+        "features": [
+          "g_percent",
+          "approach_accessibility_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.730032290759226
+      },
+      {
+        "features": [
+          "g_percent",
+          "vbur_percent"
+        ],
+        "inner_loo_rmse_model_scale": 2.731050480127331
+      },
+      {
+        "features": [
+          "g_percent",
+          "d3_changed_pocket_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.777181588095363
+      },
+      {
+        "features": [
+          "g_percent",
+          "persistent_blocked_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.798886244615261
+      },
+      {
+        "features": [
+          "g_percent",
+          "pocket_integrated_vbur_percent"
+        ],
+        "inner_loo_rmse_model_scale": 2.798886244615261
+      },
+      {
+        "features": [
+          "g_percent",
+          "pocket_weighted_vbur_percent"
+        ],
+        "inner_loo_rmse_model_scale": 2.798886244615261
+      },
+      {
+        "features": [
+          "g_percent",
+          "persistent_open_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.798886244615262
+      },
+      {
+        "features": [
+          "g_percent",
+          "d3_changed_topographic_first_contact_q50_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.8031009370076463
+      },
+      {
+        "features": [
+          "approach_accessibility_mean",
+          "d3_delta_g_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.808797181237002
+      },
+      {
+        "features": [
+          "vbur_percent",
+          "d3_delta_g_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.8292249837208585
+      },
+      {
+        "features": [
+          "g_percent",
+          "d3_changed_topographic_occupied_depth_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.8515232869578697
+      },
+      {
+        "features": [
+          "g_percent",
+          "d3_changed_topographic_contact_probability_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.8526280824985983
+      },
+      {
+        "features": [
+          "d3_changed_topographic_first_contact_q50_area_fraction",
+          "d3_changed_topographic_occupied_depth_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.853210675978582
+      },
+      {
+        "features": [
+          "d3_changed_pocket_occupation_area_fraction",
+          "d3_changed_topographic_occupied_depth_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.8806771130117315
+      },
+      {
+        "features": [
+          "d3_changed_topographic_occupied_depth_area_fraction",
+          "d3_delta_vbur_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.883623257852621
+      },
+      {
+        "features": [
+          "d3_delta_vbur_percent_mean",
+          "d3_delta_g_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.8871640555654805
+      },
+      {
+        "features": [
+          "vbur_percent",
+          "d3_changed_topographic_occupied_depth_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.895868401751856
+      },
+      {
+        "features": [
+          "vbur_percent",
+          "d3_delta_vbur_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.9023285888906787
+      },
+      {
+        "features": [
+          "d3_changed_topographic_first_contact_q50_area_fraction",
+          "d3_delta_g_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.9081939949413194
+      },
+      {
+        "features": [
+          "persistent_blocked_fraction",
+          "d3_changed_topographic_occupied_depth_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.908227453151527
+      },
+      {
+        "features": [
+          "pocket_integrated_vbur_percent",
+          "d3_changed_topographic_occupied_depth_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.908227453151527
+      },
+      {
+        "features": [
+          "pocket_weighted_vbur_percent",
+          "d3_changed_topographic_occupied_depth_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.908227453151527
+      },
+      {
+        "features": [
+          "persistent_open_fraction",
+          "d3_changed_topographic_occupied_depth_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.9082274531515275
+      },
+      {
+        "features": [
+          "vbur_percent",
+          "persistent_blocked_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.9098289279875007
+      },
+      {
+        "features": [
+          "vbur_percent",
+          "pocket_integrated_vbur_percent"
+        ],
+        "inner_loo_rmse_model_scale": 2.9098289279875007
+      },
+      {
+        "features": [
+          "vbur_percent",
+          "pocket_weighted_vbur_percent"
+        ],
+        "inner_loo_rmse_model_scale": 2.9098289279875007
+      },
+      {
+        "features": [
+          "vbur_percent",
+          "persistent_open_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.909828927987501
+      },
+      {
+        "features": [
+          "d3_changed_topographic_occupied_depth_area_fraction",
+          "d3_delta_g_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.912492577653415
+      },
+      {
+        "features": [
+          "pocket_integrated_vbur_percent",
+          "d3_delta_g_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.9167117740484176
+      },
+      {
+        "features": [
+          "pocket_weighted_vbur_percent",
+          "d3_delta_g_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.9167117740484176
+      },
+      {
+        "features": [
+          "persistent_blocked_fraction",
+          "d3_delta_g_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.9167117740484185
+      },
+      {
+        "features": [
+          "persistent_open_fraction",
+          "d3_delta_g_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.916711774048419
+      },
+      {
+        "features": [
+          "d3_changed_occupation_area_fraction",
+          "d3_delta_vbur_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.916719370186055
+      },
+      {
+        "features": [
+          "d3_changed_topographic_contact_probability_area_fraction",
+          "d3_delta_vbur_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.9228014954317394
+      },
+      {
+        "features": [
+          "d3_changed_topographic_contact_probability_area_fraction",
+          "d3_changed_topographic_occupied_depth_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.929578846707376
+      },
+      {
+        "features": [
+          "vbur_percent",
+          "d3_changed_topographic_contact_probability_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.9307746554994467
+      },
+      {
+        "features": [
+          "d3_changed_topographic_contact_probability_area_fraction",
+          "d3_delta_g_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.933637346970896
+      },
+      {
+        "features": [
+          "vbur_percent",
+          "d3_changed_pocket_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.9421488551219124
+      },
+      {
+        "features": [
+          "d3_changed_pocket_occupation_area_fraction",
+          "d3_changed_topographic_contact_probability_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.950325375490007
+      },
+      {
+        "features": [
+          "persistent_blocked_fraction",
+          "pocket_integrated_vbur_percent"
+        ],
+        "inner_loo_rmse_model_scale": 2.950521598157822
+      },
+      {
+        "features": [
+          "persistent_blocked_fraction",
+          "pocket_weighted_vbur_percent"
+        ],
+        "inner_loo_rmse_model_scale": 2.950521598157822
+      },
+      {
+        "features": [
+          "persistent_open_fraction",
+          "pocket_integrated_vbur_percent"
+        ],
+        "inner_loo_rmse_model_scale": 2.950521598157822
+      },
+      {
+        "features": [
+          "persistent_open_fraction",
+          "pocket_weighted_vbur_percent"
+        ],
+        "inner_loo_rmse_model_scale": 2.950521598157822
+      },
+      {
+        "features": [
+          "pocket_integrated_vbur_percent",
+          "pocket_weighted_vbur_percent"
+        ],
+        "inner_loo_rmse_model_scale": 2.950521598157822
+      },
+      {
+        "features": [
+          "persistent_open_fraction",
+          "persistent_blocked_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.9505215981578226
+      },
+      {
+        "features": [
+          "d3_changed_pocket_occupation_area_fraction",
+          "d3_delta_g_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.9568584784608714
+      },
+      {
+        "features": [
+          "persistent_blocked_fraction",
+          "d3_changed_topographic_contact_probability_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.9630942295870364
+      },
+      {
+        "features": [
+          "pocket_integrated_vbur_percent",
+          "d3_changed_topographic_contact_probability_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.9630942295870364
+      },
+      {
+        "features": [
+          "pocket_weighted_vbur_percent",
+          "d3_changed_topographic_contact_probability_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.9630942295870364
+      },
+      {
+        "features": [
+          "persistent_open_fraction",
+          "d3_changed_topographic_contact_probability_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.963094229587037
+      },
+      {
+        "features": [
+          "vbur_percent",
+          "approach_accessibility_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.9714130416570206
+      },
+      {
+        "features": [
+          "persistent_open_fraction",
+          "d3_delta_vbur_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.9767529344793906
+      },
+      {
+        "features": [
+          "pocket_integrated_vbur_percent",
+          "d3_delta_vbur_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.9767529344793906
+      },
+      {
+        "features": [
+          "pocket_weighted_vbur_percent",
+          "d3_delta_vbur_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.9767529344793906
+      },
+      {
+        "features": [
+          "persistent_blocked_fraction",
+          "d3_delta_vbur_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 2.9767529344793915
+      },
+      {
+        "features": [
+          "vbur_percent",
+          "d3_changed_topographic_first_contact_q50_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.979353696697079
+      },
+      {
+        "features": [
+          "d3_changed_occupation_area_fraction",
+          "d3_changed_pocket_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.9945981673143804
+      },
+      {
+        "features": [
+          "persistent_open_fraction",
+          "d3_changed_pocket_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.997983277633807
+      },
+      {
+        "features": [
+          "pocket_integrated_vbur_percent",
+          "d3_changed_pocket_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.9979832776338085
+      },
+      {
+        "features": [
+          "pocket_weighted_vbur_percent",
+          "d3_changed_pocket_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.9979832776338085
+      },
+      {
+        "features": [
+          "persistent_blocked_fraction",
+          "d3_changed_pocket_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 2.997983277633809
+      },
+      {
+        "features": [
+          "d3_changed_topographic_contact_probability_area_fraction",
+          "d3_changed_topographic_first_contact_q50_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.013225659624916
+      },
+      {
+        "features": [
+          "approach_accessibility_mean",
+          "d3_changed_topographic_occupied_depth_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.026942055304072
+      },
+      {
+        "features": [
+          "pocket_integrated_vbur_percent",
+          "d3_changed_topographic_first_contact_q50_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.033718710380698
+      },
+      {
+        "features": [
+          "pocket_weighted_vbur_percent",
+          "d3_changed_topographic_first_contact_q50_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.033718710380698
+      },
+      {
+        "features": [
+          "persistent_blocked_fraction",
+          "d3_changed_topographic_first_contact_q50_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.0337187103806986
+      },
+      {
+        "features": [
+          "persistent_open_fraction",
+          "d3_changed_topographic_first_contact_q50_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.0337187103806986
+      },
+      {
+        "features": [
+          "approach_accessibility_mean",
+          "d3_changed_topographic_contact_probability_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.046117291645731
+      },
+      {
+        "features": [
+          "approach_accessibility_mean",
+          "persistent_open_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.0970286029331406
+      },
+      {
+        "features": [
+          "approach_accessibility_mean",
+          "pocket_integrated_vbur_percent"
+        ],
+        "inner_loo_rmse_model_scale": 3.0970286029331406
+      },
+      {
+        "features": [
+          "approach_accessibility_mean",
+          "pocket_weighted_vbur_percent"
+        ],
+        "inner_loo_rmse_model_scale": 3.0970286029331406
+      },
+      {
+        "features": [
+          "approach_accessibility_mean",
+          "persistent_blocked_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.0970286029331415
+      },
+      {
+        "features": [
+          "d3_changed_pocket_occupation_area_fraction",
+          "d3_delta_vbur_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 3.105879007310605
+      },
+      {
+        "features": [
+          "d3_changed_topographic_first_contact_q50_area_fraction",
+          "d3_delta_vbur_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 3.1477501824626724
+      },
+      {
+        "features": [
+          "d3_changed_pocket_occupation_area_fraction",
+          "d3_changed_topographic_first_contact_q50_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.2178701667265415
+      },
+      {
+        "features": [
+          "approach_accessibility_mean",
+          "d3_delta_vbur_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 3.2414498981723767
+      },
+      {
+        "features": [
+          "approach_accessibility_mean",
+          "d3_changed_pocket_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.3550520411598113
+      },
+      {
+        "features": [
+          "approach_accessibility_mean",
+          "d3_changed_topographic_first_contact_q50_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.463088756929093
+      },
+      {
+        "features": [
+          "d3_changed_occupation_area_fraction",
+          "d3_changed_topographic_first_contact_q50_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.481508425150322
+      },
+      {
+        "features": [
+          "approach_accessibility_mean",
+          "quadrant_asymmetry_variance"
+        ],
+        "inner_loo_rmse_model_scale": 3.52119401867426
+      },
+      {
+        "features": [
+          "g_percent",
+          "quadrant_asymmetry_variance"
+        ],
+        "inner_loo_rmse_model_scale": 3.5383387456715534
+      },
+      {
+        "features": [
+          "quadrant_asymmetry_variance",
+          "d3_delta_g_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 3.595450916143621
+      },
+      {
+        "features": [
+          "quadrant_asymmetry_variance",
+          "d3_changed_topographic_occupied_depth_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.5989241148451097
+      },
+      {
+        "features": [
+          "quadrant_asymmetry_variance",
+          "d3_changed_topographic_contact_probability_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.6301733168664057
+      },
+      {
+        "features": [
+          "vbur_percent",
+          "quadrant_asymmetry_variance"
+        ],
+        "inner_loo_rmse_model_scale": 3.6556073231647885
+      },
+      {
+        "features": [
+          "pocket_integrated_vbur_percent",
+          "quadrant_asymmetry_variance"
+        ],
+        "inner_loo_rmse_model_scale": 3.6843192610111255
+      },
+      {
+        "features": [
+          "pocket_weighted_vbur_percent",
+          "quadrant_asymmetry_variance"
+        ],
+        "inner_loo_rmse_model_scale": 3.6843192610111255
+      },
+      {
+        "features": [
+          "persistent_blocked_fraction",
+          "quadrant_asymmetry_variance"
+        ],
+        "inner_loo_rmse_model_scale": 3.684319261011126
+      },
+      {
+        "features": [
+          "persistent_open_fraction",
+          "quadrant_asymmetry_variance"
+        ],
+        "inner_loo_rmse_model_scale": 3.6843192610111264
+      },
+      {
+        "features": [
+          "quadrant_asymmetry_variance",
+          "d3_delta_vbur_percent_mean"
+        ],
+        "inner_loo_rmse_model_scale": 3.740473042071331
+      },
+      {
+        "features": [
+          "quadrant_asymmetry_variance",
+          "d3_changed_topographic_first_contact_q50_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.7437003964644306
+      },
+      {
+        "features": [
+          "quadrant_asymmetry_variance",
+          "d3_changed_pocket_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.7767159538029014
+      },
+      {
+        "features": [
+          "approach_accessibility_mean",
+          "d3_changed_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 3.8888969797733113
+      },
+      {
+        "features": [
+          "quadrant_asymmetry_variance",
+          "d3_changed_occupation_area_fraction"
+        ],
+        "inner_loo_rmse_model_scale": 4.060177823823232
+      }
+    ],
+    "vbur_baseline": {
+      "descriptor": "vbur_percent",
+      "coefficients_intercept_slope": [
+        39.01688991787435,
+        0.6257591190294088
+      ],
+      "fitted": [
+        72.02847701417133,
+        66.25976013561898,
+        64.11709386644239,
+        62.742658658574214,
+        62.390669154120175,
+        62.86557562838357,
+        74.5957655426893
+      ],
+      "loo_predicted": [
+        57.57006465176766,
+        61.62901633450947,
+        58.01933949811584,
+        69.76396343115542,
+        71.40082992153427,
+        62.82546879771261,
+        123.42184298835086
+      ],
+      "in_sample_r2": 0.0314444356074145,
+      "loo_r2": -1.714595262176815,
+      "loo_rmse": 42.436178633167636
+    },
+    "files": {
+      "static_inputs": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/case3f-case3d-static-model-inputs.csv",
+      "pair_screen": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/case3f-case3d-v2-pair-screen.csv",
+      "nested_predictions": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/case3f-case3d-v2-nested-loo-predictions.csv",
+      "plot": "SOURCE_WORKSPACE/03-chemical-validation/part3/3f/yield_static_bayesian_v2.png"
+    },
+    "validation_boundary": "The selected pair is post-hoc for Case 3f. Fixed-pair LOO is conditional; nested LOO repeats the pair selection inside each held-out fold and is the selection-aware estimate."
+  }
+}

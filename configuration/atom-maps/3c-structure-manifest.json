@@ -1,0 +1,55 @@
+{
+  "canonical_analysis_inputs": "SOURCE_WORKSPACE/03-chemical-validation/part3/3c/analysis-inputs",
+  "records": [
+    {
+      "analysis_input": "SOURCE_WORKSPACE/03-chemical-validation/part3/3c/analysis-inputs/fecltdcpp-canonical.xyz",
+      "center_atom": 47,
+      "donor_atoms": [
+        1,
+        2,
+        24,
+        25
+      ],
+      "generated": false,
+      "ligand": "tdcpp",
+      "metal": "Fe",
+      "metal_key": "fecl",
+      "source": "SOURCE_WORKSPACE/03-chemical-validation/3cstructures/fecltdcpp.xyz",
+      "stem": "fecltdcpp"
+    },
+    {
+      "analysis_input": "SOURCE_WORKSPACE/03-chemical-validation/part3/3c/analysis-inputs/fecltmp-canonical.xyz",
+      "center_atom": 45,
+      "donor_atoms": [
+        1,
+        2,
+        23,
+        24
+      ],
+      "generated": true,
+      "ligand": "tmp",
+      "metal": "Fe",
+      "metal_key": "fecl",
+      "source": "SOURCE_WORKSPACE/03-chemical-validation/3cstructures/fecltmp.xyz",
+      "stem": "fecltmp"
+    },
+    {
+      "analysis_input": "SOURCE_WORKSPACE/03-chemical-validation/part3/3c/analysis-inputs/fecltpp-canonical.xyz",
+      "center_atom": 47,
+      "donor_atoms": [
+        1,
+        2,
+        24,
+        25
+      ],
+      "generated": true,
+      "ligand": "tpp",
+      "metal": "Fe",
+      "metal_key": "fecl",
+      "source": "SOURCE_WORKSPACE/03-chemical-validation/3cstructures/fecltpp.xyz",
+      "stem": "fecltpp"
+    }
+  ],
+  "schema": "part3c.structure-manifest.v1",
+  "source_directory": "SOURCE_WORKSPACE/03-chemical-validation/3cstructures"
+}

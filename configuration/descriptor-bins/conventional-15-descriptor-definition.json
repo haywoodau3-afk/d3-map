@@ -1,0 +1,161 @@
+{
+  "schema": "case4.traditional-descriptors.v1",
+  "status": "completed",
+  "structure_count": 7,
+  "feature_names_external": [
+    "dbstep_vbur_percent",
+    "dbstep_L_A",
+    "dbstep_Bmin_A",
+    "dbstep_Bmax_A",
+    "morfeus_vbur_percent",
+    "morfeus_G_percent",
+    "morfeus_cone_angle_deg",
+    "morfeus_solid_angle_sr",
+    "morfeus_L_A",
+    "morfeus_B1_A",
+    "morfeus_B5_A",
+    "morfeus_SASA_A2",
+    "morfeus_SASA_volume_A3"
+  ],
+  "case3f_complete_traditional_pool": [
+    "static_vbur_percent",
+    "static_g_percent",
+    "dbstep_vbur_percent",
+    "dbstep_L_A",
+    "dbstep_Bmin_A",
+    "dbstep_Bmax_A",
+    "morfeus_vbur_percent",
+    "morfeus_G_percent",
+    "morfeus_cone_angle_deg",
+    "morfeus_solid_angle_sr",
+    "morfeus_L_A",
+    "morfeus_B1_A",
+    "morfeus_B5_A",
+    "morfeus_SASA_A2",
+    "morfeus_SASA_volume_A3"
+  ],
+  "packages": {
+    "dbstep": "1.1.0",
+    "morfeus-ml": "0.8.0"
+  },
+  "python": "3.12.14",
+  "geometry_policy": "one static xTB-optimized input geometry per complex, read from its d2-map input baseline; no conformer or trajectory averaging",
+  "axis_policy": "Au atom 2 to carbene carbon atom 148; indices are 1-based",
+  "atom_mask_policy": "D2-map project's steric_atoms plus center and axis atoms, ordered as center then axis; SASA excludes the center atom as in Case 3f",
+  "descriptor_settings": {
+    "DBSTEP_vbur": {
+      "radius_A": 3.5,
+      "grid_A": 0.1,
+      "vdw_scale": 1.17
+    },
+    "DBSTEP_Sterimol": {
+      "measure": "classic",
+      "vdw_scale": 1.0
+    },
+    "Morfeus_BuriedVolume": {
+      "radius_A": 3.5,
+      "radii": "Bondi",
+      "radii_scale": 1.17,
+      "density": 0.01,
+      "include_hydrogens": true
+    },
+    "Morfeus_SolidAngle": {
+      "radii": "CRC",
+      "density": 0.01
+    },
+    "Morfeus_Sterimol": {
+      "radii": "Bondi"
+    },
+    "Morfeus_SASA": {
+      "radii": "CRC",
+      "density": 0.05
+    }
+  },
+  "structures": {
+    "35-di-tBu-benzoate": {
+      "geometry": "analysis/maps/d2-map/35-di-tBu-benzoate-d2map/results/reference/baselines/input/aligned-ensemble.xyz",
+      "geometry_sha256": "ddce9f91e146c911df15d01cfe47f6b3f125e62bd60bfaeddaf046a6d5c2b663",
+      "project": "analysis/maps/d2-map/35-di-tBu-benzoate-d2map/project.d3map.json",
+      "atom_count": 196,
+      "reduced_atom_count": 100,
+      "center_atom_1based": 2,
+      "center_element": "Au",
+      "axis_atom_1based": 148,
+      "axis_element": "C",
+      "steric_mask_atom_count": 99
+    },
+    "benzoate": {
+      "geometry": "analysis/maps/d2-map/benzoate-d2map/results/reference/baselines/input/aligned-ensemble.xyz",
+      "geometry_sha256": "9d73532d0c05ec750374f9db7af314f8185fae60983295bcdd247728036a7490",
+      "project": "analysis/maps/d2-map/benzoate-d2map/project.d3map.json",
+      "atom_count": 172,
+      "reduced_atom_count": 92,
+      "center_atom_1based": 2,
+      "center_element": "Au",
+      "axis_atom_1based": 148,
+      "axis_element": "C",
+      "steric_mask_atom_count": 91
+    },
+    "para-CF3-benzoate": {
+      "geometry": "analysis/maps/d2-map/para-CF3-benzoate-d2map/results/reference/baselines/input/aligned-ensemble.xyz",
+      "geometry_sha256": "99484719a0d0fc21e4c8b62a82d21ed130174a81afba24978a69041a9655871c",
+      "project": "analysis/maps/d2-map/para-CF3-benzoate-d2map/project.d3map.json",
+      "atom_count": 175,
+      "reduced_atom_count": 96,
+      "center_atom_1based": 2,
+      "center_element": "Au",
+      "axis_atom_1based": 148,
+      "axis_element": "C",
+      "steric_mask_atom_count": 95
+    },
+    "para-OMe-benzoate": {
+      "geometry": "analysis/maps/d2-map/para-OMe-benzoate-d2map/results/reference/baselines/input/aligned-ensemble.xyz",
+      "geometry_sha256": "5b1880567e938360cb5a0fbc18b38946d1a9a9e1828f7abab5c781e997648d5c",
+      "project": "analysis/maps/d2-map/para-OMe-benzoate-d2map/project.d3map.json",
+      "atom_count": 176,
+      "reduced_atom_count": 94,
+      "center_atom_1based": 2,
+      "center_element": "Au",
+      "axis_atom_1based": 148,
+      "axis_element": "C",
+      "steric_mask_atom_count": 93
+    },
+    "para-tBu-benzoate": {
+      "geometry": "analysis/maps/d2-map/para-tBu-benzoate-d2map/results/reference/baselines/input/aligned-ensemble.xyz",
+      "geometry_sha256": "87673ddde20b8c84e74780e34a03b1262c6129f491d5664515842fd84817dd70",
+      "project": "analysis/maps/d2-map/para-tBu-benzoate-d2map/project.d3map.json",
+      "atom_count": 184,
+      "reduced_atom_count": 96,
+      "center_atom_1based": 2,
+      "center_element": "Au",
+      "axis_atom_1based": 148,
+      "axis_element": "C",
+      "steric_mask_atom_count": 95
+    },
+    "phenylacetate": {
+      "geometry": "analysis/maps/d2-map/phenylacetate-d2map/results/reference/baselines/input/aligned-ensemble.xyz",
+      "geometry_sha256": "289f2ea24a6bf478860bd3b3d262d819a5d1afd6dbf46e6717e184f436d32918",
+      "project": "analysis/maps/d2-map/phenylacetate-d2map/project.d3map.json",
+      "atom_count": 175,
+      "reduced_atom_count": 93,
+      "center_atom_1based": 2,
+      "center_element": "Au",
+      "axis_atom_1based": 148,
+      "axis_element": "C",
+      "steric_mask_atom_count": 92
+    },
+    "pivalate": {
+      "geometry": "analysis/maps/d2-map/pivalate-d2map/results/reference/baselines/input/aligned-ensemble.xyz",
+      "geometry_sha256": "9d190e446acb682c46de27cea242cdf8f80d04fe465f6d9b0e436debfbeadb4c",
+      "project": "analysis/maps/d2-map/pivalate-d2map/project.d3map.json",
+      "atom_count": 174,
+      "reduced_atom_count": 90,
+      "center_atom_1based": 2,
+      "center_element": "Au",
+      "axis_atom_1based": 148,
+      "axis_element": "C",
+      "steric_mask_atom_count": 89
+    }
+  },
+  "output": "analysis/results/case4-traditional-per-structure.csv"
+}

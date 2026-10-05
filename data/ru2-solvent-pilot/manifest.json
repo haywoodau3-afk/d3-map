@@ -1,0 +1,25 @@
+{
+  "systems": [
+    "constructed 1a-derived Ru-allenylidene + 4d + OTs"
+  ],
+  "sampling": "one explicitly biased trajectory per dielectric; uniform saved-frame weights after 0.2 ps discard",
+  "conditions": {
+    "ccl4-like": {
+      "dielectric": 2.24
+    },
+    "dcm-like": {
+      "dielectric": 9.08
+    }
+  },
+  "charge": 0,
+  "multiplicity": 1,
+  "software": {
+    "xTB": "6.7.1",
+    "d3map": "1.0.0rc1"
+  },
+  "known_unrecorded": [
+    "replicate blocks",
+    "equilibrium populations",
+    "independent solvent model"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "comparison": {
+    "allow_nonstandard": false,
+    "difference_sign": "extended-minus-reference",
+    "tolerances": {
+      "contact_probability": 0.01,
+      "first_contact_interval_10_90": 0.05,
+      "first_contact_q50": 0.05,
+      "occupied_depth": 0.05
+    }
+  },
+  "created_at": "2026-09-17T12:31:12+00:00",
+  "created_with": "1.0.0rc1",
+  "local_processing_only": true,
+  "output": "results",
+  "project_kind": "d2-map",
+  "schema_version": "1.0",
+  "shared": {
+    "axial": {
+      "spacing": 0.25,
+      "transverse_radius": 3.5,
+      "z_max": 2.0,
+      "z_min": 0.0
+    },
+    "displaced_scan": {
+      "direction_count": 8192,
+      "spacing": 0.25,
+      "sphere_spacing": 0.2,
+      "z_max": 2.0,
+      "z_min": 0.0
+    },
+    "field": {
+      "spacing": 0.25
+    },
+    "field_radii_profile": "dmap_vdw_v0.1",
+    "reporting": {
+      "enabled": true,
+      "ml_fraction_resolutions": [
+        1,
+        2,
+        4
+      ],
+      "office_reports": false,
+      "retain_per_frame_topographic_fields": false,
+      "topographic_spacing": 0.25,
+      "z_max": 2.0,
+      "z_min": 0.0,
+      "z_spacing": 0.5
+    },
+    "static": {
+      "direction_count": 8192,
+      "spacing": 0.2,
+      "sphere_radius": 3.5
+    },
+    "temperature": 298.15,
+    "vbur_radii_profile": "sambvca_2.1"
+  },
+  "structures": {
+    "reference": {
+      "alignment_atoms": [
+        1,
+        2,
+        24,
+        25
+      ],
+      "center_atom": 47,
+      "charge": 0,
+      "chemical_setup_confirmed": true,
+      "chemical_setup_status": "reviewed neutral high-spin Fe(III) chloride working state; multiplicity 6 (S=5/2); state-specific higher-level validation remains required for publication",
+      "frame_semantics": "right-handed:+z-reactive:+x-secondary",
+      "frozen_atoms": [],
+      "input": "../../input-structures/Fe-TDCPP-Cl.xyz",
+      "multiplicity": 6,
+      "origin_atoms": [
+        47
+      ],
+      "population": {
+        "model": "electronic_energy",
+        "unit": "hartree"
+      },
+      "reactive_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "sampling": {
+        "allow_trajectory_fallback": false,
+        "backend": "xtb-crest",
+        "constrain_preoptimization": false,
+        "crest_executable": "crest",
+        "maximum_reduced": true,
+        "protected_contacts": [
+          [
+            47,
+            1
+          ],
+          [
+            47,
+            2
+          ],
+          [
+            47,
+            24
+          ],
+          [
+            47,
+            25
+          ],
+          [
+            47,
+            78
+          ]
+        ],
+        "quick": true,
+        "threads": 4,
+        "xtb_executable": "xtb"
+      },
+      "sampling_provenance": "unrestrained GFN2-xTB tight preoptimization in the fixed high-spin Fe(III) state, followed by a completed CREST super-reduced conformer search with restraints derived from the relaxed four Fe-N contacts and axial Fe-Cl contact; no trajectory fallback",
+      "secondary_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "solvent": null,
+      "source_structure": "SOURCE_WORKSPACE/03-chemical-validation/3cstructures/fecltdcpp.xyz",
+      "structure_construction": "supplied structure",
+      "topology": {
+        "policy": "strict"
+      }
+    }
+  }
+}

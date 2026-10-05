@@ -1,0 +1,23 @@
+$constrain
+  force constant=0.25
+  distance: 1, 120, 2.78560401
+  distance: 1, 122, 2.36794721
+  distance: 1, 123, 2.34869103
+  distance: 120, 122, 2.34066511
+  distance: 120, 123, 2.36089498
+  distance: 120, 124, 2.44195551
+  distance: 1, 121, 1.90391220
+$end
+$samerand
+$md
+  time=0.02
+  step=2.0
+  dump=2.0
+  sdump=100.0
+  temp=298.15
+  nvt=true
+  restart=false
+  hmass=4
+  shake=2
+  sccacc=1.0
+$end

@@ -1,0 +1,15 @@
+name: d3-map-paper
+# External executables (install separately when reproducing sampling): xTB 6.7.1; CREST 3.0.2.
+# Selected Fe/published-Ru source workflows used CREST 2.12. d3map-catalysis 1.0.0rc1 is installed from ./code/d3map.
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.5.3
+  - scipy=1.18.1
+  - pandas=3.0.5
+  - matplotlib=3.11.1
+  - pytest=9.1.1
+  - pip
+  - pip:
+      - -e ./code/d3map

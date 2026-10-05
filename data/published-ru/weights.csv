@@ -1,0 +1,4 @@
+structure,frame,weight,weighting_method
+I,1,1.0,static single-geometry map
+II,1,1.0,static single-geometry map
+III,1,1.0,static single-geometry map

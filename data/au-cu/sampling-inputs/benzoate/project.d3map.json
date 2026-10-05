@@ -1,0 +1,227 @@
+{
+  "comparison": {
+    "allow_nonstandard": false,
+    "difference_sign": "extended-minus-reference",
+    "tolerances": {
+      "contact_probability": 0.01,
+      "first_contact_interval_10_90": 0.05,
+      "first_contact_q50": 0.05,
+      "occupied_depth": 0.05
+    }
+  },
+  "created_at": "2026-09-28T11:10:33+00:00",
+  "created_with": "1.0.0rc1",
+  "local_processing_only": true,
+  "output": "results",
+  "project_kind": "d2-map",
+  "schema_version": "1.0",
+  "shared": {
+    "axial": {
+      "spacing": 0.25,
+      "transverse_radius": 3.5,
+      "z_max": 2.0,
+      "z_min": 0.0
+    },
+    "displaced_scan": {
+      "direction_count": 8192,
+      "spacing": 0.25,
+      "sphere_spacing": 0.2,
+      "z_max": 2.0,
+      "z_min": 0.0
+    },
+    "field": {
+      "spacing": 0.25
+    },
+    "field_radii_profile": "dmap_vdw_v0.1",
+    "reporting": {
+      "enabled": true,
+      "ml_fraction_resolutions": [
+        1,
+        2,
+        4
+      ],
+      "office_reports": false,
+      "retain_per_frame_topographic_fields": false,
+      "topographic_spacing": 0.25,
+      "z_max": 2.0,
+      "z_min": 0.0,
+      "z_spacing": 0.5
+    },
+    "static": {
+      "direction_count": 8192,
+      "spacing": 0.2,
+      "sphere_radius": 3.5
+    },
+    "temperature": 298.15,
+    "vbur_radii_profile": "sambvca_2.1"
+  },
+  "structures": {
+    "reference": {
+      "alignment_atoms": [
+        2,
+        148,
+        1,
+        73,
+        26,
+        77,
+        78
+      ],
+      "analysis_mode": "trajectory",
+      "center_atom": 2,
+      "charge": 2,
+      "chemical_setup_confirmed": true,
+      "chemical_setup_status": "Au-centred Au(I)-carbene; +2 singlet CuAu complex; Au-C, Au-P and Cu-N contacts protected in xTB/CREST; Au frozen",
+      "frame_semantics": "right-handed:+z-toward-bound-carbene:+x-projected-Au-to-P",
+      "frozen_atoms": [
+        2
+      ],
+      "input": "../../input-structures/benzoate.xyz",
+      "multiplicity": 1,
+      "origin_atoms": [
+        2
+      ],
+      "population": {
+        "model": "uniform"
+      },
+      "radii_overrides": {
+        "Cu": 1.64
+      },
+      "reactive_direction": [
+        0.7298076719164814,
+        0.5400590357925594,
+        0.4191861160280196
+      ],
+      "sampling": {
+        "allow_trajectory_fallback": false,
+        "backend": "xtb-crest",
+        "crest_executable": "crest",
+        "protected_contacts": [
+          [
+            2,
+            148
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            73,
+            26
+          ],
+          [
+            73,
+            77
+          ],
+          [
+            73,
+            78
+          ]
+        ],
+        "threads": 4,
+        "xtb_executable": "xtb"
+      },
+      "secondary_direction": [
+        0.4629851940465459,
+        0.06071463670858906,
+        -0.8842841415422005
+      ],
+      "solvent": "chcl3",
+      "steric_atoms": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        14,
+        15,
+        16,
+        17,
+        19,
+        21,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        49,
+        53,
+        55,
+        59,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        73,
+        74,
+        77,
+        78,
+        79,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        88,
+        90,
+        91,
+        93,
+        95,
+        97,
+        98,
+        101,
+        103,
+        104,
+        106,
+        107,
+        109,
+        111,
+        114,
+        117,
+        118,
+        121,
+        123,
+        124,
+        127,
+        130,
+        132,
+        134,
+        137,
+        140,
+        143,
+        147,
+        148,
+        149,
+        151,
+        152,
+        153,
+        154,
+        158,
+        162,
+        163,
+        164,
+        165,
+        167,
+        169
+      ],
+      "topology": {
+        "policy": "strict"
+      }
+    }
+  }
+}

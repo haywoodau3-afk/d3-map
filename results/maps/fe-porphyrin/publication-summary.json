@@ -1,0 +1,23 @@
+{
+  "schema": "part3c.iron-publication-summary.v1",
+  "interpretation": "energy-weighted thermodynamic ensemble sterics under the fixed neutral Fe(III) sextet GFN2-xTB working state; not kinetic probabilities or validated spin-state ordering",
+  "provenance": {
+    "ensemble_snapshots": {
+      "Fe(TDCPP)Cl": 84,
+      "Fe(TMP)Cl": 211,
+      "Fe(TPP)Cl": 263
+    },
+    "temperature_kelvin": 298.15,
+    "energies": "crest.energies propagated into probability-field v2",
+    "uncertainty": "unavailable: replicate/block provenance was not retained"
+  },
+  "d2_maps": [
+    {"system":"Fe(TDCPP)Cl","conformers":84,"effective_ensemble_size":13.9527996503,"static_vbur_percent":79.5892857143,"mean_vbur_percent":79.7983248609,"vbur_sd_percent":0.3888446398,"static_g_percent":88.9526367188,"mean_g_percent":89.1441093559,"steric_entropy_angstrom3_nat":9.0891739161,"adaptive_volume_angstrom3":13.46875,"persistent_open_volume_angstrom3":56.015625,"persistent_excluded_volume_angstrom3":110.40625,"normalized_flexibility":0.0728937716,"adaptive_signed_halfspace_volume_angstrom3":{"plus_x":7.421875,"minus_x":6.046875,"plus_y":6.765625,"minus_y":6.703125,"plus_z":8.171875,"minus_z":5.296875}},
+    {"system":"Fe(TMP)Cl","conformers":211,"effective_ensemble_size":40.3901130462,"static_vbur_percent":77.5401785714,"mean_vbur_percent":79.7791648355,"vbur_sd_percent":0.4555398710,"static_g_percent":87.9760742188,"mean_g_percent":90.3147349622,"steric_entropy_angstrom3_nat":11.0984997410,"adaptive_volume_angstrom3":15.359375,"persistent_open_volume_angstrom3":54.46875,"persistent_excluded_volume_angstrom3":110.0625,"normalized_flexibility":0.0890082545,"adaptive_signed_halfspace_volume_angstrom3":{"plus_x":7.71875,"minus_x":7.640625,"plus_y":8.015625,"minus_y":7.34375,"plus_z":10.046875,"minus_z":5.3125}},
+    {"system":"Fe(TPP)Cl","conformers":263,"effective_ensemble_size":38.2288267192,"static_vbur_percent":77.4732142857,"mean_vbur_percent":79.4166847659,"vbur_sd_percent":0.2504009294,"static_g_percent":87.1704101562,"mean_g_percent":86.9409063238,"steric_entropy_angstrom3_nat":11.2478552227,"adaptive_volume_angstrom3":16.3125,"persistent_open_volume_angstrom3":54.84375,"persistent_excluded_volume_angstrom3":108.734375,"normalized_flexibility":0.0902060624,"adaptive_signed_halfspace_volume_angstrom3":{"plus_x":8.3125,"minus_x":8.0,"plus_y":8.4375,"minus_y":7.875,"plus_z":10.109375,"minus_z":6.203125}}
+  ],
+  "d3_maps": [
+    {"comparison":"Fe(TMP)Cl minus Fe(TDCPP)Cl","delta_mean_vbur_percent":-0.0191600254,"delta_mean_g_percent":1.1706256064,"delta_entropy_angstrom3_nat":2.0093258249,"delta_adaptive_volume_angstrom3":1.890625,"delta_persistent_open_volume_angstrom3":-1.546875,"delta_persistent_excluded_volume_angstrom3":-0.34375,"changed_occupation_area_fraction":0.2142951513,"changed_adaptive_class_fraction":0.0234121940,"changed_shielding_fraction":0.0810546875},
+    {"comparison":"Fe(TPP)Cl minus Fe(TDCPP)Cl","delta_mean_vbur_percent":-0.3816400951,"delta_mean_g_percent":-2.2032030320,"delta_entropy_angstrom3_nat":2.1586813066,"delta_adaptive_volume_angstrom3":2.84375,"delta_persistent_open_volume_angstrom3":-1.171875,"delta_persistent_excluded_volume_angstrom3":-1.671875,"changed_occupation_area_fraction":0.2224864579,"changed_adaptive_class_fraction":0.0287014638,"changed_shielding_fraction":0.1036376953}
+  ]
+}

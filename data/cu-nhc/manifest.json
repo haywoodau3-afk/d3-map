@@ -1,0 +1,24 @@
+{
+  "systems": [
+    "3a",
+    "3b-syn",
+    "3b-anti",
+    "3c",
+    "3d",
+    "3e",
+    "IMes",
+    "IPr"
+  ],
+  "sampling": "source mixes static single-geometry maps and stored map ensembles; inspect source manifests per catalyst",
+  "charge": "varies by source; see project files",
+  "multiplicity": "varies by source; see project files",
+  "software": {
+    "d3map": "1.0.0rc1",
+    "xTB": "6.7.1",
+    "CREST": "3.0.2 where recorded"
+  },
+  "known_unrecorded": [
+    "energies for static or constructed screening geometries",
+    "system-specific configuration for any records not covered by included project manifest"
+  ]
+}

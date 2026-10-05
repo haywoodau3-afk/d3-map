@@ -1,0 +1,227 @@
+{
+  "status": "seven units approved by user; XYZ seeds constructed",
+  "geometry_status": "unoptimized; not claimed to be published intermediate minima",
+  "scaffold_file": "structures/gold-complex-scaffold-Rmp-Si.xyz",
+  "scaffold_sha256": "2117fa454aa1d6de66f52048fa8f6b27ca1078813ff096ad0e82701ddbe790a2",
+  "common_core_formula": "C6H7O2",
+  "common_core_atom_count": 15,
+  "all_scaffolds_identical": true,
+  "all_common_carbene_cores_identical": true,
+  "styrene_included": false,
+  "counterions_included": false,
+  "records": [
+    {
+      "id": "benzoate",
+      "name": "Benzoate",
+      "substrate": "7",
+      "products": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "file": "cu-au-carbene-benzoate.xyz",
+      "atom_count": 172,
+      "formula": "C78H80AuCuN5O6P",
+      "charge": 2,
+      "unpaired_electrons": 0,
+      "scaffold_atom_range_1based": [
+        1,
+        146
+      ],
+      "carbene_atom_range_1based": [
+        147,
+        172
+      ],
+      "carbene_carbon_index_1based": 148,
+      "Au_C_angstrom": 2.05593012770376,
+      "minimum_carbene_ligand_distance_angstrom": 2.4300702068047335,
+      "method": "Published TS acyl group rigidly grafted at the common carbonyl carbon; common core and scaffold unchanged",
+      "source_cif": "inputs/source/Model_Table_S17_structures.cif",
+      "source_block": "Entry4_631GCHCl3_TS1RSi",
+      "source_label_discrepancy": null,
+      "sha256": "30cbb4f095e6d00c30e9adb0b0e6ccb7448d777cf13667ae4dffd828cef5491b",
+      "geometry_status": "constructed unoptimized complete-complex seed"
+    },
+    {
+      "id": "pivalate",
+      "name": "Pivalate",
+      "substrate": "S3",
+      "products": [
+        13
+      ],
+      "file": "cu-au-carbene-pivalate.xyz",
+      "atom_count": 174,
+      "formula": "C76H84AuCuN5O6P",
+      "charge": 2,
+      "unpaired_electrons": 0,
+      "scaffold_atom_range_1based": [
+        1,
+        146
+      ],
+      "carbene_atom_range_1based": [
+        147,
+        174
+      ],
+      "carbene_carbon_index_1based": 148,
+      "Au_C_angstrom": 2.05593012770376,
+      "minimum_carbene_ligand_distance_angstrom": 2.367922074033692,
+      "method": "Published TS acyl group rigidly grafted at the common carbonyl carbon; common core and scaffold unchanged",
+      "source_cif": "inputs/source/Model_Table_S18_structures.cif",
+      "source_block": "Entry2_RSiRot_13_CHCL3_TS1",
+      "source_label_discrepancy": null,
+      "sha256": "67bf481e8332c373e1c1c08b9cdc7c38962d0d495f4cbb3bfb87d07334cf3ae3",
+      "geometry_status": "constructed unoptimized complete-complex seed"
+    },
+    {
+      "id": "phenylacetate",
+      "name": "Phenylacetate",
+      "substrate": "S4",
+      "products": [
+        14
+      ],
+      "file": "cu-au-carbene-phenylacetate.xyz",
+      "atom_count": 175,
+      "formula": "C79H82AuCuN5O6P",
+      "charge": 2,
+      "unpaired_electrons": 0,
+      "scaffold_atom_range_1based": [
+        1,
+        146
+      ],
+      "carbene_atom_range_1based": [
+        147,
+        175
+      ],
+      "carbene_carbon_index_1based": 148,
+      "Au_C_angstrom": 2.05593012770376,
+      "minimum_carbene_ligand_distance_angstrom": 2.4300702068047335,
+      "method": "Constructed by inserting CH2 between acyl carbon and phenyl; rigid ring retained, tetrahedral C geometry; steric rotation search",
+      "source_cif": "inputs/source/Model_Table_S17_structures.cif",
+      "source_block": "Entry4_631GCHCl3_TS1RSi",
+      "source_label_discrepancy": null,
+      "sha256": "de0562d4d8a188aca08a4b106cd501cf3b2b0292fca2ec14786ad4f3a4c54a6b",
+      "geometry_status": "constructed unoptimized complete-complex seed"
+    },
+    {
+      "id": "para-CF3-benzoate",
+      "name": "4-CF\u2083 benzoate",
+      "substrate": "S5",
+      "products": [
+        15
+      ],
+      "file": "cu-au-carbene-para-CF3-benzoate.xyz",
+      "atom_count": 175,
+      "formula": "C79H79AuCuF3N5O6P",
+      "charge": 2,
+      "unpaired_electrons": 0,
+      "scaffold_atom_range_1based": [
+        1,
+        146
+      ],
+      "carbene_atom_range_1based": [
+        147,
+        175
+      ],
+      "carbene_carbon_index_1based": 148,
+      "Au_C_angstrom": 2.05593012770376,
+      "minimum_carbene_ligand_distance_angstrom": 2.4300702068047335,
+      "method": "Published TS acyl group rigidly grafted at the common carbonyl carbon; common core and scaffold unchanged",
+      "source_cif": "inputs/source/Model_Table_S18_structures.cif",
+      "source_block": "Entry6_RSiRot_16_CHCL3_TS1",
+      "source_label_discrepancy": "Deposited CIF 15/16 labels are reversed relative to SI experimental product identities. Assigned by actual elemental composition and SI sections 15 (CF3), 16 (OMe).",
+      "sha256": "32c7d0ecf27fc9139a048eed43a8777d211599a3663e8960ed0fd342aad419a2",
+      "geometry_status": "constructed unoptimized complete-complex seed"
+    },
+    {
+      "id": "para-OMe-benzoate",
+      "name": "4-OMe benzoate",
+      "substrate": "S6",
+      "products": [
+        16
+      ],
+      "file": "cu-au-carbene-para-OMe-benzoate.xyz",
+      "atom_count": 176,
+      "formula": "C79H82AuCuN5O7P",
+      "charge": 2,
+      "unpaired_electrons": 0,
+      "scaffold_atom_range_1based": [
+        1,
+        146
+      ],
+      "carbene_atom_range_1based": [
+        147,
+        176
+      ],
+      "carbene_carbon_index_1based": 148,
+      "Au_C_angstrom": 2.05593012770376,
+      "minimum_carbene_ligand_distance_angstrom": 2.4300702068047335,
+      "method": "Published TS acyl group rigidly grafted at the common carbonyl carbon; common core and scaffold unchanged",
+      "source_cif": "inputs/source/Model_Table_S18_structures.cif",
+      "source_block": "Entry4_RSiRot_15_CHCL3_TS1",
+      "source_label_discrepancy": "Deposited CIF 15/16 labels are reversed relative to SI experimental product identities. Assigned by actual elemental composition and SI sections 15 (CF3), 16 (OMe).",
+      "sha256": "521220cf9d461c507b53935cb0dc4160fa0c7ea1289c01bb3193c786079b044f",
+      "geometry_status": "constructed unoptimized complete-complex seed"
+    },
+    {
+      "id": "para-tBu-benzoate",
+      "name": "4-tBu benzoate",
+      "substrate": "S7",
+      "products": [
+        17
+      ],
+      "file": "cu-au-carbene-para-tBu-benzoate.xyz",
+      "atom_count": 184,
+      "formula": "C82H88AuCuN5O6P",
+      "charge": 2,
+      "unpaired_electrons": 0,
+      "scaffold_atom_range_1based": [
+        1,
+        146
+      ],
+      "carbene_atom_range_1based": [
+        147,
+        184
+      ],
+      "carbene_carbon_index_1based": 148,
+      "Au_C_angstrom": 2.05593012770376,
+      "minimum_carbene_ligand_distance_angstrom": 2.4300702068047335,
+      "method": "Constructed by replacing aryl H with tetrahedral tBu at approved para or 3,5 positions; steric rotation search",
+      "source_cif": "inputs/source/Model_Table_S17_structures.cif",
+      "source_block": "Entry4_631GCHCl3_TS1RSi",
+      "source_label_discrepancy": null,
+      "sha256": "74641e0d5a6a6e139c40aed9e7880aaf6557a3ddabab598c1cfaa57617c2c5bf",
+      "geometry_status": "constructed unoptimized complete-complex seed"
+    },
+    {
+      "id": "35-di-tBu-benzoate",
+      "name": "3,5-di-tBu benzoate",
+      "substrate": "S8",
+      "products": [
+        18
+      ],
+      "file": "cu-au-carbene-35-di-tBu-benzoate.xyz",
+      "atom_count": 196,
+      "formula": "C86H96AuCuN5O6P",
+      "charge": 2,
+      "unpaired_electrons": 0,
+      "scaffold_atom_range_1based": [
+        1,
+        146
+      ],
+      "carbene_atom_range_1based": [
+        147,
+        196
+      ],
+      "carbene_carbon_index_1based": 148,
+      "Au_C_angstrom": 2.05593012770376,
+      "minimum_carbene_ligand_distance_angstrom": 1.7663972496931184,
+      "method": "Constructed by replacing aryl H with tetrahedral tBu at approved para or 3,5 positions; steric rotation search",
+      "source_cif": "inputs/source/Model_Table_S17_structures.cif",
+      "source_block": "Entry4_631GCHCl3_TS1RSi",
+      "source_label_discrepancy": null,
+      "sha256": "a1a8fa74a7a0198f5158bc5846be06d8c0f72333773408b10d4eace9176c5d5e",
+      "geometry_status": "constructed unoptimized complete-complex seed"
+    }
+  ]
+}

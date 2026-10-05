@@ -1,0 +1,35 @@
+{
+  "schema": "case4.common-core-reference.v1",
+  "reference": "analysis/inputs/common-core-R-H-aucu-reference.xyz",
+  "status": "xTB_optimized_with_completed_trajectory_fallback",
+  "source_template": "structures/full-complexes/cu-au-carbene-benzoate.xyz",
+  "construction": "retained the shared 146-atom AuCu scaffold and identical 15-atom C6H7O2 carbene core; replaced the variable acyl substituent with H at 1.09 A; the capped structure was xTB optimized and sampled as a uniformly weighted metadynamics trajectory",
+  "charge": 2,
+  "multiplicity": 1,
+  "atom_count": 162,
+  "carbene_carbon_index_1based": 148,
+  "capped_core_atom_index_1based": 152,
+  "source_substituent_atom_index_1based": 162,
+  "seed_sha256": "ac4198bb6641e6740e7369778f5d576618f73d899ad8368333cf004a18327115",
+  "scientific_boundary": "methodological common-core reference, not an experimentally reported catalyst or isolated intermediate",
+  "optimized_geometry": "sampling/runs/common-core-R-H-reference/sampling/preoptimized.xyz",
+  "sampling_trajectory": "sampling/runs/common-core-R-H-reference/sampling/crest_dynamics.trj",
+  "sampling_summary": "sampling/runs/common-core-R-H-reference/sampling/sampling-summary.json",
+  "sampling": {
+    "status": "success",
+    "analysis_mode": "trajectory",
+    "frame_count": 98,
+    "checkpoint_segment_frames": 65,
+    "continuation_segment_frames": 33,
+    "preoptimized_xyz": "03-chemical-validation/4/sampling/runs/common-core-R-H-reference/sampling/preoptimized.xyz",
+    "ensemble_xyz": "03-chemical-validation/4/sampling/runs/common-core-R-H-reference/sampling/crest_dynamics.trj",
+    "checkpoint_manifest": "03-chemical-validation/4/sampling/checkpoints/common-core-reference-partial-20260928/checkpoint-manifest.json",
+    "continuation_source": "03-chemical-validation/4/sampling/runs/common-core-R-H-reference-continuation-001/sampling/crest_dynamics.trj",
+    "backend_versions": {
+      "xtb": "* xtb version 6.7.1 (edcfbbe) compiled by 'runner@sat12-gn217-0cbadaec-b866-44ae-a866-732403219ae3-6E01A8DFFD18.local' on 2026-06-10",
+      "crest": "Version 3.0.2, Tue, 05 August 16:30:49, 08/05/2025"
+    },
+    "population_policy": "uniform time-average over concatenated, energy-annotated xTB metadynamics frames; no Boltzmann interpretation",
+    "fallback_note": "Native CREST optimization failed; the checkpointed and continued xTB metadynamics segments are retained separately and combined only after atom-order and energy validation."
+  }
+}
